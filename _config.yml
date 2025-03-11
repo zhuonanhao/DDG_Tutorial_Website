@@ -8,3 +8,14 @@ aux_links:
   View on Github: https://github.com/weicheng-huang-mechanics/DDG_Tutorial
 
 nav_order: 1
+
+nav:
+  - title: "Home"
+    url: /
+    nav_order: 1
+  - title: "Getting Started"
+    url: /getting-started
+    nav_order: 2
+  - title: "Advanced Topics"
+    url: /advanced
+    nav_order: 3
