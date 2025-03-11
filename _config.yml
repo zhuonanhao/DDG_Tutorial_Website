@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: DDG Tutorial
+description: A tutorial on simulating nonlinear behaviors of flexible structures with the discrete differential geometry method
 theme: just-the-docs
 
 url: https://zhuonanhao.github.io/DDG_Tutorial_Website
 
 aux_links:
-  Template Repository: https://github.com/zhuonanhao/DDG_Tutorial_Website
+  View on Github: https://github.com/weicheng-huang-mechanics/DDG_Tutorial
