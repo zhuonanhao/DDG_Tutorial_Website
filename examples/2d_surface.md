@@ -2,6 +2,7 @@
 title: "2D Surface"
 nav_order: 3
 parent: Examples
+layout: default
 ---
 
 # 2D Surface

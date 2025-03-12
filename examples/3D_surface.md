@@ -2,6 +2,7 @@
 title: "3D Surface"
 nav_order: 4
 parent: Examples
+layout: default
 ---
 
 # 3D Surface

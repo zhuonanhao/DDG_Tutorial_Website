@@ -2,6 +2,7 @@
 title: "2D Curve"
 nav_order: 1
 parent: Examples
+layout: default
 ---
 
 # 2D Curve

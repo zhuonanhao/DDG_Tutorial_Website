@@ -2,6 +2,7 @@
 title: "3D Curve"
 nav_order: 2
 parent: Examples
+layout: default
 ---
 
 # 3D Curve
