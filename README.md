@@ -2,9 +2,8 @@
 <h1> DDG Tutorial </h1>
 </div>
 
-This is the website used for project [DDG Tutorial](https://github.com/weicheng-huang-mechanics/DDG_Tutorial).
 - [Project Page](https://github.com/weicheng-huang-mechanics/DDG_Tutorial)
-- Website
+- [Website Page](https://zhuonanhao.github.io/DDG_Tutorial_Website/)
 
 ## Licensing and Attribution
 
