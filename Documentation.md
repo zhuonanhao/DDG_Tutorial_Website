@@ -3,17 +3,6 @@ title: "Documentation"
 nav_order: 3
 layout: home
 ---
-# Advanced Topics ⚡
-Deep dive into advanced features.
-
----
-title: "Advanced Topics"
-nav_order: 3
-layout: home
----
-
-# Advanced Topics ⚡
-Deep dive into advanced features.
 
 ## MATLAB Implementation
 
@@ -21,7 +10,7 @@ The overall numerical algorithms can be found in the figure below, and the detai
 
 ![Algorithm](assets/figures/algorithm.png)
 
-### MATLAB Files:
+## MATLAB Files:
 
 1. **main.m**: Main function, including reading inputs, building structs, and performing simulation.
 2. **defSimParams.m**: Define the numerical parameters for the simulation.
