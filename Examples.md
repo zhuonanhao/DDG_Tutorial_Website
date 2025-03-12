@@ -3,34 +3,57 @@ title: "Examples"
 nav_order: 4
 layout: default
 ---
-# Getting Started 🚀
-Here's how to begin.
 
-![Algorithm](assets/figures/process.png)
+## Beam under gravity
+<br/><img src='assets/videos/beam_1.gif' width="600">
 
-### Read simulation inputs.
+## Beam buckling 
+<br/><img src='assets/videos/beam_2.gif' width="600">
 
-The first step to set up a structural dynamic simulation is to select input data. There are six categories for input information:
+## Beam snapping 
+<br/><img src='assets/videos/beam_3.gif' width="600">
 
-1. **Geometry and connection information** for a system, e.g., nodal position, stretching element index, bending element index, triangle element index.
-2. **Physical parameters**, e.g., Young's modulus, Poisson ratio, material density, rod radius, plate thickness, gravitational acceleration, and damping viscosity.
-3. **Numerical parameters**, such as total simulation time, time step size, numerical tolerance, and maximum iterations.
-4. **Boundary conditions**, which are constrained index array and free index array.
-5. **Initial conditions**, which are the positions and velocity of DOF at \( t = 0 \).
-6. **Loading step**, which loadings are applied sequentially into the system and need to be defined during the time marching loop.
+## Helical rod under gravity
+<br/><img src='assets/videos/rod_1.gif' width="600">
 
-### Pre-processing.
+## Shear-induced bifurcation of a buckled ribbon 
+<br/><img src='assets/videos/rod_2.gif' width="600">
 
-Next, the simulation needs to transfer the input data into several structs:
+## Buckling of an annular ribbon
+<br/><img src='assets/videos/rod_3.gif' width="600">
 
-1. **The system struct**, e.g., rod struct or plate struct, which contains all necessary information for a structure.
-2. **The element struct**, which contains information for all local elements.
-3. **Mapping**, which defines the relationship between the global DOF vector and the constrained and the free DOF vector.
+## Inflation of an axisymmetric plate
+<br/><img src='assets/videos/ashell_1.gif' width="600">
 
-### Simulation loop.
+## Eversion of an axisymmetric shell cap
+<br/><img src='assets/videos/ashell_2.gif' width="600">
 
-Moving forward, we can perform the time marching scheme for the dynamic simulation, which is uniform for all structural dynamics. We use an implicit Euler method to update the time step and employ Newton's method for numerical optimization within each step.
+## Plate under gravity
+<br/><img src='assets/videos/plate_1.gif' width="600">
 
-### Output simulation results.
+## Plate wrinkling under gravity
+<br/><img src='assets/videos/plate_2.gif' width="600">
 
-Finally, the numerical data and the dynamic rendering will be generated during the simulation and will be ready for result analysis. 
+## Net under gravity
+<br/><img src='assets/videos/net_1.gif' width="600">
+
+## Buckling-induced form-finding of gridshell
+<br/><img src='assets/videos/net_2.gif' width="600">
+
+## Lattice structure under gravity
+<br/><img src='assets/videos/net_3.gif' width="600">
+
+## Hyperelastic cable under vertical loading
+<br/><img src='assets/videos/hyper_1.gif' width="600">
+
+## Snapping of a hyperelastic torus
+<br/><img src='assets/videos/hyper_2.gif' width="600">
+
+## Beam under magnetic actuation
+<br/><img src='assets/videos/robot_1.gif' width="600">
+
+## Soft swimming robot
+<br/><img src='assets/videos/robot_2.gif' width="600">
+
+## Soft crawling robot
+<br/><img src='assets/videos/robot_3.gif' width="600">
