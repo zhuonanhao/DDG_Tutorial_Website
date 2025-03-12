@@ -1,6 +1,6 @@
 ---
-title: "Getting Started"
-nav_order: 2
+title: "Examples"
+nav_order: 4
 layout: default
 ---
 # Getting Started 🚀

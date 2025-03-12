@@ -11,7 +11,7 @@ aux_links:
 just_the_docs:
   collections:
     navigation:
-      - order: [Home, Getting Started, Advanced Topics]
+      - order: [Home, Getting Started, Documentation, Examples, References]
 
-search_enabled: false
+search_enabled: true
 
