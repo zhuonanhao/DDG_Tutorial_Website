@@ -5,17 +5,13 @@ theme: just-the-docs
 url: https://zhuonanhao.github.io/DDG_Tutorial_Website
 
 aux_links:
-  View on Github: https://github.com/weicheng-huang-mechanics/DDG_Tutorial
+  "View on Github": https://github.com/weicheng-huang-mechanics/DDG_Tutorial
 
-nav_order: 1
+# Enable hierarchical sidebar navigation
+just_the_docs:
+  collections:
+    navigation:
+      - order: [Home, Getting Started, Advanced Topics]
 
-nav:
-  - title: "Home"
-    url: /
-    nav_order: 1
-  - title: "Getting Started"
-    url: /getting-started
-    nav_order: 2
-  - title: "Advanced Topics"
-    url: /advanced
-    nav_order: 3
+search_enabled: true
+
