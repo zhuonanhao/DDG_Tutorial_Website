@@ -35,4 +35,6 @@ just_the_docs:
       - title: "References"
         url: "/references/"
 
-        search_enabled: true
+search_enabled: true
+
+footer_content: ""
