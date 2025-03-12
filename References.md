@@ -8,9 +8,7 @@ We ask that any publications which make use of this tutorial cite the following 
 
 ## BibTeX Entries
 
-replace later
-
-```bibtex
+{% highlight bibtex %}
 @article{huang2020dynamic,
   title={Dynamic simulation of articulated soft robots},
   author={Huang, Weicheng and Huang, Xiaonan and Majidi, Carmel and Jawed, M Khalid},
@@ -21,4 +19,4 @@ replace later
   year={2020},
   publisher={Nature Publishing Group UK London}
 }
-
+{% endhighlight %}
