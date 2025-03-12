@@ -15,6 +15,3 @@ just_the_docs:
 
 search_enabled: false
 
-plugins:
-  - jekyll-default-layout
-
