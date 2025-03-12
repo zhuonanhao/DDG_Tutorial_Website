@@ -4,7 +4,7 @@ nav_order: 1
 layout: home
 ---
 
-<span style="font-family: 'Courier New', monospace; font-size: 20px; font-weight: bold;">
+<span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
 Why DDG Tutorial?
 </span>
 
