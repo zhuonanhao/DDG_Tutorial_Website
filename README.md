@@ -1,4 +1,4 @@
-# just-the-docs-template
+# [DDG Tutorial](https://zhuonanhao.github.io/DDG_Tutorial_Website/)
 
 This is the website used for project [DDG Tutorial](https://github.com/weicheng-huang-mechanics/DDG_Tutorial).
 
