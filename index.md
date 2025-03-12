@@ -4,9 +4,9 @@ nav_order: 1
 layout: home
 ---
 
-<span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
+<!-- <span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
 Why DDG?
-</span>
+</span> -->
 
 ## Discrete Differential Geometry (DDG)
 
@@ -14,16 +14,18 @@ Why DDG?
 
 ![Algorithm](assets/figures/DDG_Application.png)
 
-### Key Advantages of the DDG Method:
+## Key Advantages of the DDG Method:
 
 - **Intrinsic Geometric Preservation**: Naturally respects geometric invariants, making it well-suited for thin and highly deformable structures.
 - **Robustness to Large Deformations**: Avoids locking effects and enables accurate modeling of bending and twisting deformations.
 - **Efficient Computation**: Scales well for complex structural dynamics.
 - **Seamless External Interaction Modeling**: Easily integrates with frictional contact, fluid-structure coupling, and magnetic actuation.
 
-<span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
+<!-- <span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
 Application
-</span>
+</span> -->
+
+## Application:
 
 - **Soft Robotics**: Used for simulating soft robotic arms, bio-inspired locomotion, and adaptive compliant systems.
 - **Deployable Structures**: Applied in aerospace and space applications for predicting folding and unfolding dynamics.
