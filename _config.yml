@@ -7,11 +7,30 @@ url: https://zhuonanhao.github.io/DDG_Tutorial_Website
 aux_links:
   "View on Github": https://github.com/weicheng-huang-mechanics/DDG_Tutorial
 
-# Enable hierarchical sidebar navigation
+# just_the_docs:
+#   collections:
+#     navigation:
+#       - order: [Home, Getting Started, Documentation, Examples, References]
+
 just_the_docs:
   collections:
     navigation:
-      - order: [Home, Getting Started, Documentation, Examples, References]
+      - title: "Home"
+        url: "/"
+      - title: "Getting Started"
+        url: "/getting-started/"
+      - title: "Documentation"
+        url: "/documentation/"
+      - title: "Examples"
+        url: "/examples/"
+        subnav:
+          - title: "Beam Simulations"
+            url: "/examples/beam-simulations/"
+          - title: "Rod Simulations"
+            url: "/examples/rod-simulations/"
+          - title: "Plate Simulations"
+            url: "/examples/plate-simulations/"
+      - title: "References"
+        url: "/references/"
 
-search_enabled: true
-
+        search_enabled: true
