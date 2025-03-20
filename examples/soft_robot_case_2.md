@@ -9,4 +9,4 @@ layout: default
 
 
 ### Dynamic Rendering
-<br/><img src='../assets/videos/robot_1.gif' width="600">
+<br/><img src='../assets/videos/robot_2.gif' width="600">
