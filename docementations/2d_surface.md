@@ -7,10 +7,11 @@ layout: default
 
 # Axisymmetric shell: rotational surface
 
+<br/><img src='../assets/figures/shell_model.png' width="600">
+
 ## Numerical formulation
 
 ### Strectching element
 
 ### Bending element
 
-### Equation of motion
