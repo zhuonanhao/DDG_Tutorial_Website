@@ -3,6 +3,7 @@ title: "Documentation"
 nav_order: 3
 layout: home
 ---
+# Documentation
 
 ## MATLAB Implementation
 
