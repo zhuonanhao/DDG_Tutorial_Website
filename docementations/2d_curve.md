@@ -15,8 +15,7 @@ In this subsection, we start with the simplest planar beam system.
 
 We first introduce the discrete formulation and the associated numerical procedure, followed by three benchmark demonstrations: (i) beam deflection under gravity, (ii) buckling of a compressive beam, and (iii) snap-through of a pre-buckled beam.
 
-![Planar beam model in DDG simulations](assets/figures/beam_model.png)
-**Figure:** (a) The beam is discretized into a series of nodes and segments. (b) Each pair of neighboring edges forms a bending element, characterized by a curvature $$\kappa$$, which is determined by the turning angle $$\phi$$.
+![Planar beam model in DDG simulations. (a) The beam is discretized into a series of nodes and segments. (b) Each pair of neighboring edges forms a bending element, characterized by a curvature $$\kappa$$, which is determined by the turning angle $$\phi$$.](assets/figures/beam_model.png)
 
 ## Numerical formulation
 
