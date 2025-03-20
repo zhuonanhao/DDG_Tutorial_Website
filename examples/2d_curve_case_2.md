@@ -1,5 +1,5 @@
 ---
-title: "Buckling of a compressive beam"
+title: "Case 2"
 nav_order: 2
 parent: Beam
 layout: default
@@ -7,10 +7,7 @@ layout: default
 
 ## Buckling of a compressive beam
 
-In this case study, we examine the classical Euler buckling phenomenon of a slender beam under axial compression.  
-The beam is fixed at both ends, with a gradually increasing compressive load applied at the right end.  
-As the load increases, the beam transitions from a straight configuration to a buckled state, illustrating the onset of structural instability.  
-The case highlights the ability of the DDG model to accurately capture buckling behavior in slender structures.
+In this case study, we examine the classical Euler buckling phenomenon of a slender beam under axial compression. The beam is fixed at both ends, with a gradually increasing compressive load applied at the right end. As the load increases, the beam transitions from a straight configuration to a buckled state, illustrating the onset of structural instability. The case highlights the ability of the DDG model to accurately capture buckling behavior in slender structures.
 
 ### Simulation Initialization
 

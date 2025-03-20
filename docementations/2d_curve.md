@@ -7,6 +7,8 @@ layout: default
 
 # Beam: planar curve
 
+## Introduction
+
 The beam's nonlinear mechanics, which can be described geometrically as a planar curve, can exhibit large deformation behavior.
 
 Governed by exact geometric curvature rather than linearized approximations, this theory dates back to Euler's elastic theory in the 18th century. Modern applications span compliant robotics, morphing aerospace structures, metamaterials, and bio-inspired systems, with contemporary extensions addressing buckling and snapping behavior.

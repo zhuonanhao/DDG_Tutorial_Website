@@ -7,11 +7,11 @@ layout: default
 
 # Beam: planar curve
 
-## Beam under gravity
+## Case 1: Beam deflection under gravity
 <br/><img src='../assets/videos/beam_1.gif' width="600">
 
-## Beam buckling 
+## Case 2: Buckling of a compressive beam
 <br/><img src='../assets/videos/beam_2.gif' width="600">
 
-## Beam snapping 
+## Case 3: Snapping of a pre-buckled beam
 <br/><img src='../assets/videos/beam_3.gif' width="600">
