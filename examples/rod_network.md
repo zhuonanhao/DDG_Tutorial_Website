@@ -7,12 +7,12 @@ layout: default
 
 # Net and gridshell
 
-## Flexible net under gravity
+## [Case 1: Flexible net under gravity](rod_network_case_1.html)
 <br/><img src='../assets/videos/net_1.gif' width="600">
 
-## Form-finding of gridshell
+## [Case 2:  Form-finding of gridshell](rod_network_case_2.html)
 <br/><img src='../assets/videos/net_2.gif' width="600">
 
-## Lattice grid under gravity
+## [Case 3: Lattice grid under gravity](rod_network_case_3.html)
 <br/><img src='../assets/videos/net_3.gif' width="600">
 

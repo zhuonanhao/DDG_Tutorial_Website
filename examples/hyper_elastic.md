@@ -7,8 +7,8 @@ layout: default
 
 # Hyperelastic structure
 
-## Hyperelastic cable under vertical loading
+## [Case 1: Hyperelastic planar cable](hyper_elastic_case_1.html)
 <br/><img src='../assets/videos/hyper_1.gif' width="600">
 
-## Snapping of a hyperelastic torus
+## [Case 2: Hyperelastic axisymmetric membrane](hyper_elastic_case_2.html)
 <br/><img src='../assets/videos/hyper_2.gif' width="600">

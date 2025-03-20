@@ -7,7 +7,7 @@ layout: default
 
 # Soft robotics
 
-## Beam under magnetic actuation
+## Magnetic actuation
 <br/><img src='../assets/videos/robot_1.gif' width="600">
 
 ## Soft swimming robot
