@@ -7,8 +7,11 @@ layout: default
 
 # Plate and shell
 
-## Plate under gravity
+## Plate deflection under gravity
 <br/><img src='../assets/videos/plate_1.gif' width="600">
 
 ## Plate wrinkling under gravity
 <br/><img src='../assets/videos/plate_2.gif' width="600">
+
+## Indentation of the cylindrical shell
+<br/><img src='../assets/videos/plate_3.gif' width="600">
