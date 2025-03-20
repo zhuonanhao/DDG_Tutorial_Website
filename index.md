@@ -32,5 +32,5 @@ Application
 - **Mechanical Metamaterials and Programmable Structures**: Mechanical metamaterials use geometric design to achieve tunable properties like negative Poisson’s ratios and bistability. DDG efficiently simulates these structures, aiding applications in adaptive actuators, biomedical implants, and energy-absorbing materials.
 - **Flexible Electronics and Bio-Integrated Devices**: Flexible electronics and bio-integrated devices must withstand continuous deformation while maintaining functionality. DDG efficiently simulates thin-film deformations and strain effects, aiding the design of durable wearable and medical devices.
 
-## Objective of this Tutorial
+## Objective of the Tutorial
 Despite its advantages, the adoption of DDG in computational mechanics remains limited due to the lack of accessible resources and tutorials. This tutorial aims to bridge that gap by providing a **comprehensive and practical guide** to the use of DDG for nonlinear numerical simulation of flexible structures. This tutorial serves as a valuable resource for researchers and engineers working in **computational mechanics, applied mathematics, structural design, and soft robotics**.
