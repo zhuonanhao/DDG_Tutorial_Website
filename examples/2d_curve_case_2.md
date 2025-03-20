@@ -1,6 +1,6 @@
 ---
-title: "Beam under gravity"
-nav_order: 1
+title: "Beam buckling"
+nav_order: 2
 parent: Beam
 layout: default
 ---

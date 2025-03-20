@@ -1,5 +1,5 @@
 ---
-title: " Beam"
+title: "Beam"
 nav_order: 1
 parent: Examples
 layout: default

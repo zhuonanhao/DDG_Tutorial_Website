@@ -1,5 +1,5 @@
 ---
-title: "Rod and ribbon"
+title: "Rod and ribbon: 3D curve"
 nav_order: 2
 parent: Documentation
 layout: default

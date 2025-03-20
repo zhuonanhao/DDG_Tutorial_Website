@@ -1,5 +1,5 @@
 ---
-title: "Net and gridshell"
+title: "Net and gridshell: hollow surface"
 nav_order: 5
 parent: Documentation
 layout: default
