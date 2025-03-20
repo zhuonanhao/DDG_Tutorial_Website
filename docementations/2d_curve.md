@@ -15,22 +15,18 @@ In this subsection, we start with the simplest planar beam system.
 
 We first introduce the discrete formulation and the associated numerical procedure, followed by three benchmark demonstrations: (i) beam deflection under gravity, (ii) buckling of a compressive beam, and (iii) snap-through of a pre-buckled beam.
 
-<!-- ![Planar beam model in DDG simulations](Figures/beam_model.pdf)
-**Figure:** (a) The beam is discretized into a series of nodes and segments. (b) Each pair of neighboring edges forms a bending element, characterized by a curvature \(\kappa\), which is determined by the turning angle \(\phi\). -->
+![Planar beam model in DDG simulations](Figures/beam_model.pdf)
+**Figure:** (a) The beam is discretized into a series of nodes and segments. (b) Each pair of neighboring edges forms a bending element, characterized by a curvature \(\kappa\), which is determined by the turning angle \(\phi\).
 
 ### Numerical formulation
 
-<!-- As shown in the figure above, the configuration of a planar beam is described by \(N\) nodes, where each node is defined as \(\mathbf{x}_{i} \equiv [x_{i}, y_{i}]^{T} \in \mathcal{R}^{2 \times 1}\). Therefore, the DOF vector can be expressed as:
+As shown in the figure above, the configuration of a planar beam is described by \(N\) nodes, where each node is defined as \(\mathbf{x}_{i} \equiv [x_{i}, y_{i}]^{T} \in \mathcal{R}^{2 \times 1}\). Therefore, the DOF vector can be expressed as:
 
 \[
 \mathbf{q} = \left[ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} \right] \in \mathcal{R}^{2N \times 1}.
 \] -->
 
-$$
-\mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ]
-$$
-
-<!-- Two types of elements are used to capture the total elastic energies of a discrete planar beam: (i) stretching element and (ii) bending element, with \(N_{s}\) and \(N_{b}\) representing the number of each, respectively.
+Two types of elements are used to capture the total elastic energies of a discrete planar beam: (i) stretching element and (ii) bending element, with \(N_{s}\) and \(N_{b}\) representing the number of each, respectively.
 
 Note that if only the stretching element is considered, the bending-dominated beam structures would reduce to the stretching-dominated cable structures.
 
@@ -132,4 +128,4 @@ With the formulation of the internal elastic force and the associated stiffness 
 \mathbb{M} \ddot{\mathbf{q}} + \mu \mathbb{M} \dot{\mathbf{q}} - \mathbf{F}^{s} - \mathbf{F}^{b} - \mathbf{F}^{\text{ext}} = \mathbf{0}.
 \]
 
-Here, the mass matrix, \(\mathbb{M}\), is time-invariant and can be easily obtained based on the element size and material density. -->
+Here, the mass matrix, \(\mathbb{M}\), is time-invariant and can be easily obtained based on the element size and material density.
