@@ -19,19 +19,20 @@ layout: default
     - [Case 2: Bifurcation of pre-buckled ribbon](/examples/3d_curve_case_2.html)
     - [Case 3: Growth of annular ribbon](/examples/3d_curve_case_3.html)
   - **Axisymmetric shell**
-    - case 1: Inflation of an axisymmetric plate
-    - case 2: Snap-through of the axisymmetric shell
+    - [Case 1: Inflation of the axisymmetric plate](/examples/2d_surface_case_1.html)
+    - [Case 2: Snap-through of the axisymmetric shell](/examples/2d_surface_case_2.html)
   - **Plate and shell**
-    - case 1: Plate deflection under gravity
-    - case 2: Plate wrinkling under gravity
+    - [Case 1: Plate deflection under gravity](/examples/3d_surface_case_1.html)
+    - [Case 2: Plate wrinkling under gravity](/examples/3d_surface_case_2.html)
+    - [Case 3: Indentation of the cylindrical shell](/examples/3d_surface_case_3.html)
   - **Net and gridshell**
-    - case 1: Flexible net under gravity
-    - case 2: Buckling-induced form-finding of gridshell
-    - case 3: Lattice grid under gravity
+    - [Case 1: Flexible net under gravity](/examples/rod_network_case_1.html)
+    - [Case 2: Form-finding of gridshell](/examples/rod_network_case_2.html)
+    - [Case 3: Lattice grid under gravity](/examples/rod_network_case_3.html)
   - **Hyperelastic structure**
-    - case 1: Hyperelastic cable
-    - case 2: Hyperelastic axisymmetric membrane
+    - [Case 1: Hyperelastic planar cable](/examples/hyper_elastic_case_1.html)
+    - [Case 2: Hyperelastic axisymmetric membrane](/examples/hyper_elastic_case_2.html)
   - **Soft robotics**
-    - case 1: Magnetic actuation
-    - case 2: Fluid-structure interaction
-    - case 3: Frictional contact
+    - [Case 1: Magnetic actuation](/examples/soft_robot_case_1.html)
+    - [Case 2: Fluid-structure interaction](/examples/soft_robot_case_2.html)
+    - [Case 3: Frictional contact](/examples/soft_robot_case_3.html)
