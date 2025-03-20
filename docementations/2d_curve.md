@@ -18,7 +18,7 @@ We first introduce the discrete formulation and the associated numerical procedu
 ![Planar beam model in DDG simulations](Figures/beam_model.pdf)
 **Figure:** (a) The beam is discretized into a series of nodes and segments. (b) Each pair of neighboring edges forms a bending element, characterized by a curvature $$\kappa$$, which is determined by the turning angle $$\phi$$.
 
-### Numerical formulation
+## Numerical formulation
 
 As shown in the figure above, the configuration of a planar beam is described by $$N$$ nodes, where each node is defined as $$\mathbf{x}_{i} \equiv [x_{i}, y_{i}]^{T} \in \mathcal{R}^{2 \times 1}$$. Therefore, the DOF vector can be expressed as:
 
@@ -30,7 +30,7 @@ Two types of elements are used to capture the total elastic energies of a discre
 
 Note that if only the stretching element is considered, the bending-dominated beam structures would reduce to the stretching-dominated cable structures.
 
-#### Stretching element
+### Stretching element
 
 The stretching element is comprised of two connected nodes, defined as:
 
@@ -72,7 +72,7 @@ $$
 
 The detailed formulation can be found in the MATLAB code.
 
-#### Bending element
+### Bending element
 
 Similarly, the bending element consists of two consecutive edges sharing a common node:
 
