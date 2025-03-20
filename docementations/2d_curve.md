@@ -20,11 +20,11 @@ We first introduce the discrete formulation and the associated numerical procedu
 
 ### Numerical formulation
 
-As shown in the figure above, the configuration of a planar beam is described by \(N\) nodes, where each node is defined as \(\mathbf{x}_{i} \equiv [x_{i}, y_{i}]^{T} \in \mathcal{R}^{2 \times 1}\). Therefore, the DOF vector can be expressed as:
+<!-- As shown in the figure above, the configuration of a planar beam is described by \(N\) nodes, where each node is defined as \(\mathbf{x}_{i} \equiv [x_{i}, y_{i}]^{T} \in \mathcal{R}^{2 \times 1}\). Therefore, the DOF vector can be expressed as:
 
 \[
 \mathbf{q} = \left[ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} \right] \in \mathcal{R}^{2N \times 1}.
-\]
+\] -->
 
 $$
 \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ]
