@@ -17,6 +17,8 @@ Two types of elements are used to capture the total elastic energies of a discre
 
 Note that if only the stretching element is considered, the bending-dominated beam structures would reduce to the stretching-dominated cable structures.
 
+
+
 ### Stretching element
 
 The stretching element is comprised of two connected nodes, defined as:
