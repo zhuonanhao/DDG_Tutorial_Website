@@ -1,6 +1,6 @@
 ---
-title: "2D Surface"
-nav_order: 2
+title: "Axisymmetric shell"
+nav_order: 3
 parent: Examples
 layout: default
 ---

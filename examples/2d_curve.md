@@ -1,5 +1,5 @@
 ---
-title: "2D Curve"
+title: "Beam"
 nav_order: 1
 parent: Examples
 layout: default

@@ -1,5 +1,5 @@
 ---
-title: "Soft Robot"
+title: "Soft robotics"
 nav_order: 7
 parent: Examples
 layout: default

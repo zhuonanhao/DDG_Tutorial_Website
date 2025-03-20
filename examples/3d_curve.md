@@ -1,6 +1,6 @@
 ---
-title: "3D Curve"
-nav_order: 3
+title: "Rod and ribbon"
+nav_order: 2
 parent: Examples
 layout: default
 ---

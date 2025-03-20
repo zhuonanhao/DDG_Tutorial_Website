@@ -1,5 +1,5 @@
 ---
-title: "Rod Network"
+title: "Net and gridshell"
 nav_order: 5
 parent: Examples
 layout: default

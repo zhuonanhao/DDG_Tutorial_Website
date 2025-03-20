@@ -1,5 +1,5 @@
 ---
-title: "Hyper Elastic"
+title: "Hyperelastic structure"
 nav_order: 6
 parent: Examples
 layout: default
