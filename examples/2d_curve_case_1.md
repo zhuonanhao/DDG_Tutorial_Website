@@ -1,18 +1,13 @@
 ---
-title: "Beam"
+title: "Beam under gravity"
 nav_order: 1
 parent: 2d_curve
 layout: default
 ---
 
-# Beam: planar curve
-
 ## Beam under gravity
 
-In this case study, we examine the free oscillation behavior of a flexible beam under the influence of gravity.  
-The beam is fully constrained at one end, acting as a fixed support, while the other end remains free.  
-Displaced from its initial horizontal position, the beam oscillates due to the restoring elastic forces, with its motion governed by the interplay between elasticity, inertia, and external gravitational force.  
-The case highlights the ability of the DDG model to accurately capture large deformations in beam structures.
+In this case study, we examine the free oscillation behavior of a flexible beam under the influence of gravity. The beam is fully constrained at one end, acting as a fixed support, while the other end remains free. Displaced from its initial horizontal position, the beam oscillates due to the restoring elastic forces, with its motion governed by the interplay between elasticity, inertia, and external gravitational force. The case highlights the ability of the DDG model to accurately capture large deformations in beam structures.
 
 ### Simulation Initialization
 
@@ -47,7 +42,7 @@ To initialize the simulation, the following inputs are used:
 6. **Loading steps:**
    - External gravitational force is applied to each node throughout the simulation.
 
-
+### Dynamic Rendering
 <br/><img src='../assets/videos/beam_1.gif' width="600">
 
 ## Beam buckling 
