@@ -1,11 +1,11 @@
 ---
-title: "Beam under gravity"
+title: "Beam deflection under gravity"
 nav_order: 1
 parent: Beam
 layout: default
 ---
 
-## Beam under gravity
+## Beam deflection under gravity
 
 In this case study, we examine the free oscillation behavior of a flexible beam under the influence of gravity. The beam is fully constrained at one end, acting as a fixed support, while the other end remains free. Displaced from its initial horizontal position, the beam oscillates due to the restoring elastic forces, with its motion governed by the interplay between elasticity, inertia, and external gravitational force. The case highlights the ability of the DDG model to accurately capture large deformations in beam structures.
 
