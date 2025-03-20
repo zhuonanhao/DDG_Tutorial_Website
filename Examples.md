@@ -34,5 +34,5 @@ layout: default
     - [Case 2: Hyperelastic axisymmetric membrane](examples/hyper_elastic_case_2.html)
   - **Soft robotics**
     - [Case 1: Magnetic actuation](examples/soft_robot_case_1.html)
-    - [Case 2: Fluid-structure interaction](examples/soft_robot_case_2.html)
-    - [Case 3: Frictional contact](examples/soft_robot_case_3.html)
+    - [Case 2: Soft swimming robot](examples/soft_robot_case_2.html)
+    - [Case 3: Soft crawling robot](examples/soft_robot_case_3.html)
