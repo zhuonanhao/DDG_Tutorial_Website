@@ -9,7 +9,7 @@ layout: default
 
 The beam's nonlinear mechanics, which can be described geometrically as a planar curve, can exhibit large deformation behavior.
 
-Governed by exact geometric curvature rather than linearized approximations, this theory dates back to Euler's elastic theory in the 18th century. Modern applications span compliant robotics, morphing aerospace structures, metamaterials, and bio-inspired systems , with contemporary extensions addressing buckling and snapping behavior.
+Governed by exact geometric curvature rather than linearized approximations, this theory dates back to Euler's elastic theory in the 18th century. Modern applications span compliant robotics, morphing aerospace structures, metamaterials, and bio-inspired systems, with contemporary extensions addressing buckling and snapping behavior.
 
 In this subsection, we start with the simplest planar beam system.
 
@@ -22,7 +22,9 @@ We first introduce the discrete formulation and the associated numerical procedu
 
 As shown in the figure above, the configuration of a planar beam is described by \(N\) nodes, where each node is defined as \(\mathbf{x}_{i} \equiv [x_{i}, y_{i}]^{T} \in \mathcal{R}^{2 \times 1}\). Therefore, the DOF vector can be expressed as:
 
-\[ \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ] \in \mathcal{R}^{2N \times 1}. \]
+\[
+\mathbf{q} = \left[ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} \right] \in \mathcal{R}^{2N \times 1}.
+\]
 
 Two types of elements are used to capture the total elastic energies of a discrete planar beam: (i) stretching element and (ii) bending element, with \(N_{s}\) and \(N_{b}\) representing the number of each, respectively.
 
@@ -32,29 +34,41 @@ Note that if only the stretching element is considered, the bending-dominated be
 
 The stretching element is comprised of two connected nodes, defined as:
 
-\[ \mathcal{S}: \{\mathbf{x}_{1}, \mathbf{x}_{2} \}. \]
+\[
+\mathcal{S}: \{\mathbf{x}_{1}, \mathbf{x}_{2} \}.
+\]
 
 Hereafter, we omit the subscript \(i\) for simplicity. The local DOF vector of the stretching element is defined as:
 
-\[ \mathbf{q}^{s} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2} ] \in \mathcal{R}^{4 \times 1}. \]
+\[
+\mathbf{q}^{s} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2} ] \in \mathcal{R}^{4 \times 1}.
+\]
 
 The edge length is the \(\mathcal{L}_{2}\) norm of the edge vector, defined as:
 
-\[ l   =  || \mathbf{x}_{2}  -\mathbf{x}_{1} ||. \]
+\[
+l = || \mathbf{x}_{2} - \mathbf{x}_{1} ||.
+\]
 
 The stretching strain is based on the uniaxial elongation of the edge, defined as:
 
-\[ {\varepsilon} = \frac {  l } {  \bar{l} } - 1. \]
+\[
+{\varepsilon} = \frac{l}{\bar{l}} - 1.
+\]
 
 Using the linear elastic model, the total stretching energy is expressed as a quadratic function of the strain:
 
-\[ E^s = \frac{1}{2} EA (\varepsilon)^2   \bar{l}, \]
+\[
+E^s = \frac{1}{2} EA (\varepsilon)^2 \bar{l},
+\]
 
-where \(EA \) is the local stretching stiffness.
+where \(EA\) is the local stretching stiffness.
 
 The local stretching force vector and Hessian matrix can be derived through a variational approach:
 
-\[ \mathbf{F}^{s}_{\mathrm{local}} = -\frac{\partial E^{s}}  {\partial \mathbf{q}^{s}}, \; \mathbb{K}^{s}_{\mathrm{local}} = \frac {\partial^2 E^{s}}  {\partial \mathbf{q}^{s} \partial \mathbf{q}^{s} }. \]
+\[
+\mathbf{F}^{s}_{\mathrm{local}} = -\frac{\partial E^{s}}{\partial \mathbf{q}^{s}}, \quad \mathbb{K}^{s}_{\mathrm{local}} = \frac{\partial^2 E^{s}}{\partial \mathbf{q}^{s} \partial \mathbf{q}^{s}}.
+\]
 
 The detailed formulation can be found in the MATLAB code.
 
@@ -62,43 +76,56 @@ The detailed formulation can be found in the MATLAB code.
 
 Similarly, the bending element consists of two consecutive edges sharing a common node:
 
-\[ \mathcal{B}: \{ \mathcal{S}_{1}, \mathcal{S}_{2}\}, \quad \mathcal{S}_{1} : \{ \mathbf{x}_{1}, \mathbf{x}_{2} \}, \quad \mathcal{S}_{2} : \{ \mathbf{x}_{2}, \mathbf{x}_{3} \}. \]
+\[
+\mathcal{B}: \{ \mathcal{S}_{1}, \mathcal{S}_{2}\}, \quad \mathcal{S}_{1} : \{ \mathbf{x}_{1}, \mathbf{x}_{2} \}, \quad \mathcal{S}_{2} : \{ \mathbf{x}_{2}, \mathbf{x}_{3} \}.
+\]
 
 The local DOF vector is:
 
-\[ \mathbf{q}^{b} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3} ] \in \mathcal{R}^{6 \times 1}. \]
+\[
+\mathbf{q}^{b} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3} ] \in \mathcal{R}^{6 \times 1}.
+\]
 
 The two edge vectors are:
 
-\[ \mathbf{e}_{1} = \mathbf{x}_{2}  -\mathbf{x}_{1}, \quad \mathbf{e}_{2} = \mathbf{x}_{3}  -\mathbf{x}_{2}. \]
+\[
+\mathbf{e}_{1} = \mathbf{x}_{2} - \mathbf{x}_{1}, \quad \mathbf{e}_{2} = \mathbf{x}_{3} - \mathbf{x}_{2}.
+\]
 
 The Voronoi length of the bending element is:
 
-\[ l = \frac{1} {2}( || \mathbf{e}_{1}  || +  || \mathbf{e}_{2} || ). \]
+\[
+l = \frac{1}{2} \left( || \mathbf{e}_{1} || + || \mathbf{e}_{2} || \right).
+\]
 
 The bending curvature is associated with the turning angle between the two connecting edges:
 
-\[ {\kappa} = \frac { 2 \tan ( {\phi / {2} )}} { l }. \]
+\[
+{\kappa} = \frac{2 \tan \left( \frac{\phi}{2} \right)}{l}.
+\]
 
 The discrete bending energy is given by:
 
-\[ E^{b} = \frac{1}{2}  EI {(\kappa - \bar{\kappa})^2 }   \bar{l}, \]
+\[
+E^{b} = \frac{1}{2} EI (\kappa - \bar{\kappa})^2 \bar{l},
+\]
 
 where \(EI\) represents the local bending stiffness.
 
 The local bending force vector and Hessian matrix are derived using a variational approach:
 
-\[ \mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}  {\partial \mathbf{q}^{b}}, \quad \mathbb{K}^{b}_{\mathrm{local}} = \frac {\partial^2 E^{b}}  {\partial \mathbf{q}^{b} \partial \mathbf{q}^{b} }. \]
+\[
+\mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}{\partial \mathbf{q}^{b}}, \quad \mathbb{K}^{b}_{\mathrm{local}} = \frac{\partial^2 E^{b}}{\partial \mathbf{q}^{b} \partial \mathbf{q}^{b}}.
+\]
 
 The detailed formulation can be found in the MATLAB code.
 
 ### Equations of motion
 
-With the formulation of the internal elastic force and the associated stiffness matrix, we can incorporate the inertial and damping effects to derive the dynamic equations of motion.
+With the formulation of the internal elastic force and the associated stiffness matrix, we can incorporate the inertial and damping effects to derive the dynamic equations of motion:
+
 \[
 \mathbb{M} \ddot{\mathbf{q}} + \mu \mathbb{M} \dot{\mathbf{q}} - \mathbf{F}^{s} - \mathbf{F}^{b} - \mathbf{F}^{\text{ext}} = \mathbf{0}.
 \]
 
 Here, the mass matrix, \(\mathbb{M}\), is time-invariant and can be easily obtained based on the element size and material density.
-
-
