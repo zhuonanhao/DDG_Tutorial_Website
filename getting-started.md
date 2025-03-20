@@ -3,7 +3,14 @@ title: "Getting Started"
 nav_order: 2
 layout: default
 ---
-### Guide:
+
+# Getting started
+## Installation:
+The implementation of this tutuorial requires Matlab, which needs to be installed prior to usage. It is under continuous integration testing and is compatible with Python 3.5 - 3.8. For information on installing Matlab, see [here](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html). 
+
+You can download the source code for DDG Tutorial from [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial).
+
+## Workflow:
 
 The overall numerical procedure can be divided into four parts: (i) read simulation inputs, (ii) pre-processing, (iii) simulation loop, and (iv) output simulation results.
 
