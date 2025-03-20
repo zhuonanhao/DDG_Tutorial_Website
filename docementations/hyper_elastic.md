@@ -1,5 +1,5 @@
 ---
-title: "Flexible structures with material nonlinearity"
+title: "Hyperelastic structure"
 nav_order: 6
 parent: Documentation
 layout: default

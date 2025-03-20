@@ -1,6 +1,6 @@
 ---
-title: "Axisymmetric shell: rotational surface"
-nav_order: 2
+title: "Axisymmetric shell"
+nav_order: 3
 parent: Documentation
 layout: default
 ---

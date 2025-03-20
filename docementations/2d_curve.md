@@ -1,5 +1,5 @@
 ---
-title: "Beam: planar curve"
+title: "Beam"
 nav_order: 1
 parent: Documentation
 layout: default

@@ -1,5 +1,5 @@
 ---
-title: "Plate and shell: 3D surface"
+title: "Plate and shell"
 nav_order: 4
 parent: Documentation
 layout: default
