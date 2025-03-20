@@ -6,7 +6,7 @@ layout: home
 
 ## MATLAB Implementation
 
-The detailed MATLAB implementation can be found in the [GitHub repository](https://github.com/weicheng-huang-mechanics/DDG_Tutorial). Here we explain The functions of each file and their relationships.
+The detailed MATLAB implementation can be found in the [GitHub repository](https://github.com/weicheng-huang-mechanics/DDG_Tutorial). Here we explain the functions of each file and their relationships.
 
 ![Algorithm](assets/figures/algorithm.png)
 
