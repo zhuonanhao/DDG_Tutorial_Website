@@ -39,5 +39,6 @@ search_enabled: true
 
 footer_content: "custom"
 
-head:
-  - include: "/_includes/mathjax.html"
+mathjax: 
+  enabled: true
+  version: "2.7.7"
