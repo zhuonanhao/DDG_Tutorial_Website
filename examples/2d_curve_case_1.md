@@ -1,7 +1,7 @@
 ---
 title: "Beam"
 nav_order: 1
-parent: Examples
+parent: 2d_curve
 layout: default
 ---
 
