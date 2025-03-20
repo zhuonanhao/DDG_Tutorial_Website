@@ -107,17 +107,6 @@ $$
 
 The detailed formulation can be found in the MATLAB code.
 
-### Equations of motion
-
-With the formulation of the internal elastic force and the associated stiffness matrix, we can incorporate the inertial and damping effects to derive the dynamic equations of motion:
-
-$$
-\mathbb{M} \ddot{\mathbf{q}} + \mu \mathbb{M} \dot{\mathbf{q}} - \mathbf{F}^{s} - \mathbf{F}^{b} - \mathbf{F}^{\text{ext}} = \mathbf{0}.
-$$
-
-Here, the mass matrix, $$\mathbb{M}$$, is time-invariant and can be easily obtained based on the element size and material density.
-
-
 ## Examples
 
 - [Case 1: Beam deflection under gravity](../examples/2d_curve_case_1.html)
