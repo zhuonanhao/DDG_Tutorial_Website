@@ -1,7 +1,7 @@
 ---
-title: "Axisymmetric shell"
+title: "Case 2"
 nav_order: 1
-parent: Rod and ribbon
+parent: Axisymmetric shell
 layout: default
 ---
 
