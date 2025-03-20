@@ -5,7 +5,7 @@ parent: Examples
 layout: default
 ---
 
-# 3D Surface
+# Plate and shell
 
 ## Plate under gravity
 <br/><img src='../assets/videos/plate_1.gif' width="600">

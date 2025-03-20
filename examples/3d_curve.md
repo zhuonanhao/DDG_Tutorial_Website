@@ -5,7 +5,7 @@ parent: Examples
 layout: default
 ---
 
-# 3D Curve
+# Rod and ribbon
 
 ## Helical rod under gravity
 <br/><img src='../assets/videos/rod_1.gif' width="600">

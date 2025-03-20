@@ -5,7 +5,7 @@ parent: Examples
 layout: default
 ---
 
-# Rod Network
+# Net and gridshell
 
 ## Net under gravity
 <br/><img src='../assets/videos/net_1.gif' width="600">

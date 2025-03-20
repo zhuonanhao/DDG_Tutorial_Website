@@ -5,7 +5,7 @@ parent: Examples
 layout: default
 ---
 
-# Hyper Elastic
+# Hyperelastic structure
 
 ## Hyperelastic cable under vertical loading
 <br/><img src='../assets/videos/hyper_1.gif' width="600">

@@ -5,7 +5,7 @@ parent: Examples
 layout: default
 ---
 
-# Soft Robot
+# Soft robotics
 
 ## Beam under magnetic actuation
 <br/><img src='../assets/videos/robot_1.gif' width="600">
