@@ -6,7 +6,7 @@ layout: default
 
 # Getting started
 ## Installation
-The implementation of this tutuorial requires [MATLAB](https://www.mathworks.com/products/matlab.html), which needs to be installed prior to usage. It is under continuous integration testing and is compatible with Python 3.5 - 3.8. For information on installing Matlab, see [here](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html). 
+The implementation of this tutorial requires [MATLAB](https://www.mathworks.com/products/matlab.html), which needs to be installed before usage. For information on installing Matlab, see [here](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html). 
 
 You can download the source code for DDG Tutorial from [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial).
 
@@ -18,14 +18,14 @@ The overall numerical procedure can be divided into four parts: (i) read simulat
 
 ### Read simulation inputs
 
-The first step to set up a structural dynamic simulation is to select input data. There are six categories for input information:
+The first step in setting up a structural dynamic simulation is to select input data. There are six categories for input information:
 
 1. **Geometry and connection information for a system**, e.g., nodal position, stretching element index, bending element index, triangle element index.
 2. **Physical parameters**, e.g., Young's modulus, Poisson ratio, material density, rod radius, plate thickness, gravitational acceleration, and damping viscosity.
 3. **Numerical parameters**, such as total simulation time, time step size, numerical tolerance, and maximum iterations.
 4. **Boundary conditions**, which are constrained index array and free index array.
 5. **Initial conditions**, which are the positions and velocity of DOF at \( t = 0 \).
-6. **Loading step**, which loadings are applied sequentially into the system and need to be defined during the time marching loop.
+6. **Loading step**, which loading steps are applied sequentially into the system and need to be defined during the time marching loop.
 
 ### Pre-processing
 
