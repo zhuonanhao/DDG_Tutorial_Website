@@ -26,10 +26,8 @@ To initialize the simulation, the following inputs are used:
    - (ii) Poisson’s ratio, $$\nu=0.5$$.  
    - (iii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.  
    - (iv) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.  
-   - (v) Bending stiffness:  
-     $$EI_1 = EI_2 = \frac{E \pi r_0^4}{4}.$$  
-   - (vi) Torsional stiffness:  
-     $$GJ = \frac{G \pi r_0^4}{2}.$$  
+   - (v) Bending stiffness: $$EI_1 = EI_2 = \frac{E \pi r_0^4}{4}.$$  
+   - (vi) Torsional stiffness: $$GJ = \frac{G \pi r_0^4}{2}.$$  
    - (vii) Damping viscosity, $$\mu = 1.0$$.  
    - (viii) Gravitational field, $$\mathbf{g} = [0.0, 0.0, -10.0]^{T}$$ m/s\(^2\).  
    - (ix) The overall simulation is dynamic, i.e., $$ \mathrm{ifStatic} = 0$$.  
@@ -37,13 +35,11 @@ To initialize the simulation, the following inputs are used:
 3. **Numerical parameters:**  
    - (i) Total simulation time, $$T=5.0$$ s.  
    - (ii) Time step size, $$\mathrm{d}t=0.01$$ s.  
-   - (iii) Numerical force tolerance,  
-     $$\mathrm{tol} = 1 \times 10^{-4}.$$  
+   - (iii) Numerical force tolerance, $$\mathrm{tol} = 1 \times 10^{-4}.$$  
    - (iv) Maximum iterations, $$N_{\mathrm{iter}}=10$$.  
 
 4. **Boundary conditions:**  
-   - The first two nodes $$\{ \mathbf{x}_{1}, \mathbf{x}_{2} \}$$ and the first twisting angle $$\theta_{1}$$ are fixed to achieve clamped-free boundary conditions:  
-     $$\mathcal{FIX} = [1,2,3,4,5,6,151]^{T}.$$  
+   - The first two nodes $$\{ \mathbf{x}_{1}, \mathbf{x}_{2} \}$$ and the first twisting angle $$\theta_{1}$$ are fixed to achieve clamped-free boundary conditions: $$\mathcal{FIX} = [1,2,3,4,5,6,151]^{T}.$$  
 
 5. **Initial conditions:**  
    - (i) Initial position is input from the nodal positions.  
