@@ -1,7 +1,7 @@
 ---
 title: "Beam under gravity"
 nav_order: 1
-parent: -Beam
+parent:  Beam
 layout: default
 ---
 
