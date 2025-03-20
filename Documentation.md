@@ -6,7 +6,7 @@ layout: home
 
 ## MATLAB Implementation
 
-The overall numerical algorithms can be found in the figure below, and the detailed explanations for each MATLAB file are as follows:
+The detailed MATLAB implementation can be found in the [GitHub repository](https://github.com/weicheng-huang-mechanics/DDG_Tutorial). Here we explain The functions of each file and their relationships.
 
 ![Algorithm](assets/figures/algorithm.png)
 
@@ -18,7 +18,7 @@ The overall numerical algorithms can be found in the figure below, and the detai
 4. **InitialElement.m**: The initialization of each type of element, e.g., stretching elements.
 5. **defConsParams.m**: Define boundary conditions for the simulation.
 6. **objfun.m**: Update the time step by Euler method and optimize the solution by Newton's method.
-7. **getForce.m**: Loop over all elements to build the global force vector and global session matrix.
+7. **getForce.m**: Loop over all elements to build the global force vector and global Hession matrix.
 8. **elasticForce.m**: Detailed formulation for the local force vector and local Hessian matrix.
 9. **plotSystem.m**: Plot dynamic rendering for the numerical results.
 
