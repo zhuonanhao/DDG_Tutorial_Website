@@ -39,6 +39,5 @@ search_enabled: true
 
 footer_content: "custom"
 
-mathjax: 
-  enabled: true
-  version: "2.7.7"
+head:
+  - "<script type='text/javascript' async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'></script>"
