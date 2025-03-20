@@ -13,9 +13,7 @@ $$
 \mathbf{q} = \left[ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} \right] \in \mathcal{R}^{2N \times 1}.
 $$
 
-Two types of elements are used to capture the total elastic energies of a discrete planar beam: (i) stretching element and (ii) bending element, with $$N_{s}$$ and $$N_{b}$$ representing the number of each, respectively.
-
-Note that if only the stretching element is considered, the bending-dominated beam structures would reduce to the stretching-dominated cable structures.
+Two types of elements are used to capture the total elastic energies of a discrete planar beam: (i) stretching element and (ii) bending element, with $$N_{s}$$ and $$N_{b}$$ representing the number of each, respectively. Note that if only the stretching element is considered, the bending-dominated beam structures would reduce to the stretching-dominated cable structures.
 
 <br/><img src='../assets/figures/beam_model.png' width="600">
 
