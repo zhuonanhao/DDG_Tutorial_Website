@@ -9,6 +9,8 @@ layout: default
 
 <br/><img src='../assets/figures/shell_model.png' width="600">
 
+
+
 ## Numerical formulation
 
 ### Strectching element
