@@ -134,6 +134,6 @@ Here, the mass matrix, $$\mathbb{M}$$, is time-invariant and can be easily obtai
 
 ## Examples
 
-- [Case 1: Beam deflection under gravity](../examples/2d_curve_case_1.md)
-- [Case 2: Buckling of a beam under compression](../examples/2d_curve_case_2.md)
-- [Case 3: Snapping of a pre-buckled beam](../examples/2d_curve_case_3.md)
+- [Case 1: Beam deflection under gravity](../examples/2d_curve_case_1.html)
+- [Case 2: Buckling of a beam under compression](../examples/2d_curve_case_2.html)
+- [Case 3: Snapping of a pre-buckled beam](../examples/2d_curve_case_3.html)
