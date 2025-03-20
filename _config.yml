@@ -40,7 +40,4 @@ search_enabled: true
 footer_content: "custom"
 
 head:
-  - include: "/assets/css/styles.css"
-  - include: "/assets/js/script.js"
-  - include: "/assets/js/another-script.js"
-  - include: "/assets/js/mathjax.html"
+  - include: "/_includes/mathjax.html"
