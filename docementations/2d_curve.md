@@ -128,3 +128,10 @@ $$
 $$
 
 Here, the mass matrix, $$\mathbb{M}$$, is time-invariant and can be easily obtained based on the element size and material density.
+
+
+## Examples
+
+- case 1: Beam deflection under gravity
+- case 2: Buckling of a beam under compression
+- case 3: Snapping of a pre-buckled beam
