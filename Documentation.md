@@ -11,7 +11,7 @@ The detailed MATLAB implementation can be found in the [GitHub](https://github.c
 
 ![Algorithm](assets/figures/algorithm.png)
 
-## MATLAB Files:
+## MATLAB Files
 
 1. **main.m**: Main function, including reading inputs, building structs, and performing simulation.
 2. **defSimParams.m**: Define the numerical parameters for the simulation.
