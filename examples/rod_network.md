@@ -7,12 +7,12 @@ layout: default
 
 # Net and gridshell
 
-## Net under gravity
+## Flexible net under gravity
 <br/><img src='../assets/videos/net_1.gif' width="600">
 
-## Buckling-induced form-finding of gridshell
+## Form-finding of gridshell
 <br/><img src='../assets/videos/net_2.gif' width="600">
 
-## Lattice structure under gravity
+## Lattice grid under gravity
 <br/><img src='../assets/videos/net_3.gif' width="600">
 
