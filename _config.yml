@@ -40,4 +40,7 @@ search_enabled: true
 footer_content: "custom"
 
 head:
-  - '<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>'
+  - include: "/assets/css/styles.css"
+  - include: "/assets/js/script.js"
+  - include: "/assets/js/another-script.js"
+  - include: "/assets/js/mathjax.html"
