@@ -38,3 +38,5 @@ just_the_docs:
 search_enabled: true
 
 footer_content: "custom"
+
+math: mathjax
