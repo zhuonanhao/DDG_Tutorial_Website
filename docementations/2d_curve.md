@@ -57,7 +57,7 @@ $$
 \mathbf{F}^{s}_{\mathrm{local}} = -\frac{\partial E^{s}}{\partial \mathbf{q}^{s}}, \quad \mathbb{K}^{s}_{\mathrm{local}} = \frac{\partial^2 E^{s}}{\partial \mathbf{q}^{s} \partial \mathbf{q}^{s}}.
 $$
 
-The detailed formulation can be found in the MATLAB code.
+The detailed formulation can be found in the MATLAB code. Finally, the global stretching force vector,  $$\mathbf{F}^{s}$$, and the associated Hessian matrix, $$\mathbb{K}^{s}$$, can be assembled by iterating over all stretching elements. 
 
 ### Bending element
 
@@ -105,7 +105,7 @@ $$
 \mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}{\partial \mathbf{q}^{b}}, \quad \mathbb{K}^{b}_{\mathrm{local}} = \frac{\partial^2 E^{b}}{\partial \mathbf{q}^{b} \partial \mathbf{q}^{b}}.
 $$
 
-The detailed formulation can be found in the MATLAB code.
+The detailed formulation can be found in the MATLAB code.  Finally, the global bending force vector,  $$\mathbf{F}^{b}$$, and the associated Hessian, $$\mathbb{K}^{b}$$, can be assembled by iterating over all stretching elements. 
 
 ## Examples
 
