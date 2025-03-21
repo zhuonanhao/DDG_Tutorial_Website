@@ -8,14 +8,12 @@ layout: default
 # Axisymmetric shell: rotational surface
 
 Here, we discuss how a simple 2D curve can represent the mechanics of an axisymmetric shell. The configuration of a planar beam is presented by $$N$$ nodes, where each node is defined as $$\mathbf{x}_{i} \equiv [r_{i}, z_{i}]^{T} \in \mathcal{R}^{2 \times 1}$$. Consequently, the total DOF vector is given by
-\begin{equation}
+
+$$
 \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ] \in \mathcal{R}^{2N \times 1}.
-\end{equation}
-Two types of elements are used to capture the mechanics of a rotational surface: (i) stretching element, and (ii) bending element. 
-%
-Consistent with previous section, the number of stretching elements is denoted as $$N_{s}$$, while the number of bending elements is denoted as $$N_{b}$$.
-%
-If only the stretching element is considered, the bending-dominated plate/shell structures would reduce to the stretching-dominated membrane structures.
+$$
+
+Two types of elements are used to capture the mechanics of a rotational surface: (i) stretching element, and (ii) bending element. The number of stretching elements is denoted as $$N_{s}$$, while the number of bending elements is denoted as $$N_{b}$$. If only the stretching element is considered, the bending-dominated plate/shell structures would reduce to the stretching-dominated membrane structures.
 
 \paragraph{Stretching element} The stretching element is comprised of two connected nodes, defined as
 \begin{equation}
