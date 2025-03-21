@@ -118,3 +118,10 @@ $$
 
 where $$\mathbf{v}_{t} = \mathbf{v} - \mathbf{v} \cdot \mathbf{n}$$ is the relative velocity along the surface tangential direction, and $$\epsilon_{v}$$ is the velocity parameter. The continuous contact defection must iterate over all nodes for a discrete beam system to build the global contact force vector, $$\mathbf{F}^{\text{con}}$$.
 
+
+## Examples
+
+- [Case 1: Beam under magnetic actuation](../examples/soft_robot_case_1.html)
+- [Case 2: Soft swimming robot](../examples/soft_robot_case_2.html)
+- [Case 3: Soft crawling robot](../examples/soft_robot_case_3.html)
+- 
