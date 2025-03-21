@@ -39,13 +39,13 @@ $$
 For each beam segment, the remanent magnetization is represented as $$\mathbf{B}_{r} \in \mathcal{R}^{2\times 1}$$. Therefore, the discrete format of the magnetic functional for this rod segment is 
 
 $$
-E^{\mathrm{mag}} = - \bar{l} \cdot (\bm{\mathcal{M}} \cdot \mathbf{B} ),
+E^{\mathrm{mag}} = - \bar{l} \cdot ( {\mathcal{M}} \cdot \mathbf{B} ),
 $$
 
 where
 
 $$
-\bm{\mathcal{M}} = A \left[ \left( \mathbf{t}\otimes \bar{\mathbf{t}} + \mathbf{n} \otimes \bar{\mathbf{n}} \right) \cdot \mathbf{B}_{r} \right ].
+ {\mathcal{M}} = A \left[ \left( \mathbf{t}\otimes \bar{\mathbf{t}} + \mathbf{n} \otimes \bar{\mathbf{n}} \right) \cdot \mathbf{B}_{r} \right ].
 $$
 
 Here, $$A$$ is the local cross-sectional area, and $$\mathbf{B}_{r}$$ is the remanent magnetization density per unit volume of the segment in the reference configuration. Hereafter, we use a bar on top to indicate the evaluation of the undeformed configuration, e.g., $$\bar{l}$$ is the edge length before deformation. The magnetic force vector,  $$\mathbf{F}^{\mathrm{mag}}_{\mathrm{local}}$$, can be derived by finding the gradient of the magnetic potential as
