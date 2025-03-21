@@ -15,6 +15,8 @@ $$
 
 Two types of elements are used to capture the mechanics of a 3D surface: (i) stretching element, and (ii) bending element. Consistent with the previous section, the number of stretching elements is denoted as $$N_{s}$$, while the number of bending elements is denoted as $$N_{b}$$. If only the stretching elements are considered, bending-dominated plate/shell structures will be reduced to stretching-dominated membrane structures. 
 
+<br/><img src='../assets/figures/plate_model.png' width="800">
+
 ### Stretching element
 
 The stretching element is comprised of two connected nodes, defined as
