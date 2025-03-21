@@ -115,7 +115,13 @@ $$
 \end{cases}
 $$
 
-where $$\mathbf{v}_{t} = \mathbf{v} - \mathbf{v} \cdot \mathbf{n}$$ is the relative velocity along the surface tangential direction, and $$\epsilon_{v}$$ is the velocity parameter. The continuous contact defection must iterate over all nodes for a discrete beam system to build the global contact force vector, $$\mathbf{F}^{\text{con}}$$.
+where 
+
+$$
+\mathbf{v}_{t} = \mathbf{v} - \mathbf{v} \cdot \mathbf{n}
+$$
+
+is the relative velocity along the surface tangential direction, and $$\epsilon_{v}$$ is the velocity parameter. The continuous contact defection must iterate over all nodes for a discrete beam system to build the global contact force vector, $$\mathbf{F}^{\text{con}}$$.
 
 
 ## Examples
