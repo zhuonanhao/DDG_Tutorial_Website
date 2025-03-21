@@ -57,8 +57,8 @@ Hereafter, we use a bar on top to indicate the evaluation of the undeformed conf
 
 $$
 {\varepsilon}_{2} = \frac { r } { \bar{r} } - 1,
-
 $$
+
 where $$\bar{r}$$ represents the undeformed radius of the shell. Due to the axisymmetric assumption, the shear coupling between the meridional direction and the circumferential direction is zero, i.e.,
 
 $$
