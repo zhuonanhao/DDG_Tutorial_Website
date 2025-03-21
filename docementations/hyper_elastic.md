@@ -115,7 +115,7 @@ $$
 Due to the incompressible assumption, the last principal stretch is
 
 $$
-\lambda_{3} =  \frac{1} {{\lambda_{1}} \lambda_{2}}.
+\lambda_{3} =  \frac{1} { \lambda_{1} \lambda_{2} }.
 $$
 
 The strain energy density function for an incompressible Mooney-Rivlin material is
