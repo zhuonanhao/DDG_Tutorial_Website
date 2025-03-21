@@ -5,7 +5,7 @@ parent: Net and gridshell
 layout: default
 ---
 
-## Flexible net under gravity
+## Flexible net under gravity [:octocat:](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/rod_network/case_1)
 
 Flexible nets are largely used for the capture of objects with irregular shapes, such as tether-net systems that can be considered for space debris capture and removal missions. In this case study, we examine the free oscillation behavior of a flexible net subjected to gravity. The net is modeled with fixed boundary conditions at its vertices, allowing for deformation at the internal nodes. As the gravitational load acts on the net, it undergoes oscillatory motion due to its inherent flexibility. This case highlights the ability of the DDG model to effectively capture the deformation behaviors of the flexible net.
 
