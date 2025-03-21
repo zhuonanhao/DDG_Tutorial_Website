@@ -140,5 +140,5 @@ The detailed formulation can be found in the MATLAB code. Finally, the global st
 
 ## Examples
 
-- [Case 1: Hyperelastic cable under vertical loading](../examples/2d_curve_case_1.html)
-- [Case 2: Snapping of a hyperelastic torus](../examples/2d_curve_case_2.html)
+- [Case 1: Hyperelastic cable under vertical loading](../examples/hyper_elastic_case_1.html)
+- [Case 2: Snapping of a hyperelastic torus](../examples/hyper_elastic_case_2.html)
