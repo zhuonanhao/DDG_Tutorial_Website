@@ -13,7 +13,9 @@ $$
 \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ] \in \mathcal{R}^{2N \times 1}.
 $$
 
-Two types of elements are used to capture the mechanics of a rotational surface: (i) stretching element, and (ii) bending element. The number of stretching elements is denoted as $$N_{s}$$, while the number of bending elements is denoted as $$N_{b}$$. If only the stretching element is considered, the bending-dominated plate/shell structures would reduce to the stretching-dominated membrane structures.
+Two types of elements are used to capture the mechanics of a rotational surface: (i) stretching element, and (ii) bending element. The number of stretching elements is denoted as $$N_{s}$$, while the number of bending elements is denoted as $$N_{b}$$. If only the stretching element is considered, the bending-dominated plate/shell structures would be reduced to the stretching-dominated membrane structures.
+
+<br/><img src='../assets/figures/shell_model.png' width="800">
 
 ### Stretching element 
 
@@ -129,13 +131,13 @@ $$
 \kappa_{1} = \frac { 2 \tan ( {\phi / {2} )}} {   l },
 $$
 
-where $$\phi$$ is the turning angle between the three consecutive nodes. The curvature along the circumferential direction is determined by the change of the surface normal direction, as
+where $$\phi$$ is the turning angle between the three consecutive nodes. The curvature along the circumferential direction is determined by the change in the surface's normal direction, as
 
 $$
 \kappa_{2} = \frac { \cos (\psi) } { r },
 $$
 
-where $$\psi$$ is the orientation angle, determined by the surface normal vector relative to the $$R$$ axis, as shown in Fig.~\ref{fig:shell_model_plot}(b). Similarly, the bending coupling between the meridional direction and the circumferential direction is also zero, i.e.,
+where $$\psi$$ is the orientation angle, determined by the surface normal vector relative to the $$R$$ axis. Similarly, the bending coupling between the meridional direction and the circumferential direction is also zero, i.e.,
 
 $$
 \kappa_{12} = \kappa_{21} = 0.
