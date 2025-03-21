@@ -153,4 +153,9 @@ $$
 \mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}  {\partial \mathbf{q}^{b}}, \; \mathrm{and} \; \mathbb{K}^{b}_{\mathrm{local}} = \frac {\partial^2 E^{b}}  {\partial \mathbf{q}^{b} \partial \mathbf{q}^{b}}.
 $$
 
-The detailed formulation can be found in the MATLAB code. Finally, the global bending force vector,  $$\mathbf{F}^{b}$$, and the associated Hessian, $$\mathbb{K}^{b}$$, can be assembled by iterating over all stretching elements. Here, we discuss how a simple 2D curve can represent the mechanics of an axisymmetric shell.
+The detailed formulation can be found in the MATLAB code. Finally, the global bending force vector,  $$\mathbf{F}^{b}$$, and the associated Hessian, $$\mathbb{K}^{b}$$, can be assembled by iterating over all stretching elements.
+
+## Examples
+
+- [Case 1: Inflation of an axisymmetric plate](../examples/2d_surface_case_1.html)
+- [Case 2: Eversion of an axisymmetric shell cap](../examples/2d_surface_case_2.html)
