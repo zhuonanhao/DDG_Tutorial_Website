@@ -78,7 +78,7 @@ $$
 The edge vectors are given by
 
 $$
- \mathbf{e}_{1} = \mathbf{x}_{2}  -\mathbf{x}_{1}, \; \mathbf{e}_{2} &= \mathbf{x}_{3}  -\mathbf{x}_{1}, \; \mathbf{e}_{3} &= \mathbf{x}_{2}  -\mathbf{x}_{4}, \; \mathbf{e}_{4} &= \mathbf{x}_{3}  -\mathbf{x}_{4}.
+ \mathbf{e}_{1} = \mathbf{x}_{2}  -\mathbf{x}_{1}, \; \mathbf{e}_{2} &= \mathbf{x}_{3}  -\mathbf{x}_{1}, \; \mathbf{e}_{3} = \mathbf{x}_{2}  -\mathbf{x}_{4}, \; \mathbf{e}_{4} = \mathbf{x}_{3}  -\mathbf{x}_{4}.
 $$
 
 Next, the surface normal vectors of two triangular meshes are given by
