@@ -127,7 +127,7 @@ $$
 where $$\bar{V}$$ is the volume of the local membrane element, $$C_{1}$$ and $$C_{2}$$ are the two material parameters, and $$I_{1}$$ and $$I_{2}$$ are the first and second principal invariant as
 
 $$
-I_{1} &= \lambda_{1}^2 +\lambda_{2}^2 + \lambda_{3}^2, \; I_{2} &= \lambda_{1}^2 \lambda_{2}^2 + \lambda_{1}^2\lambda_{3}^2 + \lambda_{2}^2 \lambda_{3}^2.
+I_{1} = \lambda_{1}^2 +\lambda_{2}^2 + \lambda_{3}^2, \; I_{2} = \lambda_{1}^2 \lambda_{2}^2 + \lambda_{1}^2\lambda_{3}^2 + \lambda_{2}^2 \lambda_{3}^2.
 $$
 
 The local stretching force vector, $$\mathbf{F}^{s}_{\mathrm{local}} \in \mathcal{R}^{4 \times 1}$$, as well as the local stretching Hessian matrix, $$\mathbb{K}^{s}_{\mathrm{local}} \in \mathcal{R}^{4 \times 4}$$, can be derived through a variational approach as
