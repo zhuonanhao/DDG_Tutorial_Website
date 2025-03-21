@@ -83,8 +83,8 @@ $$
 The two edge vectors are
 
 $$
-\mathbf{e}_{1} &= \mathbf{x}_{2}  -\mathbf{x}_{1},\\
-\mathbf{e}_{2} &= \mathbf{x}_{3}  -\mathbf{x}_{2}.
+\mathbf{e}_{1} = \mathbf{x}_{2}  -\mathbf{x}_{1},
+\mathbf{e}_{2} = \mathbf{x}_{3}  -\mathbf{x}_{2}.
 $$
 
 The Voronoi length of the bending element is the average of the two edges, defined as
@@ -102,8 +102,8 @@ $$
 The material curvatures are given by the inner products between the curvature bi-normal and the material frame as
 
 $$
-\kappa_{1} & = \frac {\kappa \mathbf{b}} {2} \cdot \frac {\left( \mathbf m_1^{2} + \mathbf m_2^{2} \right)} { l}, \\
-\kappa_{2} & = - \frac {\kappa \mathbf{b}} {2} \cdot \frac{\left( \mathbf m_1^{1} + \mathbf m_2^{1}\right) } { l}.
+\kappa_{1}  = \frac {\kappa \mathbf{b}} {2} \cdot \frac {\left( \mathbf m_1^{2} + \mathbf m_2^{2} \right)} { l}, 
+\kappa_{2}  = - \frac {\kappa \mathbf{b}} {2} \cdot \frac{\left( \mathbf m_1^{1} + \mathbf m_2^{1}\right) } { l}.
 $$
 
 For the linear elastic constitutive model, the discrete bending energy is a quadratic function of the curvature as
