@@ -40,7 +40,6 @@ For each beam segment, the remanent magnetization is represented as $$\mathbf{B}
 
 $$
 E^{\mathrm{mag}} = - \bar{l} \cdot (\bm{\mathcal{M}} \cdot \mathbf{B} ),
-\label{eq:discreteMagneticEnergies}
 $$
 
 where
