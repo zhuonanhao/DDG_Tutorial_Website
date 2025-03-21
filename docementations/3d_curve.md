@@ -130,10 +130,16 @@ $$
 \mathbf{q}_{b} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1}; \theta_{2} ]^{T} \in \mathcal{R}^{11 \times 1}.
 $$
 
-The twisting curvature is the sum of the twist of the reference frame, $\tau_{r}$,  and the twist of the material frame, $\tau_{m}$,
+The twisting curvature is the sum of the twist of the reference frame, $$\tau_{r}$$,  and the twist of the material frame, $$\tau_{m}$$,
 
 $$
 \tau = \tau_{\mathrm{r}} + \tau_{\mathrm{m}}.
+$$
+
+where
+
+$$
+\tau_{\mathrm{m}} = \frac {\theta_{2} - \theta_{1}} {l}
 $$
 
 Finally, for a linear elastic constitutive, the discrete twisting energy is given by
