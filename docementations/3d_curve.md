@@ -114,7 +114,7 @@ $$
 E^{b} = \frac{1}{2}  EI_{1} {(\kappa_{1} - \bar{\kappa}_{1})^2 }   \bar{l} + \frac{1}{2}  EI_{2} {(\kappa_{2} - \bar{\kappa}_{2})^2 }   \bar{l}.
 $$
 
-where $$EI_{1}$$ and $$EI_{2}$$ are the local bending stiffness along the two bending axes of the section, respectively. The local bending force vector, $\mathbf{F}^{b}_{\mathrm{local}} \in \mathcal{R}^{11 \times 1}$, as well as the local bending Hessian matrix, $\mathbb{K}^{b}_{\mathrm{local}} \in \mathcal{R}^{11 \times 11}$, can be derived through a variational approach as
+where $$EI_{1}$$ and $$EI_{2}$$ are the local bending stiffness along the two bending axes of the section, respectively. The local bending force vector, $$\mathbf{F}^{b}_{\mathrm{local}} \in \mathcal{R}^{11 \times 1}$$, as well as the local bending Hessian matrix, $$\mathbb{K}^{b}_{\mathrm{local}} \in \mathcal{R}^{11 \times 11}$$, can be derived through a variational approach as
 
 $$
 \mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}  {\partial \mathbf{q}^{b}}, \; \mathrm{and} \; \mathbb{K}^{b}_{\mathrm{local}} = \frac {\partial^2 E^{b}}  {\partial \mathbf{q}^{b} \partial \mathbf{q}^{b}}.
@@ -155,3 +155,9 @@ $$
 $$
 
 The detailed formulation can be found in the MATLAB code. Finally, the global twisting force vector,  $$\mathbf{F}^{t}$$, and the associated Hessian, $$\mathbb{K}^{t}$$, can be assembled by iterating over all twisting elements. 
+
+## Examples
+
+- [Case 1: Helical rod under gravity](../examples/3d_curve_case_1.html)
+- [Case 2: Shear-induced bifurcation of a buckled ribbon](../examples/3d_curve_case_2.html)
+- [Case 3: Buckling of an annular ribbon](../examples/3d_curve_case_3.html)
