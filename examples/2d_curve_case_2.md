@@ -5,7 +5,7 @@ parent: Beam
 layout: default
 ---
 
-## Buckling of a compressive beam
+## [Buckling of a compressive beam](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/2d_curve/case_2)
 
 In this case study, we examine the classical Euler buckling phenomenon of a slender beam under axial compression. The beam is fixed at both ends, with a gradually increasing compressive load applied at the right end. As the load increases, the beam transitions from a straight configuration to a buckled state, illustrating the onset of structural instability. The case highlights the ability of the DDG model to accurately capture buckling behavior in slender structures.
 

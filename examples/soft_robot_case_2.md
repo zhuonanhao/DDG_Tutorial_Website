@@ -5,8 +5,7 @@ parent: Soft robotics
 layout: default
 ---
 
-## Soft swimming robot
-### Case 2: Fluid-structure Interaction [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_2)
+## [Soft swimming robot](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_2)
 
 In this subsection, we demonstrate the fluid-structure interaction between a soft swimming robot and the surrounding fluid under external magnetic actuation. Using the DDG simulation framework, we analyze how the robotic swimmer responds to time-varying magnetic fields, generating an undulatory motion that propels it through the fluid. The interplay between magnetic forces, elastic deformation, and hydrodynamic resistance shapes the swimming dynamics, highlighting the model’s ability to capture complex coupled interactions. As magnetically actuated soft robots hold great promise for biomedical and underwater applications, this case underscores the potential of our approach in designing and optimizing efficient, adaptive locomotion strategies.
 

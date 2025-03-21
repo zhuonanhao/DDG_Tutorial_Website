@@ -5,7 +5,7 @@ parent: Plate and shell
 layout: default
 ---
 
-## Indentation of the cylindrical shell
+## [Indentation of the cylindrical shell](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/3d_surface/case_1)
 
 Shell indentation is a complicated problem and involves many non-linear buckling, snapping, and bifurcations. In this case study, we examine the indentation of a cylindrical shell under a point load. A half-cylindrical shell with a clamped-free boundary condition is considered, and a point indentation is applied at the middle point of the free end. This case highlights the ability of the DDG model to capture the complex deformed patterns of bifurcations in shell structures.
 

@@ -5,7 +5,7 @@ parent: Rod and ribbon
 layout: default
 ---
 
-## 3D helix under gravity
+## [3D helix under gravity](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/3d_curve/case_1)
 
 The deformation of a helix rod is a complex mechanical process that has drawn attention from engineers, mathematicians, and computer scientists over the past decade. In this case study, we examine the free oscillation behavior of a slender rod under the influence of gravity. The rod is clamped at one end while the other end remains free, allowing it to deform under its own weight. As gravity acts on the structure, the helix undergoes complex bending and twisting deformations. This case highlights the ability of the DDG model to capture intricate geometric nonlinearities in slender rod structures.
 

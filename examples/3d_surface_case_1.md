@@ -5,7 +5,7 @@ parent: Plate and shell
 layout: default
 ---
 
-## Plate deflection under gravity
+## [Plate deflection under gravity](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/3d_surface/case_1)
 
 In this case study, we examine the deflection of a flexible plate under the influence of gravity. The plate is modeled with clamped-free boundary conditions, with the gravitational load applied uniformly across its surface. The case highlights the ability of the DDG model to accurately simulate the deflection and bending behavior of the plate, providing a basis for more complex simulations involving intricate geometries and varying loading conditions.
 

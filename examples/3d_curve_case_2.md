@@ -5,7 +5,7 @@ parent: Rod and ribbon
 layout: default
 ---
 
-## Bifurcation of pre-buckled ribbon
+## [Bifurcation of pre-buckled ribbon](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/3d_curve/case_2)
 
 The shear deformation behavior of a pre-buckled ribbon exhibits bifurcation characteristics. The continuation method is commonly used to trace the deformation path, particularly for identifying static bifurcation critical points, while dynamic bifurcation behavior has been explored using the Discrete Elastic Rod (DER) model in prior studies. In this case study, we investigate the shear deformation of a pre-buckled ribbon under clamped-clamped boundary conditions, incorporating specific loading conditions into the simulation. The deformation pathway is tracked, identifying critical instability and stability points. This case demonstrates the capability of the DDG model to capture complex bifurcation characteristics in slender structures subjected to shear deformation.  
 

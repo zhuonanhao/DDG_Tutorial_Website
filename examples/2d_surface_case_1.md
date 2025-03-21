@@ -5,7 +5,7 @@ parent: Axisymmetric shell
 layout: default
 ---
 
-## Inflation of an axisymmetric plate
+## [Inflation of an axisymmetric plate](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/2d_surface/case_1)
 In this case study, we examine the inflation behavior of an axisymmetric plate under applied pressure. The $$R$$ displacement of the central node is constrained based on the symmetry of deformation, and the node at the right end maintains a pin boundary. As the pressure increases, the plate deforms into a characteristic inflated dome shape. This case highlights the ability of the DDG model to accurately capture axisymmetric deformation and provides insights for modeling hyperelastic materials in future studies.
 
 ### Simulation Initialization

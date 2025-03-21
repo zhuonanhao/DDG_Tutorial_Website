@@ -5,7 +5,7 @@ parent: Plate and shell
 layout: default
 ---
 
-## Plate wrinkling under gravity
+## [Plate wrinkling under gravity](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/3d_surface/case_2)
 
 
 Unlike the simple deflection case, this example introduces the phenomenon of wrinkling, a manifestation of instability in thin structures under compression. In this case study, we examine the wrinkling behavior of a plate subjected to gravity. The plate is modeled with two fixed boundary corners. As the plate deforms under the gravitational load, wrinkles develop due to instability in the structure. This case highlights the ability of the DDG model to accurately capture the complex deformation pattern of wrinkling.

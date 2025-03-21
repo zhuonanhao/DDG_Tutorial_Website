@@ -5,7 +5,7 @@ parent: Axisymmetric shell
 layout: default
 ---
 
-## Snap-through of the axisymmetric shell
+## [Snap-through of the axisymmetric shell](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/2d_surface/case_2)
 
 Snap-through is a fascinating nonlinear phenomenon observed in various structures, including shells, arches, and membranes. Understanding and predicting snap-through behavior is crucial in many engineering applications, ranging from micro-switches and actuators to deployable structures and biomedical devices. Understanding these characteristics is crucial for designing and using structures that exhibit snap-through behavior, particularly in applications such as switches, actuators, and energy storage devices. In this case study, we examine the snap-through behavior of an axisymmetric shell subjected to compressive loading. The shell is subject to boundary conditions that allow for large deformations, with the load applied uniformly along its surface. The snap-through phenomenon is characterized by a sudden, large-amplitude shape change as the shell transitions between two stable equilibrium states. This case highlights the ability of the DDG model to accurately capture the nonlinear behavior of the shell and predict the critical load at which the snap-through occurs.
 

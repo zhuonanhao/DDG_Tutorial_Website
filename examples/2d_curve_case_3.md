@@ -5,7 +5,7 @@ parent: Beam
 layout: default
 ---
 
-## Snapping of a pre-buckled beam
+## [Snapping of a pre-buckled beam](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/2d_curve/case_3)
 
 In this case study, we examine the snap-through behavior of a pre-buckled beam under rotational displacement. The beam is clamped at both ends, with one end gradually rotated to induce instability. As the rotation increases, the beam undergoes a sudden transition, driven by the interplay between bending stiffness and applied rotational forces. The case highlights the ability of the DDG model to effectively capture nonlinear snapping behavior in slender structures.
 

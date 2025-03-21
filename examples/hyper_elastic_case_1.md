@@ -5,7 +5,7 @@ parent: Hyperelastic structure
 layout: default
 ---
 
-## Hyperelastic planar cable
+## [Hyperelastic planar cable](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/hyper_elastic/case_1)
 
 In this subsection, we examine a simple planar cable, where, unlike a bending-dominated beam primarily governed by bending energy, the configuration is mainly determined by stretching energy. Mathematically, for a 1D structure of length $$L$$, with linear elastic stretching stiffness $$EA$$, bending stiffness $$EI$$, and subjected to an external load $$F$$, a beam model is appropriate when $$EA \gg F \sim EI/L^2$$, whereas a cable model should be used when $$EA \sim F \gg EI/L^2$$. In an intermediate scenario, where $$EA \gg F \gg EI/L^2$$, the configuration of the structure is governed solely by its geometric characteristics and boundary conditions, rendering the problem material-independent — such as an inextensible catenary under its self-weight, which is known as catenary. On the other hand, for sufficiently large external loads, the material response may exceed the linear regime, necessitating the use of a hyperelastic model.
 

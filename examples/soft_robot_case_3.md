@@ -5,9 +5,7 @@ parent: Soft robotics
 layout: default
 ---
 
-## Soft crawling robot
-
-### Case 3: Frictional Contact [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_3)
+## [Soft crawling robot](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_3)
 
 In this subsection, we present the frictional contact interaction of a soft crawling robot with multiple legs as it moves across a surface under external magnetic actuation. Using the DDG simulation framework, we analyze how the legs interact with the ground, generating propulsion through controlled frictional forces. The interplay between magnetic excitation, elastic deformation, and contact dynamics determines the robot’s locomotion efficiency and stability. By capturing the complex coupling between actuation and ground interaction, this model provides valuable insights into the design of magnetically controlled soft robots for applications in biomedical engineering, inspection, and search-and-rescue operations.
 

@@ -5,7 +5,7 @@ parent: Hyperelastic structure
 layout: default
 ---
 
-## Hyperelastic axisymmetric membrane
+## [Hyperelastic axisymmetric membrane](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/hyper_elastic/case_2)
 
 In this subsection, we examine an axisymmetric membrane, a commonly used hyperelastic structure for soft actuators, to demonstrate the effectiveness of DDG in handling nonlinear hyperelastic constitutive laws. In contrast to the axisymmetric shell, where bending energy dominates, the axisymmetric membrane solely undergoes stretching, as seen in the inflation of a balloon. Moreover, due to the large physical strain, the linear elastic model fails to accurately describe the membrane's inflation, making a hyperelastic model essential.
 
