@@ -5,7 +5,7 @@ parent: Net and gridshell
 layout: default
 ---
 
-## Form-finding of gridshell [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/rod_network/case_2)
+## [Form-finding of gridshell](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/rod_network/case_2)
 
 Elastic gridshell refers to a network of elastic rods linked by joints and finds broad applications in the civil engineering community, such as the Helsinki Zoo’s observatory tower and Centre Pompidou Metz. In this case study, we examine the form-finding behavior of a hemispherical gridshell structure subjected to compressive loading. The grid is modeled with an initially flat shape, allowing it to deform and self-organize into a stable, curved configuration through controlled buckling. As the compressive forces act on the structure, the grid transitions into its equilibrium shape, illustrating the role of buckling in shape formation. This case highlights the ability of the DDG model to accurately capture the self-organizing behavior of slender elastic structures.
 
