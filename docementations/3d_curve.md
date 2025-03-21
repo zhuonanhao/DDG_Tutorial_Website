@@ -23,6 +23,7 @@ $$
 Three types of elements are used to capture the mechanics of a discrete slender structure in 3D space: (i) stretching element, (ii) bending element, and (iii) twisting element.  Consistent with the previous section, the number of stretching elements is denoted as $$N_{s}$$, while the number of bending and twisting elements are the same and denoted as $$N_{b}$$. Similar to the previous planar beam case, if only the stretching element is considered, the 3D rod structures would reduce to the 3D cable structures.
 
 
+<br/><img src='../assets/figures/rod_model.png' width="800">
 
 ###  Stretching element
 
