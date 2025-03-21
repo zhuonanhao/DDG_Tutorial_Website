@@ -8,13 +8,11 @@ layout: default
 # Rod and ribbon: 3D curve
 
 
-Here, we formulate the mechanics of 3D slender structures, such as rods or ribbons, whose motion can be simplified to that of a central line, represented as a 3D curve. To capture the configuration of the curve, we need $$N$$ nodes and $$M$$ edges. Each node is denoted as $$\mathbf{x}_{i} \equiv [x_{i}, y_{i}, z_{i}]^{T} \in \mathcal{R}^{3 \times 1}$$.
-%
-To define an edge, two frames are required: for the $$j$$-th edge, we introduce an adaptive reference frame, $$\{ \mathbf{d}_{j}^{1}, \mathbf{d}_{j}^{2}, \mathbf{d}_{j}^{3}\}$$, and a local material frame, $$\{ \mathbf{m}_{j}^{1}, \mathbf{m}_{j}^{2}, \mathbf{m}_{j}^{3}\}$$. These frames share a common tangent direction, and the rotational angle between the two frames along the tangent direction is defined as $$\theta_{j}$$, i.e.
+Here, we formulate the mechanics of 3D slender structures, such as rods or ribbons, whose motion can be simplified to that of a central line, represented as a 3D curve. To capture the configuration of the curve, we need $$N$$ nodes and $$M$$ edges. Each node is denoted as $$\mathbf{x}_{i} \equiv [x_{i}, y_{i}, z_{i}]^{T} \in \mathcal{R}^{3 \times 1}$$. To define an edge, two frames are required: for the $$j$$-th edge, we introduce an adaptive reference frame, $$\{ \mathbf{d}_{j}^{1}, \mathbf{d}_{j}^{2}, \mathbf{d}_{j}^{3}\}$$, and a local material frame, $$\{ \mathbf{m}_{j}^{1}, \mathbf{m}_{j}^{2}, \mathbf{m}_{j}^{3}\}$$. These frames share a common tangent direction, and the rotational angle between the two frames along the tangent direction is defined as $$\theta_{j}$$, i.e.
 
 $$
-\mathbf{m}_{j}^{1} = \mathbf{d}_{j}^{1} \cos(\theta_{j}) + \mathbf{d}_{j}^{2} \sin(\theta_{j}), \\
-\mathbf{m}_{j}^{2} = \mathbf{d}_{j}^{2} \cos(\theta_{j}) -\mathbf{d}_{j}^{1} \sin(\theta_{j}), \\
+\mathbf{m}_{j}^{1} = \mathbf{d}_{j}^{1} \cos(\theta_{j}) + \mathbf{d}_{j}^{2} \sin(\theta_{j}), 
+\mathbf{m}_{j}^{2} = \mathbf{d}_{j}^{2} \cos(\theta_{j}) -\mathbf{d}_{j}^{1} \sin(\theta_{j}), 
 \mathbf{m}_{j}^{3}  \equiv  \mathbf{d}_{j}^{3}.
 $$
 
