@@ -11,15 +11,7 @@ layout: default
 Here, we formulate the mechanics of 3D slender structures, such as rods or ribbons, whose motion can be simplified to that of a central line, represented as a 3D curve. To capture the configuration of the curve, we need $$N$$ nodes and $$M$$ edges. Each node is denoted as $$\mathbf{x}_{i} \equiv [x_{i}, y_{i}, z_{i}]^{T} \in \mathcal{R}^{3 \times 1}$$. To define an edge, two frames are required: for the $$j$$-th edge, we introduce an adaptive reference frame, $$\{ \mathbf{d}_{j}^{1}, \mathbf{d}_{j}^{2}, \mathbf{d}_{j}^{3}\}$$, and a local material frame, $$\{ \mathbf{m}_{j}^{1}, \mathbf{m}_{j}^{2}, \mathbf{m}_{j}^{3}\}$$. These frames share a common tangent direction, and the rotational angle between the two frames along the tangent direction is defined as $$\theta_{j}$$, i.e.
 
 $$
-\mathbf{m}_{j}^{1} = \mathbf{d}_{j}^{1} \cos(\theta_{j}) + \mathbf{d}_{j}^{2} \sin(\theta_{j}), 
-$$
-
-$$
-\mathbf{m}_{j}^{2} = \mathbf{d}_{j}^{2} \cos(\theta_{j}) -\mathbf{d}_{j}^{1} \sin(\theta_{j}), 
-$$
-
-$$
-\mathbf{m}_{j}^{3}  \equiv  \mathbf{d}_{j}^{3}.
+\mathbf{m}_{j}^{1} = \mathbf{d}_{j}^{1} \cos(\theta_{j}) + \mathbf{d}_{j}^{2} \sin(\theta_{j}), \; \mathbf{m}_{j}^{2} = \mathbf{d}_{j}^{2} \cos(\theta_{j}) -\mathbf{d}_{j}^{1} \sin(\theta_{j}), \; \mathbf{m}_{j}^{3}  \equiv  \mathbf{d}_{j}^{3}.
 $$
 
 The total DOF vector is defined as
@@ -28,7 +20,7 @@ $$
 \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}}; \theta_{1}; \theta_{2}; \ldots; \theta_{M} ] \in \mathcal{R}^{ (3N+M) \times 1}.
 $$
 
-Three types of elements are used to capture the mechanics of a discrete slender structure in 3D space: (i) stretching element, (ii) bending element, and (iii) twisting element.  Consistent with previous section, the number of stretching elements is denoted as $$N_{s}$$, while the number of bending and twisting elements are the same and denoted as $$N_{b}$$. Similar to the previous planar beam case, if only the stretching element is considered, the 3D rod structures would reduce to the 3D cable structures.
+Three types of elements are used to capture the mechanics of a discrete slender structure in 3D space: (i) stretching element, (ii) bending element, and (iii) twisting element.  Consistent with the previous section, the number of stretching elements is denoted as $$N_{s}$$, while the number of bending and twisting elements are the same and denoted as $$N_{b}$$. Similar to the previous planar beam case, if only the stretching element is considered, the 3D rod structures would reduce to the 3D cable structures.
 
 
 
@@ -89,8 +81,7 @@ $$
 The two edge vectors are
 
 $$
-\mathbf{e}_{1} = \mathbf{x}_{2}  -\mathbf{x}_{1},
-\mathbf{e}_{2} = \mathbf{x}_{3}  -\mathbf{x}_{2}.
+\mathbf{e}_{1} = \mathbf{x}_{2}  -\mathbf{x}_{1}, \; \mathbf{e}_{2} = \mathbf{x}_{3}  -\mathbf{x}_{2}.
 $$
 
 The Voronoi length of the bending element is the average of the two edges, defined as
@@ -108,8 +99,7 @@ $$
 The material curvatures are given by the inner products between the curvature bi-normal and the material frame as
 
 $$
-\kappa_{1}  = \frac {\kappa \mathbf{b}} {2} \cdot \frac {\left( \mathbf m_1^{2} + \mathbf m_2^{2} \right)} { l}, 
-\kappa_{2}  = - \frac {\kappa \mathbf{b}} {2} \cdot \frac{\left( \mathbf m_1^{1} + \mathbf m_2^{1}\right) } { l}.
+\kappa_{1}  = \frac {\kappa \mathbf{b}} {2} \cdot \frac {\left( \mathbf m_1^{2} + \mathbf m_2^{2} \right)} { l}, \; \kappa_{2}  = - \frac {\kappa \mathbf{b}} {2} \cdot \frac{\left( \mathbf m_1^{1} + \mathbf m_2^{1}\right) } { l}.
 $$
 
 For the linear elastic constitutive model, the discrete bending energy is a quadratic function of the curvature as
