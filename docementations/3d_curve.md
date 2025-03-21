@@ -12,7 +12,13 @@ Here, we formulate the mechanics of 3D slender structures, such as rods or ribbo
 
 $$
 \mathbf{m}_{j}^{1} = \mathbf{d}_{j}^{1} \cos(\theta_{j}) + \mathbf{d}_{j}^{2} \sin(\theta_{j}), 
+$$
+
+$$
 \mathbf{m}_{j}^{2} = \mathbf{d}_{j}^{2} \cos(\theta_{j}) -\mathbf{d}_{j}^{1} \sin(\theta_{j}), 
+$$
+
+$$
 \mathbf{m}_{j}^{3}  \equiv  \mathbf{d}_{j}^{3}.
 $$
 
