@@ -5,7 +5,7 @@ parent: Documentation
 layout: default
 ---
 
-# Net and gridsheel: hollow surface
+# Net and gridshell: hollow surface
 
 
 The numerical formulation of net and gridshell structures is straightforward, as the mechanics of the hollow rod network can be captured using rod simulations with appropriately defined input elements. Based on their deformation characteristics, these hollow structures can be categorized into three types:
