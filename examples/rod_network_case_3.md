@@ -5,7 +5,7 @@ parent: Net and gridshell
 layout: default
 ---
 
-## [Lattice grid under gravity](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/rod_network/case_3)
+## Lattice grid under gravity[:arrow_forward:](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/rod_network/case_3)
 
 Lattice grid systems are largely used in programmable metamaterials. In this case study, we examine the free oscillation behavior of a lattice grid structure subjected to gravity. The grid is modeled with a fixed corner, allowing it to deform under its self-weight. As the gravitational load acts on the lattice, it undergoes oscillatory motion due to its inherent flexibility. This case highlights the ability of the DDG model to effectively capture the structural flexibility and load-bearing characteristics of lattice frameworks.
 
