@@ -84,11 +84,7 @@ $$
 Next, the surface normal vectors of two triangular meshes are given by
 
 $$
-\mathbf{n}_1  =  \frac {\mathbf{e}_{1} \times \mathbf{e}_{2}} { || \mathbf{e}_{1} \times \mathbf{e}_{2}||}, 
-$$
-
-$$
-\mathbf{n}_2  =  \frac {\mathbf{e}_{3} \times \mathbf{e}_{4}} {|| \mathbf{e}_{3} \times \mathbf{e}_{4} ||}.
+\mathbf{n}_1  =  \frac {\mathbf{e}_{1} \times \mathbf{e}_{2}} { || \mathbf{e}_{1} \times \mathbf{e}_{2}||}, \; \mathbf{n}_2  =  \frac {\mathbf{e}_{3} \times \mathbf{e}_{4}} {|| \mathbf{e}_{3} \times \mathbf{e}_{4} ||}.
 $$
 
 The bending curvature is associated with the turning angle between the two connecting surfaces, which can be expressed as
