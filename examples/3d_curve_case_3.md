@@ -7,6 +7,8 @@ layout: default
 
 ## Growth of annular ribbon
 
+Growth ribbons are usually built as a model for plant tissues in nature, such as the swelling and shrinkage of pine cones, pea pods and leaves, during these processes the ribbons usually have a large deformation behavior. In this case study, we examine the growth of an annular ribbon, driven by an increase in its natural curvature. The ribbon is initially defined with a specified radius and undergoes deformation as its natural curvature increases, mimicking the behavior of plant tissues. We track the ribbon’s deformation throughout the growth process, focusing on the resulting structural changes. This case highlights the ability of the DDG model to accurately simulate complex growth behaviors and large deformations in soft, thin structures.
+
 ### Simulation Initialization
 
 To initialize the simulation, the following inputs are used:
