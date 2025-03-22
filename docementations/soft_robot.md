@@ -36,19 +36,19 @@ $$
     \mathbf{t} = (\mathbf{x}_{2} - \mathbf{x}_{1}) / || \mathbf{x}_{2} - \mathbf{x}_{1} ||, \; \mathrm{and} \; \mathbf{n} \cdot \mathbf{t} = 0.
 $$
 
-For each beam segment, the remanent magnetization is represented as $$\mathbf{B}_{r} \in \mathcal{R}^{2\times 1}$$. Therefore, the discrete format of the magnetic functional for this rod segment is 
+The discrete format of the magnetic functional for this rod segment is 
 
 $$
 E^{\mathrm{mag}} = - \bar{l} \cdot ( {\mathcal{M}} \cdot \mathbf{B} ),
 $$
 
-where
+where $$\mathbf{B} \in \mathcal{R}^{2\times1}$$ is the external magnetic field and $${\mathcal{M}} \in \mathcal{R}^{2\times1}$$ is the remanent magnetization density per length, i.e.,
 
 $$
- {\mathcal{M}} = A \left[ \left( \mathbf{t}\otimes \bar{\mathbf{t}} + \mathbf{n} \otimes \bar{\mathbf{n}} \right) \cdot \mathbf{B}_{r} \right ].
+ {\mathcal{M}} = A \left[ \left( \mathbf{t}\otimes \bar{\mathbf{t}} + \mathbf{n} \otimes \bar{\mathbf{n}} \right) \cdot \bar{\mathbf{B}}_{r} \right ].
 $$
 
-Here, $$A$$ is the local cross-sectional area, and $$\mathbf{B}_{r}$$ is the remanent magnetization density per unit volume of the segment in the reference configuration. Hereafter, we use a bar on top to indicate the evaluation of the undeformed configuration, e.g., $$\bar{l}$$ is the edge length before deformation. The magnetic force vector,  $$\mathbf{F}^{\mathrm{mag}}_{\mathrm{local}}$$, can be derived by finding the gradient of the magnetic potential as
+Here, $$A$$ is the local cross-sectional area, and $$\bar{\mathbf{B}}_{r}$$ is the remanent magnetization density per unit volume of the segment in the reference configuration. Hereafter, we use a bar on top to indicate the evaluation of the undeformed configuration, e.g., $$\bar{l}$$ is the edge length before deformation. The magnetic force vector,  $$\mathbf{F}^{\mathrm{mag}}_{\mathrm{local}}$$, can be derived by finding the gradient of the magnetic potential as
 
 $$
 \mathbf{F}^{\mathrm{mag}}_{\mathrm{local}} = -\frac{\partial E^{\mathrm{mag}}}  {\partial \mathbf{q}^{s}}.
@@ -79,8 +79,7 @@ $$
 \mathbf{v}_{\parallel} = \left ( \mathbf{v} \cdot \mathbf{t} \right) \cdot \mathbf{t}, \; \mathbf{v}_{\perp} = \left ( \mathbf{v} \cdot \mathbf{n} \right) \cdot \mathbf{n},
 $$
 
-where $$\mathbf{v} =  {(\mathbf{v}_{1} + \mathbf{v}_{2})} /{2}$$ is the segment velocity. When the Reynolds number is relatively high, i.e., $$Re\gg 1$$, the local fluid drag force is typically quadratic with the velocity in underwater locomotion as
-
+where $$\mathbf{v} =  {(\mathbf{v}_{1} + \mathbf{v}_{2})} /{2}$$ is the segment velocity. For most underwater locomotion, the Reynolds number is Intermediate, i.e., $$ 1.0 < Re < 1000.0$$, the local fluid drag force is typically quadratic with the velocity,
 $$
 (\mathbf{F}_{\mathrm{local}}^{\text{drag}})_{\parallel} = - \frac{1} {2} \rho_{0} C_{\parallel} || \mathbf{v}_{\parallel} ||  \mathbf{v}_{\parallel} , 
 $$
