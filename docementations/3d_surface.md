@@ -7,7 +7,7 @@ layout: default
 
 # Plate and shell: 3D surface
 
-The configuration of a planar beam is represented by $$N$$ nodes, where each node is defined as $$\mathbf{x}_{i} \equiv [x_{i}, y_{i}, z_{i}]^{T} \in \mathcal{R}^{3 \times 1}$$. Thus, the total DOF vector is given by
+As shown in the figure below, the configuration of a 3D surface is represented by $$N$$ nodes, where each node is defined as $$\mathbf{x}_{i} \equiv [x_{i}, y_{i}, z_{i}]^{T} \in \mathcal{R}^{3 \times 1}$$. Thus, the total DOF vector is given by
 
 $$
 \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ] \in \mathcal{R}^{3N \times 1}.
