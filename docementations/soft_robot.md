@@ -129,4 +129,3 @@ is the relative velocity along the surface tangential direction, and $$\epsilon_
 - [Case 1: Beam under magnetic actuation](../examples/soft_robot_case_1.html)
 - [Case 2: Soft swimming robot](../examples/soft_robot_case_2.html)
 - [Case 3: Soft crawling robot](../examples/soft_robot_case_3.html)
-- 
