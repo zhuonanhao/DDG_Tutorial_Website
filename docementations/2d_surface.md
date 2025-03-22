@@ -7,7 +7,7 @@ layout: default
 
 # Axisymmetric shell: rotational surface
 
-Here, we discuss how a simple 2D curve can represent the mechanics of an axisymmetric shell. The configuration of a planar beam is presented by $$N$$ nodes, where each node is defined as $$\mathbf{x}_{i} \equiv [r_{i}, z_{i}]^{T} \in \mathcal{R}^{2 \times 1}$$. Consequently, the total DOF vector is given by
+Here, we discuss how a simple 2D curve can represent the mechanics of an axisymmetric shell. As shown in the figure below, the configuration of a planar beam is presented by $$N$$ nodes, where each node is defined as $$\mathbf{x}_{i} \equiv [r_{i}, z_{i}]^{T} \in \mathcal{R}^{2 \times 1}$$. Consequently, the total DOF vector is given by
 
 $$
 \mathbf{q} = [ \mathbf{x}_1; \mathbf{x}_2; \ldots; {\mathbf{x}_{N}} ] \in \mathcal{R}^{2N \times 1}.
