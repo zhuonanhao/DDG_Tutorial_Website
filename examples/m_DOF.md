@@ -33,7 +33,7 @@ To initialize the simulation, the following inputs are used:
 5. **Initial conditions:**
    - (i) Initial position $$\mathbf{q}(t=0) = [1.0, 2.0, 3.0]^{T} \mathrm{~m}$$.
    - (ii) Initial velocity is set to zeros, $$\mathbf{\dot{q}}(t=0) = [0, 0, 0]^{T} \mathrm{~m/s}$$.
-   - 
+
 6. **Loading steps:**
    - The periodic force, $$F_{i} \sin (\omega_{i} t) \; \mathrm{with} \; i \in [1,2,3]$$, is applied into the system, where the magnitudes of the external force are $${F}_{1}^{\rm ext} = 1.0$$ N, $${F}_{2}^{\rm ext} = 2.0$$ N, $${F}_{3}^{\rm ext} =3.0$$ N and the frequencies are $$\omega_{1} = 1.0$$ rad/s, $$\omega_{2} = 2.0$$ rad/s, $$\omega_{3} = 3.0$$ rad/s.
 
