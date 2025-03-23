@@ -15,9 +15,7 @@ To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**  
    - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N=50$$ nodes.  
-   - (ii) Helical parameters:  
-     - Helical radius, $$R_h = 0.125$$ m.  
-     - Helical pitch, $$P_h = 0.234$$ m.  
+   - (ii) Helical parameters:  helical radius, $$R_h = 0.125$$ m, and helical pitch, $$P_h = 0.234$$ m.  
    - (iii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=49$$ stretching elements.  
    - (iv) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b}=48$$ bending elements.  
 
