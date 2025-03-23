@@ -34,16 +34,16 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - The 20 boundary nodes are fixed and manually moved along a prescribed path. Thus, the constrained array, $$\mathcal{FIX} \in \mathcal{R}^{60 \times 1}$$, can be constructed accordingly.
+   - The 20 boundary nodes are fixed and manually moved along a prescribed path. Thus, the constrained array, $$\mathcal{FIX} $$, can be constructed accordingly.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - (i) Perturbation step: A perturbation to the initial horizontal configuration is created by applying a gravitational force (with $$\mathbf{g} = [0.0, 0.0, 10.0]^T$$ $$\mathrm{m/s^2}$$) when $$t \le 1.0$$ s.
-   - (ii) Compression step: The footprints are moved to induce the form-finding process during $$1.0 \; \mathrm{s} < t < 5.0 \; \mathrm{s}$$.
-   - (iii) Remove Perturbation: Gravity is removed to eliminate residual perturbations when $$t \ge 5.0$$ s.
+   - (i) Perturbation step: a perturbation to the initial horizontal configuration is created by applying a gravitational force (with $$\mathbf{g} = [0.0, 0.0, 10.0]^T$$ $$\mathrm{m/s^2}$$) when $$t \le 1.0$$ s.
+   - (ii) Compression step: the footprints are moved to induce the form-finding process during $$1.0 \; \mathrm{s} < t < 5.0 \; \mathrm{s}$$.
+   - (iii) Remove Perturbation: gravity is removed to eliminate residual perturbations when $$t \ge 5.0$$ s.
 
 
 ### Dynamic Rendering
