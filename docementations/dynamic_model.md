@@ -1,11 +1,11 @@
 ---
-title: "General structural dynamics"
+title: "Structural dynamic simulation"
 nav_order: 1
 parent: Documentation
 layout: default
 ---
 
-# General structural dynamics
+# Structural dynamic simulation
 
 We use a generalized degree of freedom (DOF) vector, $$\mathbf{q} \in \mathcal{R}^{N \times 1}$$, to formulate the structural dynamic equations based on Newton's second law,
 
