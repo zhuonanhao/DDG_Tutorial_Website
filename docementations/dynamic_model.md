@@ -7,7 +7,7 @@ layout: default
 
 # General structure dynamics
 
-we use a generalized degree of freedom (DOF) vector, $$\mathbf{q} \in \mathcal{R}^{N \times 1}$$, to formulate the structural dynamic equations based on Newton's second law,
+We use a generalized degree of freedom (DOF) vector, $$\mathbf{q} \in \mathcal{R}^{N \times 1}$$, to formulate the structural dynamic equations based on Newton's second law,
 
 $$
 \mathbb{M} \ddot{\mathbf{q}}(t) + \mathbb{C} \dot{\mathbf{q}}(t) + \mathbb{K} \mathbf{q}(t) = \mathbf{F}^{\mathrm{ext}}(t),
