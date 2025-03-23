@@ -1,6 +1,6 @@
 ---
 title: "Rod and ribbon: 3D curve"
-nav_order: 2
+nav_order: 3
 parent: Documentation
 layout: default
 ---
