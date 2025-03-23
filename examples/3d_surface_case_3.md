@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - The $$z$$ position of the $$417$$-th node is manually moved along the negative $$z$$-axis to perform the vertical loading. The loading rate is $$v_{z} = 0.1$$ m/s.
+   - The $$Z$$ position of the $$417$$-th node is manually moved along the negative $$Z$$-axis to perform the vertical loading. The loading rate is $$v_{z} = 0.1$$ m/s.
 
 
 ### Dynamic Rendering
