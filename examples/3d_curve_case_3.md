@@ -21,7 +21,7 @@ To initialize the simulation, the following inputs are used:
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=10.0$$ MPa.
    - (ii) Poisson's ratio, $$\nu=0.5$$.  
-   - (iii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
+   - (iii) Material density, $$\rho=100\mathrm{~kg/m^3}$$.
    - (iv) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.
    - (v) Damping viscosity, $$\mu = 0.1$$.
    - (vi) Gravitational field, $$ \mathbf{g}=[0.0, 0.0, -10.0]^{T}\mathrm{~m/s^2}$$.
