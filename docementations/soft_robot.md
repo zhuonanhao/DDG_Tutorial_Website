@@ -81,7 +81,7 @@ $$
 
 where 
 
-$$\mathbf{v} =  {(\mathbf{v}_{1} + \mathbf{v}_{2})} /{2}$$ 
+$$\mathbf{v} = \frac{1}{2} {(\mathbf{v}_{1} + \mathbf{v}_{2})} $$ 
 
 is the segment velocity. For most underwater locomotion, the Reynolds number is Intermediate, i.e., $$ 1.0 < Re < 1000.0$$, the local fluid drag force is typically quadratic with the velocity,
 
