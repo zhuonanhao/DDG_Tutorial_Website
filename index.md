@@ -12,7 +12,7 @@ Why DDG?
 
 Discrete differential geometry (DDG) has emerged as a promising numerical framework for simulating flexible structures, particularly in scenarios involving large deformations, geometric complexity, and nonlinear interactions. Initially developed in the computational graphics and computer geometry communities, DDG has gained increasing recognition in structural mechanics for its ability to preserve geometric properties while efficiently modeling thin elastic structures, such as **rods, ribbons, plates, and shells**. Unlike conventional numerical methods, which focus on discretizing differential equations, DDG instead discretizes the underlying geometry itself, enabling more **efficient and stable simulations** of complex deformations.
 
-<br/><img src='../assets/figures/DDG_method.png' width="400"> Geometry discretizations in DDG simulations. (a-b) A continuous curve is approximated using discrete nodes and edges. (c-d). A continuous surface is approximated using discrete triangular elements.
+![Algorithm](assets/figures/DDG_method.png) Geometry discretizations in DDG simulations. (a-b) A continuous curve is approximated using discrete nodes and edges. (c-d). A continuous surface is approximated using discrete triangular elements.
 
 ## Key Advantages of the DDG Method
 
