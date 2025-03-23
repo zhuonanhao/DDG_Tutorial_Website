@@ -1,6 +1,6 @@
 ---
 title: "Flexible structures with material nonlinearity"
-nav_order: 6
+nav_order: 7
 parent: Documentation
 layout: default
 ---
