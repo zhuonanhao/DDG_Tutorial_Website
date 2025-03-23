@@ -42,7 +42,7 @@ To initialize the simulation, the following inputs are used:
 
 6. **Loading steps:**
    - (i) Perturbation step: a small perturbation to the initial horizontal configuration is created by applying a small gravitational force (with $$ \mathbf{g}=[0.1,0.1,0.1]^T\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
-   - (ii) Growth step: when $$t>1.0\mathrm{~s}$$, the normalized natural curvature, $$\bar{\kappa}_1 /  l$$, would increase with a growth rate $$\dot{\bar{\kappa}}_1 /  l=0.01 \mathrm{s^{-1}}$$.
+   - (ii) Growth step: when $$t>1.0\mathrm{~s}$$, the normalized natural curvature, $$\bar{\kappa}_1 /  l$$, would increase with a growth rate $$\dot{\bar{\kappa}}_1 /  l=0.01 \mathrm{~s^{-1}}$$.
 
 
 ### Dynamic Rendering

@@ -22,14 +22,14 @@ To initialize the simulation, the following inputs are used:
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=100\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
-   - (iii) Plate thickness, $$h = 0.01$$ m.
+   - (iii) Plate thickness, $$h = 0.01\mathrm{~m}$$.
    - (iv) Gravitational field, $$ \mathbf{g}=[0.0, 0.0, -10.0]^T \mathrm{~m/s^2}$$.
    - (v) Damping viscosity, $$\mu = 0.1$$.
    - (vi) The overall simulation is dynamic, i.e., $$ \mathrm{ifStatic} = 0$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T=5.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} =0.01$$ s.
+   - (i) Total simulation time, $$T=5.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} =0.01\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
