@@ -39,7 +39,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - (i) The external pressure is increasing with a loading rate, $$\dot{p} = 10.0$$ KPa/s.
+   - (i) The external pressure is increasing with a loading rate, $$\dot{p} = 10.0$$ kPa/s.
 
 
 ### Dynamic Rendering
