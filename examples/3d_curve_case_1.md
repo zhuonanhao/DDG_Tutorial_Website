@@ -37,7 +37,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}}=10$$.  
 
 4. **Boundary conditions:**  
-   - The first two nodes $$\{ \mathbf{x}_{1}, \mathbf{x}_{2} \}$$ and the first twisting angle $$\theta_{1}$$ are fixed to achieve clamped-free boundary conditions: $$\mathcal{FIX} = [1,2,3,4,5,6,151]^{T}.$$  
+   - The first two nodes $$\{ \mathbf{x}_{1}, \mathbf{x}_{2} \}$$ and the first twisting angle $$\{ \theta_{1} \}$$ are fixed to achieve clamped-free boundary conditions: $$\mathcal{FIX} = [1,2,3,4,5,6,151]^{T}.$$  
 
 5. **Initial conditions:**  
    - (i) Initial position is input from the nodal positions.  
