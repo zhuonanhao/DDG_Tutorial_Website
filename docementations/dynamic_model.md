@@ -32,7 +32,7 @@ $$
 \dot{\mathbf{q}}(t_{k+1}) = \dot{\mathbf{q}}(t_{k}) + \ddot{\mathbf{q}}(t_{k+1}) \mathrm{dt}, 
 $$
 
-where $$\mathrm{dt}$$ is the time step size. Thus, the $$N$$-sized continuous equation of motions in Eq.~(\ref{eq:dynamicEquation}) can be discretized and numerically solved step by step
+where $$\mathrm{dt}$$ is the time step size. Thus, the $$N$$-sized continuous equation of motions can be discretized and numerically solved step by step
 
 $$
 \mathcal{E} \equiv \mathbb{M} \ddot{\mathbf{q}}(t_{k+1}) + \mathbb{C} \dot{\mathbf{q}}(t_{k+1}) - \mathbf{F}^{\text{int}}(t_{k+1}) - \mathbf{F}^{\text{ext}}(t_{k+1}) = \mathbf{0}.
