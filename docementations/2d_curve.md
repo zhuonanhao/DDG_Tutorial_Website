@@ -101,7 +101,7 @@ $$
 \mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}{\partial \mathbf{q}^{b}}, \quad \mathbb{K}^{b}_{\mathrm{local}} = \frac{\partial^2 E^{b}}{\partial \mathbf{q}^{b} \partial \mathbf{q}^{b}}.
 $$
 
-The detailed formulation can be found in the MATLAB code.  Finally, the global bending force vector,  $$\mathbf{F}^{b}$$, and the associated Hessian, $$\mathbb{K}^{b}$$, can be assembled by iterating over all stretching elements. 
+The detailed formulation can be found in the MATLAB code.  Finally, the global bending force vector,  $$\mathbf{F}^{b}$$, and the associated Hessian, $$\mathbb{K}^{b}$$, can be assembled by iterating over all c elements. 
 
 ## Examples
 
