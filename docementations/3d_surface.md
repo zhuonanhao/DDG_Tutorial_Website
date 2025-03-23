@@ -98,7 +98,7 @@ $$
 The discrete bending energy is given in a similar approach
 
 $$
-E^b = \frac{1}{12\sqrt{3}} Eb^3 (\kappa  - \bar{\kappa} )^2.
+E^b = \frac{1}{12\sqrt{3}} Eh^3 (\kappa  - \bar{\kappa} )^2.
 $$
 
 The local bending force vector, $$\mathbf{F}^{b}_{\mathrm{local}} \in \mathcal{R}^{12 \times 1}$$, as well as the local bending Hessian matrix, $$\mathbb{K}^{s}_{\mathrm{local}} \in \mathcal{R}^{12 \times 12}$$, can be derived through a variational approach
