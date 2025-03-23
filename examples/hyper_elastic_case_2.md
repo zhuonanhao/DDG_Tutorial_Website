@@ -18,7 +18,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Stretching elements: the connections between the nodes, with a total of $$N_s = 60$$.
 
 2. **Physical parameters:**
-   - (i) Shear modulus, $$G = 0.333$$ MPa, thus $$C_1 = 0.4G$$, and $$C_1 = 0.1G$$.
+   - (i) Shear modulus, $$G = 0.333\mathrm{~MPa}$$, thus $$C_1 = 0.4G$$, and $$C_1 = 0.1G$$.
    - (ii) Material density, $$\rho = 100.0$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_0 = 0.01$$ m.
    - (iv) Damping viscosity, $$\mu = 1.0$$.
@@ -39,7 +39,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros.
 
 6. **Loading steps:**
-   - The external pressure load is increased at a rate $$\dot{p} = 10.0$$ kPa/s.
+   - The external pressure load is increased at a rate $$\dot{p} = 10.0\mathrm{~kPa/s}$$.
 
 ### Dynamic Rendering
 <br/><img src='../assets/videos/hyper_2.gif' width="600">

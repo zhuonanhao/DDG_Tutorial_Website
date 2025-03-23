@@ -21,7 +21,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Bending elements: connection of every two triangular meshes, for a total number of $$N_{b}=1713$$ bending elements.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E=0.1$$ MPa.
+   - (i) Young's modulus, $$E=0.1\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
    - (iii) Plate thickness, $$h = 0.001$$ m.
    - (iv) Gravitational field, $$ \mathbf{g}=[1.0, 1.0, -30.0]^T \mathrm{~m/s^2}$$.

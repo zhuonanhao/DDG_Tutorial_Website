@@ -19,7 +19,7 @@ To initialize the simulation, the following inputs are used:
    - (iii) Bending elements: the connections between the edges, with a total of $$N_b = 120$$.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E = 1.0$$ GPa.
+   - (i) Young's modulus, $$E = 1.0\mathrm{~GPa}$$.
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_0 = 0.01$$ m, thus $$EI_1 = EI_2 = E \pi r_0^4 / 4$$ and $$GJ = G \pi r_0^4 / 2$$.
    - (iv) Damping viscosity, $$\mu = 0.1$$.

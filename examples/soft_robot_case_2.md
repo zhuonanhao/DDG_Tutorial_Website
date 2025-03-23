@@ -19,7 +19,7 @@ To initialize the simulation, the following inputs are used:
    - (iii) Bending elements: the connections between the edges, with a total of $$N_b = 38$$.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E = 0.1$$ MPa.
+   - (i) Young's modulus, $$E = 0.1\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_0 = 0.001$$ m.
    - (iv) Gravitational field, $$\mathbf{g} = [0.0, 0.0]^T$$ $$\mathrm{m/s^2}$$.

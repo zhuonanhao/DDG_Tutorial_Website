@@ -20,16 +20,16 @@ To initialize the simulation, the following inputs are used:
    - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_b=38$$ bending elements.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E = 1.0$$ GPa.
+   - (i) Young's modulus, $$E = 1.0\mathrm{~GPa}$$.
    - (ii) Poisson's ratio, $$\nu = 0.5$$.
-   - (iii) Material density, $$\rho = 1000$$ kg/m³.
-   - (iv) Shell thickness, $$h = 0.02$$ m.
+   - (iii) Material density, $$\rho = 1000\mathrm{~kg/m^3}$$.
+   - (iv) Shell thickness, $$h = 0.02\mathrm{~m}$$.
    - (v) Damping viscosity, $$\mu = 0.1$$.
    - (vi) The overall simulation is static, i.e., $$\mathrm{ifStatic} = 1$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T = 6.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} = 0.005$$ s.
+   - (i) Total simulation time, $$T = 6.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} = 0.005\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros.
 
 6. **Loading steps:**
-   - The first two nodes are manually moved from top to bottom with a constant speed $$v_z = 0.1$$ m/s.
+   - The first two nodes are manually moved from top to bottom with a constant speed $$v_z = 0.1\mathrm{~m/s}$$.
 
 ### Dynamic Rendering
 <br/><img src='../assets/videos/ashell_2.gif' width="600">

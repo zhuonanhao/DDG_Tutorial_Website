@@ -14,7 +14,7 @@ Next, we examine the forced oscillation behavior of a mass-spring-damper system 
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - The positions of the mass array are, $$\mathbf{x} =[1.0, 2.0, 3.0]^{T}\mathrm{~m}$$, and the connection is between the two consecutive mass points. Here, we use $$x_{0} = 0.0$$ m to build a connection between the first mass point and the initial point.
+   - The positions of the mass array are, $$\mathbf{x} =[1.0, 2.0, 3.0]^{T}\mathrm{~m}$$, and the connection is between the two consecutive mass points. Here, we use $$x_{0} = 0.0\mathrm{~m}$$ to build a connection between the first mass point and the initial point.
 
 2. **Physical parameters:**
    - (i) Mass $${m}_{1} = {m}_{2} = {m}_{3} = 1.0\mathrm{~kg}$$.
@@ -35,7 +35,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros, $$\mathbf{\dot{q}}(t=0) = [0, 0, 0]^{T} \mathrm{~m/s}$$.
 
 6. **Loading steps:**
-   - The periodic force, $$F_{i} \sin (\omega_{i} t) \; \mathrm{with} \; i \in [1,2,3]$$, is applied into the system, where the magnitudes of the external force are $${F}_{1}^{\rm ext} = 1.0\mathrm{~N}$$, $${F}_{2}^{\rm ext} = 2.0\mathrm{~N}$$, $${F}_{3}^{\rm ext} =3.0\mathrm{~N}$$ and the frequencies are $$\omega_{1} = 1.0\mathrm{rad/s}$$, $$\omega_{2} = 2.0\mathrm{rad/s}$$, $$\omega_{3} = 3.0\mathrm{rad/s}$$.
+   - The periodic force, $$F_{i} \sin (\omega_{i} t) \; \mathrm{with} \; i \in [1,2,3]$$, is applied into the system, where the magnitudes of the external force are $${F}_{1}^{\rm ext} = 1.0\mathrm{~N}$$, $${F}_{2}^{\rm ext} = 2.0\mathrm{~N}$$, $${F}_{3}^{\rm ext} =3.0\mathrm{~N}$$ and the frequencies are $$\omega_{1} = 1.0\mathrm{~rad/s}$$, $$\omega_{2} = 2.0\mathrm{~rad/s}$$, $$\omega_{3} = 3.0\mathrm{~rad/s}$$.
 
 
 ### Dynamic Rendering

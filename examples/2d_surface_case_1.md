@@ -13,21 +13,21 @@ In this case study, we examine the inflation behavior of an axisymmetric plate u
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N = 40$$ nodes. The axisymmetric plate is initialized in a flat state with a radius $$R = 1.0 \, \text{m}$$.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N = 40$$ nodes. The axisymmetric plate is initialized in a flat state with a radius $$R = 1.0 \mathrm{~m}$$.
    - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s} = 39$$ stretching elements.
    - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b} = 38$$ bending elements.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E = 1.0$$ MPa.
+   - (i) Young's modulus, $$E = 1.0\mathrm{~MPa}$$.
    - (ii) Poisson's ratio, $$\nu = 0.5$$.
-   - (iii) Material density, $$\rho = 1000 \, \text{kg/m}^3$$.
-   - (iv) Plate thickness, $$h = 0.02 \, \text{m}$$.
+   - (iii) Material density, $$\rho = 1000 \mathrm{~kg/m^3}$$.
+   - (iv) Plate thickness, $$h = 0.02 \mathrm{~m}$$.
    - (v) Damping viscosity, $$\mu = 0.1$$.
    - (vi) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T = 2.0 \, \text{s}$$.
-   - (ii) Time step size, $$\mathrm{dt} = 0.01 \, \text{s}$$.
+   - (i) Total simulation time, $$T = 2.0 \mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} = 0.01 \mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
@@ -39,7 +39,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - (i) The external pressure is increasing with a loading rate, $$\dot{p} = 10.0$$ kPa/s.
+   - (i) The external pressure is increasing with a loading rate, $$\dot{p} = 10.0\mathrm{~kPa/s}$$.
 
 
 ### Dynamic Rendering

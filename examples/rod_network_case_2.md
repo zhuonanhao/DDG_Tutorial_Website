@@ -20,7 +20,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Target position: the final position for the 20 footprints.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E = 100$$ MPa.
+   - (i) Young's modulus, $$E = 100\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_0 = 0.01$$ m, thus $$EI_1 = EI_2 = E \pi r_0^4 / 4$$ and $$GJ = G \pi r_0^4 / 2$$.
    - (iv) Damping viscosity, $$\mu = 1.0$$.

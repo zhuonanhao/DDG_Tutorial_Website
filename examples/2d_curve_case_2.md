@@ -27,7 +27,7 @@ To initialize the simulation, the following inputs are used:
    - (vi) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T=10.0$$ s.
+   - (i) Total simulation time, $$T=10.0\mathrm{~s}$$.
    - (ii) Time step size, $$\mathrm{dt} =0.01 \mathrm{~s}$$.
    - (iii) Numerical force tolerance, $$\mathrm{tol} = 1\times10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}}=10$$.
@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
 
 6. **Loading steps:**
    - (i) Perturbation step: a small perturbation to the initial horizontal configuration is created by applying a small gravitational force (with $$ \mathbf{g}=[0.0,0.1]^{T}\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
-   - (ii) Compression step: when $$t>1.0$$ s, a displacement is applied to the last two nodes along the negative $$X$$-axis with speed $$v_{0} = 0.1\mathrm{~m/s}$$, until the compression distance is larger than the target value, $$\Delta x \ge 0.6$$ m.
+   - (ii) Compression step: when $$t>1.0\mathrm{~s}$$, a displacement is applied to the last two nodes along the negative $$X$$-axis with speed $$v_{0} = 0.1\mathrm{~m/s}$$, until the compression distance is larger than the target value, $$\Delta x \ge 0.6\mathrm{~m}$$.
 
 ### Dynamic Rendering
 <br/><img src='../assets/videos/beam_2.gif' width="600">

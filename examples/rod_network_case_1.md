@@ -18,7 +18,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Stretching elements: the connections between the nodes, with a total of $$N_{s} = 720$$.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E = 1.0$$ MPa.
+   - (i) Young's modulus, $$E = 1.0\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_{0} = 0.01$$ m.
    - (iv) Damping viscosity, $$\mu = 0.1$$.

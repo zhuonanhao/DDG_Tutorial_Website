@@ -19,7 +19,7 @@ To initialize the simulation, the following inputs are used:
    - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b}=38$$ bending elements.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E=100$$ MPa.
+   - (i) Young's modulus, $$E=100\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.
    - (iv) Damping viscosity, $$\mu = 0.1$$.

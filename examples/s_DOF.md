@@ -34,7 +34,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity $$ \dot{x}(t=0) = 0.0 \mathrm{~m/s}$$.
 
 6. **Loading steps:**
-   - A periodic external force $$F^{\rm ext} = F_{0}\sin(\omega t)$$ is applied to the system, where the force magnitude is $$F_{0}=1.0\mathrm{~N}$$ and the frequency is $$\omega=1.0\mathrm{~rad/s}$$.
+   - A periodic external force $$F^{\rm ext} = F_{0}\sin(\omega t)$$ is applied to the system, where the force magnitude is $$F_{0}=1.0\mathrm{~N}$$ and the frequency is $$\omega=1.0 \mathrm{~rad/s}$$.
 
 ### Dynamic Rendering
 <br/><img src='../assets/videos/dof_single.gif' width="600">

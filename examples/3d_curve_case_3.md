@@ -14,15 +14,15 @@ Growth ribbons are usually built as a model for plant tissues in nature, such as
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$. The system is initialized as an annular ribbon connected end to end with a radius $$R = 1.0$$ m. 
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$. The system is initialized as an annular ribbon connected end to end with a radius $$R = 1.0\mathrm{~m}$$. 
    - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=40$$ stretching elements.
    - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b}=40$$ bending elements.
 
 2. **Physical parameters:**
-   - (i) Young's modulus, $$E=10.0$$ MPa.
+   - (i) Young's modulus, $$E=10.0\mathrm{~MPa}$$.
    - (ii) Poisson's ratio, $$\nu=0.5$$.  
    - (iii) Material density, $$\rho=100\mathrm{~kg/m^3}$$.
-   - (iv) Ribbon width $$w=0.2$$ m, ribbon thickness is $$h=0.01$$ m, thus $$EI_{2} = Ewh^3/12$$, $$EI_{1} = 400EI_{2}$$, and $$GJ=Gwh^3/3$$.
+   - (iv) Ribbon width $$w=0.2\mathrm{~m}$$, ribbon thickness is $$h=0.01\mathrm{~m}$$, thus $$EI_{2} = Ewh^3/12$$, $$EI_{1} = 400EI_{2}$$, and $$GJ=Gwh^3/3$$.
    - (v) Damping viscosity, $$\mu = 0.1$$.
    - (vi) Gravitational field, $$ \mathbf{g}=[0.1,0.1,0.1]^{T}\mathrm{~m/s^2}$$.
    - (vii) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
@@ -42,7 +42,7 @@ To initialize the simulation, the following inputs are used:
 
 6. **Loading steps:**
    - (i) Perturbation step: a small perturbation to the initial horizontal configuration is created by applying a small gravitational force (with $$ \mathbf{g}=[0.1,0.1,0.1]^T\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
-   - (ii) Growth step: when $$t>1.0$$ s, the normalized natural curvature, $$\bar{\kappa}_1 /  l$$, would increase with a growth rate $$\dot{\bar{\kappa}}_1 /  l=0.01 \; \mathrm{s}^{-1}$$.
+   - (ii) Growth step: when $$t>1.0\mathrm{~s}$$, the normalized natural curvature, $$\bar{\kappa}_1 /  l$$, would increase with a growth rate $$\dot{\bar{\kappa}}_1 /  l=0.01 \mathrm{s^{-1}}$$.
 
 
 ### Dynamic Rendering
