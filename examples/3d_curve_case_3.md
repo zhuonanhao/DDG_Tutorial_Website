@@ -20,27 +20,29 @@ To initialize the simulation, the following inputs are used:
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=10.0$$ MPa.
-   - (ii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
-   - (iii) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.
-   - (iv) Damping viscosity, $$\mu = 0.1$$.
-   - (v) Gravitational field, $$ \mathbf{g}=[0.0, -10.0]^{T}\mathrm{~m/s^2}$$.
-   - (vi) The overall simulation is dynamic, i.e., $$ \mathrm{ifStatic} = 0$$.
+   - (ii) Poisson's ratio, $$\nu=0.5$$.  
+   - (iii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
+   - (iv) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.
+   - (v) Damping viscosity, $$\mu = 0.1$$.
+   - (vi) Gravitational field, $$ \mathbf{g}=[0.0, 0.0, -10.0]^{T}\mathrm{~m/s^2}$$.
+   - (vii) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T=5.0\mathrm{~s}$$.
-   - (ii) Time step size, $$\mathrm{d}t=0.01\mathrm{~s}$$.
+   - (i) Total simulation time, $$T=25.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{d}t=0.001\mathrm{~s}$$.
    - (iii) Numerical force tolerance, $$\mathrm{tol}=1\times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}}=10$$.
 
 4. **Boundary conditions:**
-   - The left tip of the beam is clamped by fixing the first two nodes (starting from the left), thus the constrained DOF-index array is $$\mathcal{FIX} = [1,2,3,4]^T$$.
+   -  Based on the symmetry, the $$Y$$ and $$Z$$ displacements of two points where the diameter intersects the annulus ribbon is constrained, while the $$X$$ and $$Z$$ displacements of another two points where the other perpendicular diameter intersects the annulus ribbon are constrained, thus the constrained array, $$\mathcal{FIX} = [2,3,31,33,62,63,91,93]^{T}$$.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - External gravitational force is applied to each node throughout the simulation.
+   - (i) Perturbation step: a small perturbation to the initial horizontal configuration is created by applying a small gravitational force (with $$ \mathbf{g}=[0.1,0.1,0.1]^T\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
+   - (ii) Growth step: when $$t>1.0$$ s, the normalized natural curvature, $$\bar{\kappa}_1 /  l$$, would increase with a growth rate $$\dot{\bar{\kappa}}_1 /  l=0.01 \; \mathrm{s}^{-1}$$.
 
 
 ### Dynamic Rendering
