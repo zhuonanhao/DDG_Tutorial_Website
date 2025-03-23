@@ -33,8 +33,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.  
 
 4. **Boundary conditions:**  
-   - The first two nodes and the last two nodes, $$\{\mathbf{x}_{1},\mathbf{x}_{2},\mathbf{x}_{49},\mathbf{x}_{50} \}$$, as well as the first twisting angle and the last twisting angle, $$\{\theta_{1}, \theta_{49}\}$$, are fixed to achieve clamped-clamped boundary conditions. Thus, the constrained array is:  
-     $$\mathcal{FIX} = [1,2,3,4,5,6,147,148,149,150,151,199]^{T}$$.  
+   - The first two nodes and the last two nodes, $$\{\mathbf{x}_{1},\mathbf{x}_{2},\mathbf{x}_{49},\mathbf{x}_{50} \}$$, as well as the first twisting angle and the last twisting angle, $$\{\theta_{1}, \theta_{49}\}$$, are fixed to achieve clamped-clamped boundary conditions. Thus, the constrained array is: $$\mathcal{FIX} = [1,2,3,4,5,6,147,148,149,150,151,199]^{T}$$.  
 
 5. **Initial conditions:**  
    - (i) Initial position is input from the nodal positions.  
