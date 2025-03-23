@@ -8,8 +8,8 @@ layout: default
 ## List of examples
 
   - **Mass Spring System**
-    - Case 1: Single DOF mass-spring system(examples/s_DOF.html)
-    - Case 2: Multi DOF mass-spring system(examples/m_DOF.html)
+    - [Case 1: Single DOF mass-spring system](examples/s_DOF.html)
+    - [Case 2: Multi DOF mass-spring system](examples/m_DOF.html)
   - **Beam**
     - [Case 1: Beam deflection under gravity](examples/2d_curve_case_1.html)
     - [Case 2: Buckling of a beam under compression](examples/2d_curve_case_2.html)
