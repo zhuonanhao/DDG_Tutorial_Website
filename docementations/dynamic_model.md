@@ -62,9 +62,10 @@ $$
 || \mathcal{E}_{n}|| < \mathrm{tol}.
 $$
 
-It is worth noting that this framework is for dynamic simulation, and the static solution can be easily derived through the dynamic relaxation method \cite{barnes1999form, han2003study}; also, if the inertia and damping terms are ignored, the simulation can provide a static result by increasing the loading step by step, i.e., 
+It is worth noting that this framework is for dynamic simulation, and the static solution can be easily derived through the dynamic relaxation method; also, if the inertia and damping terms are ignored, the simulation can provide a static result by increasing the loading step by step, i.e., 
 
 $$
 \mathbb{K} \mathbf{q}(t_{k+1}) = \mathbf{F}^{\text{ext}}(t_{k+1})
 $$
+
 which is known as numerical continuation.
