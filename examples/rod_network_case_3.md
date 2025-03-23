@@ -23,7 +23,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_0 = 0.01$$ m, thus $$EI_1 = EI_2 = E \pi r_0^4 / 4$$ and $$GJ = G \pi r_0^4 / 2$$.
    - (iv) Damping viscosity, $$\mu = 0.1$$.
-   - (v) Gravity, $$\mathbf{g} = [0.0, 0.0, 10.0]^T$$ $$\mathrm{m/s^2}$$.
+   - (v) Gravity, $$\mathbf{g} = [0.0, 0.0, -1.0]^T$$ $$\mathrm{m/s^2}$$.
    - (vi) The overall simulation is dynamic, i.e., $$\mathrm{ifStatic} = 0$$.
 
 3. **Numerical parameters:**
@@ -33,7 +33,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - The nodes at one corner, $$\{ \mathbf{x}_{1}, \mathbf{x}_{2}, \mathbf{x}_{11}, \mathbf{x}_{20} \}$$, as well as the first twisting angle, $$\theta_1$$, are fixed for a clamped-like boundary condition.
+   - The nodes at one corner, $$\{ \mathbf{x}_{1}, \mathbf{x}_{2}, \mathbf{x}_{11}, \mathbf{x}_{20} \}$$, as well as the first twisting angle, $$\{ \theta_1 \}$$, are fixed for a clamped-like boundary condition.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
