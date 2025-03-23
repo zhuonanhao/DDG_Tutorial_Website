@@ -67,7 +67,7 @@ $$
 {\varepsilon}_{12} ={\varepsilon}_{21} = 0.
 $$
 
-Using the linear elastic model, the total stretching energy follows a quadratic function of the strain,  consistent with the linear elastic constitutive law
+Using the linear elastic model, the total stretching energy follows a quadratic function of the strain,
 
 $$
 E^s = \frac{1} {2} \frac {Eh} {1-\nu^2}
