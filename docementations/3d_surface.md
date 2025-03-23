@@ -49,7 +49,7 @@ $$
 E^s = \frac{\sqrt{3}}{4} Eh ( \varepsilon )^2,
 $$
 
-where $$E $$ is Young's modulus and $$h$$ is the plate thickness. Note that the Poisson's ratio is intrinsically determined in this model and equals $$\nu=1/3$$ when the mesh is an equilateral triangle. The local stretching force vector, $$\mathbf{F}^{s}_{\mathrm{local}} \in \mathcal{R}^{6 \times 1}$$, as well as the local stretching Hessian matrix, $$\mathbb{K}^{s}_{\mathrm{local}} \in \mathcal{R}^{6 \times 6}$$, can be derived through a variational approach as
+where $$E $$ is the Young's modulus and $$h$$ is the thickness. Note that the Poisson's ratio is intrinsically determined in this model and equals $$\nu=1/3$$ when the mesh is an equilateral triangle. The local stretching force vector, $$\mathbf{F}^{s}_{\mathrm{local}} \in \mathcal{R}^{6 \times 1}$$, as well as the local stretching Hessian matrix, $$\mathbb{K}^{s}_{\mathrm{local}} \in \mathcal{R}^{6 \times 6}$$, can be derived through a variational approach as
 
 $$
 \mathbf{F}^{s}_{\mathrm{local}} = -\frac{\partial E^{s}}  {\partial \mathbf{q}^{s}}, \; \mathrm{and} \; \mathbb{K}^{s}_{\mathrm{local}} = \frac {\partial^2 E^{s}}  {\partial \mathbf{q}^{s} \partial \mathbf{q}^{s}}.
