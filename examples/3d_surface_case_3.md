@@ -29,12 +29,12 @@ To initialize the simulation, the following inputs are used:
 
 3. **Numerical parameters:**
    - (i) Total simulation time, $$T=20.0$$ s.
-   - (ii) Time step size, $$\mathrm{d}t=0.01$$ s.
+   - (ii) Time step size, $$\mathrm{dt} =0.01$$ s.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - The first two columns of the nodes are fixed to achieve a clamped-free type boundary condition; the $$z$$ position of the $$417$$-th node is fixed to apply loading; thus, the constrained array, $$\mathcal{FIX}$$, can be constructed accordingly.
+   - The first two columns of the nodes are fixed to achieve a clamped-free type boundary condition; the $$Z$$ position of the $$417$$-th node is fixed to apply to load; thus, the constrained array, $$\mathcal{FIX}$$, can be constructed accordingly.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
