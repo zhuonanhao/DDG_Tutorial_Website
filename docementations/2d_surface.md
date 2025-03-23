@@ -116,7 +116,7 @@ $$
 The local radius of the bending element is, 
 
 $$
-r = r_{2}. 
+r = \frac{1} {3} (r_{1} + r_{2} + r_{3}). 
 $$
 
 Thus, the total area is 
