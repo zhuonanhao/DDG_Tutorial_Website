@@ -40,11 +40,9 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros.  
 
 6. **Loading steps:**  
-   - (i) **Compression step:** For $$t \leq 3.0$$ s, a displacement is applied to both ends along the $$x$$-axis with speed $$v_{x} = 0.1$$ m/s, until the compressive distance reaches $$\Delta X \geq 0.4$$ m. To induce the bifurcation direction, the gravity vector is set as:  
-     $$\mathbf{g}=[0.0,0.0,10.0]^T$$ $$\mathrm{m/s^2}$$.  
-   - (ii) **Change perturbation:** For $$3.0 \leq t \leq 5.0$$ s, the gravity force is switched to:  
-     $$\mathbf{g}=[0.1,0.1,0.0]^T$$ $$\mathrm{m/s^2}$$ to change the perturbation direction.  
-   - (iii) **Shear step:** For $$t \geq 5.0$$ s, a displacement is applied to both ends along the $$y$$-axis with speed $$v_{y} = 0.01$$ m/s, until the shear distance reaches $$\Delta Y \geq 0.6$$ m.  
+   - (i) **Compression step:** For $$t \leq 3.0$$ s, a displacement is applied to both ends along the $$X$$-axis with speed $$v_{x} = 0.1$$ m/s, until the compressive distance reaches $$\Delta X \geq 0.4$$ m. To induce the bifurcation direction, the gravity vector is set as:  $$\mathbf{g}=[0.0,0.0,10.0]^T$$ $$\mathrm{m/s^2}$$.  
+   - (ii) **Change perturbation:** For $$3.0 \leq t \leq 5.0$$ s, the gravity force is switched to: $$\mathbf{g}=[0.1,0.1,0.0]^T$$ $$\mathrm{m/s^2}$$ to change the perturbation direction.  
+   - (iii) **Shear step:** For $$t \geq 5.0$$ s, a displacement is applied to both ends along the $$Y$$-axis with speed $$v_{y} = 0.01$$ m/s, until the shear distance reaches $$\Delta Y \geq 0.6$$ m.  
 
 
 ### Dynamic Rendering
