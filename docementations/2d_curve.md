@@ -49,9 +49,7 @@ $$
 E^s = \frac{1}{2} EA (\varepsilon)^2 \bar{l},
 $$
 
-where $$EA$$ is the local stretching stiffness.
-
-The local stretching force vector and Hessian matrix can be derived through a variational approach:
+where $$EA$$ is the local stretching stiffness. The local stretching force vector and Hessian matrix can be derived through a variational approach:
 
 $$
 \mathbf{F}^{s}_{\mathrm{local}} = -\frac{\partial E^{s}}{\partial \mathbf{q}^{s}}, \quad \mathbb{K}^{s}_{\mathrm{local}} = \frac{\partial^2 E^{s}}{\partial \mathbf{q}^{s} \partial \mathbf{q}^{s}}.
