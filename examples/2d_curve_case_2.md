@@ -23,7 +23,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_{0} = 0.01\mathrm{~m}$$.
    - (iv) Damping viscosity, $$\mu = 0.1$$.
-   - (v) Gravitational field, $$ \mathbf{g}= [0.0, 0.0]^{T}\mathrm{~m/s^2}$$.
+   - (v) Gravitational field, $$ \mathbf{g}= [0.0, 0.1]^{T}\mathrm{~m/s^2}$$.
    - (vi) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
 
 3. **Numerical parameters:**
