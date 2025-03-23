@@ -1,6 +1,6 @@
 ---
 title: "Hyperelastic structure"
-nav_order: 6
+nav_order: 5
 parent: Examples
 layout: default
 ---
