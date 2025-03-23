@@ -32,7 +32,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - The $$Z$$ direction of the first node is fixed to avoid rigid body motion, thus the constrained array, $$\mathcal{FIX} = [2]^T$$.
+   - The $$Z$$ direction of the first node is fixed to avoid rigid body motion, thus the constrained array, $$\mathcal{FIX} = [2]$$.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
