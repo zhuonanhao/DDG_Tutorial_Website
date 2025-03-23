@@ -23,7 +23,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
    - (iii) Cross-sectional radius, $$r_0 = 0.001$$ m.
    - (iv) Gravitational field, $$\mathbf{g} = [0.0, 0.0]^T$$ $$\mathrm{m/s^2}$$.
-   - (v) Fluid parameters, including normal drag coefficient $$C_{\perp} = 1.0$$ and shear drag coefficient $$C_{\parallel} = 0.01$$.
+   - (v) Fluid parameters, including fluid density, $$\rho_{0}=1000 $$, normal drag coefficient $$C_{\perp} = 1.0$$ and shear drag coefficient $$C_{\parallel} = 0.01$$.
    - (vi) The beam magnetization is $$B_r^x = 100 \cos(2 \pi s)$$ $$\mathrm{T/m^3}$$, $$B_r^y = 100 \sin(2 \pi s)$$ $$\mathrm{T/m^3}$$, where $$s \in [0,1]$$ is the arc length parameter of the beam.
    - (vii) The overall simulation is dynamic, i.e., $$\mathrm{ifStatic} = 0$$.
 
