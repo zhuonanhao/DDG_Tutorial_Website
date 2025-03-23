@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - A magnetic field with $$B_x = A \cos(\omega t)$$ T and $$B_y = A \sin(\omega t)$$ (where $$A = 3.0$$ T and $$\omega = 1.0$$ rad/s) is applied to the entire beam.
+   - A magnetic field with $$B_x = A \cos(\omega t)$$ and $$B_y = A \sin(\omega t)$$ (where $$A = 3.0$$ T and $$\omega = 1.0$$ rad/s) is applied to the entire beam.
 
 
 ### Dynamic Rendering
