@@ -28,7 +28,7 @@ To initialize the simulation, the following inputs are used:
 
 3. **Numerical parameters:**
    - (i) Total simulation time, $$T=10.0$$ s.
-   - (ii) Time step size, $$\mathrm{d}t=0.01 \mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} =0.01 \mathrm{~s}$$.
    - (iii) Numerical force tolerance, $$\mathrm{tol} = 1\times10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}}=10$$.
 
