@@ -61,7 +61,7 @@ $$
 {\varepsilon}_{2} = \frac { r } { \bar{r} } - 1,
 $$
 
-where $$\bar{r}$$ represents the undeformed radius of the shell. Due to the axisymmetric assumption, the shear coupling between the meridional direction and the circumferential direction is zero, i.e.,
+Due to the axisymmetric assumption, the shear coupling between the meridional direction and the circumferential direction is zero, i.e.,
 
 $$
 {\varepsilon}_{12} ={\varepsilon}_{21} = 0.
