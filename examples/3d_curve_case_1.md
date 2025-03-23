@@ -24,8 +24,8 @@ To initialize the simulation, the following inputs are used:
    - (ii) Poisson’s ratio, $$\nu=0.5$$.  
    - (iii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.  
    - (iv) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.  
-   - (v) Bending stiffness: $$EI_1 = EI_2 = \frac{E \pi r_0^4}{4}.$$  
-   - (vi) Torsional stiffness: $$GJ = \frac{G \pi r_0^4}{2}.$$  
+   - (v) Bending stiffness: $$EI_1 = EI_2 = {E \pi r_0^4}/{4}.$$  
+   - (vi) Torsional stiffness: $$GJ = {G \pi r_0^4}/{2}.$$  
    - (vii) Damping viscosity, $$\mu = 1.0$$.  
    - (viii) Gravitational field, $$\mathbf{g} = [0.0, 0.0, -10.0]^{T}$$ m/s\(^2\).  
    - (ix) The overall simulation is dynamic, i.e., $$ \mathrm{ifStatic} = 0$$.  
