@@ -1,6 +1,6 @@
 ---
 title: "Net and gridshell: hollow surface"
-nav_order: 5
+nav_order: 6
 parent: Documentation
 layout: default
 ---
