@@ -12,14 +12,14 @@ Why DDG?
 
 Discrete differential geometry (DDG) has emerged as a promising numerical framework for simulating flexible structures, particularly in scenarios involving large deformations, geometric complexity, and nonlinear interactions. Initially developed in the computational graphics and computer geometry communities, DDG has gained increasing recognition in structural mechanics for its ability to preserve geometric properties while efficiently modeling thin elastic structures, such as **rods, ribbons, plates, and shells**. Unlike conventional numerical methods, which focus on discretizing differential equations, DDG instead discretizes the underlying geometry itself, enabling more **natural and stable simulations** of complex deformations.
 
-![Algorithm](assets/figures/DDG_Application.png)<Applications of DDG-based simulations. (a) Computer graphics. (b) Biophysics. (c) Soft robots. (d) Underwater robots. (e) Flexible electronics. (f) Civil engineering. (g) Aerospace engineering. (h) Biomedical engineering.>
+![Algorithm](assets/figures/DDG_Application.png) Applications of DDG-based simulations. (a) Computer graphics. (b) Biophysics. (c) Soft robots. (d) Underwater robots. (e) Flexible electronics. (f) Civil engineering. (g) Aerospace engineering. (h) Biomedical engineering.
 
 ## Key Advantages of the DDG Method
 
 - **Intrinsic Geometric Preservation**: DDG maintains curvature and topological constraints, making it particularly well-suited for thin and highly deformable structures.
 - **Robustness to Large Deformations**: Unlike FEM, DDG avoids locking effects and accurately captures bending, twisting, and instability-driven deformations.
 - **Efficient Computation**: DDG simplifies numerical integration, leading to faster and more stable simulations compared to traditional methods.
-- **Seamless External Interaction Modeling**: Interaction with external fields, such as magneto-elastica coupling, fluid-structure interactions, and contact with solids can be incorporated without compromising geometric consistency.
+- **Seamless External Interaction Modeling**: Interaction with external fields, such as magneto-elastic coupling, fluid-structure interactions, and contact with solids can be incorporated without compromising geometric consistency.
 
 <!-- <span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
 Application
