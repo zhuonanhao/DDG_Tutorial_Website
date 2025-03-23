@@ -22,7 +22,7 @@ To initialize the simulation, the following inputs are used:
    - (i) Young's modulus, $$E=10.0$$ MPa.
    - (ii) Poisson's ratio, $$\nu=0.5$$.  
    - (iii) Material density, $$\rho=100\mathrm{~kg/m^3}$$.
-   - (iv) Cross-sectional radius, $$r_{0}=0.01\mathrm{~m}$$.
+   - (iv) Ribbon width $$w=0.2$$ m, ribbon thickness is $$h=0.01$$ m, thus $$EI_{2} = Ewh^3/12$$, $$EI_{1} = 400EI_{2}$$, and $$GJ=Gwh^3/3$$.
    - (v) Damping viscosity, $$\mu = 0.1$$.
    - (vi) Gravitational field, $$ \mathbf{g}=[0.0, 0.0, -10.0]^{T}\mathrm{~m/s^2}$$.
    - (vii) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
