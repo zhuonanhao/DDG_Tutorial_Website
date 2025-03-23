@@ -25,7 +25,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Damping viscosity, $$\mu = 0.1$$.
    - (v) Gravity, $$\mathbf{g} = [0.0, -10]^{T}$$ $$\mathrm{m/s^2}$$.
    - (vi) The leg magnetization is $$B_r^x = 1000 \cos(4 \pi s)$$, $$B_r^y = 1000 \sin(4 \pi s)$$, where $$s \in [0,1]$$ is the arc length parameter of the robotic body.
-   - (vii) Contact parameters, including $$\hat{d} = 1e-3$$ m, $$K_c = 1.0$$ KPa, $$\mu = 0.3$$, and $$\epsilon_v = 1e-6$$ m/s.
+   - (vii) Contact parameters, including $$\hat{d} = 1e-3$$ m, $$K_c = 1.0$$ kPa, $$\mu = 0.3$$, and $$\epsilon_v = 1e-6$$ m/s.
 
 3. **Numerical parameters:**
    - (i) Total simulation time, $$T = 2.0$$ s.
@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - A magnetic field with $$B_x = A \cos(\omega t)$$ T and $$B_y = A \sin(\omega t)$$ (with $$A = 1.0$$ T and $$\omega = 10\pi$$) is applied to the entire robotic system.
+   - A magnetic field with $$B_x = A \cos(\omega t)$$ and $$B_y = A \sin(\omega t)$$ (with $$A = 1.0$$ T and $$\omega = 10\pi$$) is applied to the entire robotic system.
 
 
 ### Dynamic Rendering
