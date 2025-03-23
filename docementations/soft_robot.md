@@ -79,7 +79,12 @@ $$
 \mathbf{v}_{\parallel} = \left ( \mathbf{v} \cdot \mathbf{t} \right) \cdot \mathbf{t}, \; \mathbf{v}_{\perp} = \left ( \mathbf{v} \cdot \mathbf{n} \right) \cdot \mathbf{n},
 $$
 
-where $$\mathbf{v} =  {(\mathbf{v}_{1} + \mathbf{v}_{2})} /{2}$$ is the segment velocity. For most underwater locomotion, the Reynolds number is Intermediate, i.e., $$ 1.0 < Re < 1000.0$$, the local fluid drag force is typically quadratic with the velocity,
+where 
+
+$$\mathbf{v} =  {(\mathbf{v}_{1} + \mathbf{v}_{2})} /{2}$$ 
+
+is the segment velocity. For most underwater locomotion, the Reynolds number is Intermediate, i.e., $$ 1.0 < Re < 1000.0$$, the local fluid drag force is typically quadratic with the velocity,
+
 $$
 (\mathbf{F}_{\mathrm{local}}^{\text{drag}})_{\parallel} = - \frac{1} {2} \rho_{0} C_{\parallel} || \mathbf{v}_{\parallel} ||  \mathbf{v}_{\parallel} , 
 $$
