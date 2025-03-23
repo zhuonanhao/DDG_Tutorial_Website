@@ -34,7 +34,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - The first two rows of nodes are fixed to achieve a clamped-free boundary condition.
+   - The first two rows of nodes are fixed to achieve a clamped-free boundary condition, thus, the constrained array, $$\mathcal{FIX}$$ can be constructed accordingly.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
