@@ -128,7 +128,7 @@ $$
 The local DOF vector is defined as
 
 $$
-\mathbf{q}_{t} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1}; \theta_{2} ]^{T} \in \mathcal{R}^{11 \times 1}.
+\mathbf{q}^{t} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1}; \theta_{2} ]^{T} \in \mathcal{R}^{11 \times 1}.
 $$
 
 The twisting curvature is the sum of the twist of the reference frame, $$\tau_{r}$$,  and the twist of the material frame, $$\tau_{m}$$,
