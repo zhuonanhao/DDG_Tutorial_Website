@@ -95,9 +95,7 @@ $$
 E^{b} = \frac{1}{2} EI (\kappa - \bar{\kappa})^2 \bar{l},
 $$
 
-where $$EI$$ represents the local bending stiffness.
-
-The local bending force vector and Hessian matrix are derived using a variational approach:
+where $$EI$$ represents the local bending stiffness. The local bending force vector and Hessian matrix are derived using a variational approach:
 
 $$
 \mathbf{F}^{b}_{\mathrm{local}} = -\frac{\partial E^{b}}{\partial \mathbf{q}^{b}}, \quad \mathbb{K}^{b}_{\mathrm{local}} = \frac{\partial^2 E^{b}}{\partial \mathbf{q}^{b} \partial \mathbf{q}^{b}}.
