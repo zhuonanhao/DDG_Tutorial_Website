@@ -40,8 +40,8 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros.
 
 6. **Loading steps:**
-   - (i) Perturbation step: A small perturbation to the initial horizontal configuration is created by applying a small gravitational force (with $$ \mathbf{g}=[0.0,0.1]^{T}\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
-   - (ii) Compression step: when $$t>1.0$$ s, a displacement is applied to the last two nodes along the negative $$x$$-axis with a speed $$v_{0} = 0.1\mathrm{~m/s}$$, until the compression distance is larger than the target value, $$\Delta x \ge 0.6$$ m.
+   - (i) Perturbation step: a small perturbation to the initial horizontal configuration is created by applying a small gravitational force (with $$ \mathbf{g}=[0.0,0.1]^{T}\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
+   - (ii) Compression step: when $$t>1.0$$ s, a displacement is applied to the last two nodes along the negative $$X$$-axis with speed $$v_{0} = 0.1\mathrm{~m/s}$$, until the compression distance is larger than the target value, $$\Delta x \ge 0.6$$ m.
 
 ### Dynamic Rendering
 <br/><img src='../assets/videos/beam_2.gif' width="600">
