@@ -25,14 +25,14 @@ where $$\mathcal{V}$$ is the total elastic energy of the system and $$\mathbf{F}
 Next, to solve the nonlinear dynamic equations of motion, the most straightforward way is the implicit Euler method, for its computational efficiency and numerical robustness. Specifically, the DOF vector $$\mathbf q$$, as well as its velocity $$\dot{\mathbf q}$$, can be updated from the current time step $$ t_{k} $$ to the next time step $$ t_{k+1}$$ by using the following rules,
 
 $$
-\mathbf{q}(t_{k+1}) =  \mathbf{q}(t_{k}) +  \dot{\mathbf{q}}(t_{k+1}) \mathrm{d}t,
+\mathbf{q}(t_{k+1}) =  \mathbf{q}(t_{k}) +  \dot{\mathbf{q}}(t_{k+1}) \mathrm{dt},
 $$
 
 $$
-\dot{\mathbf{q}}(t_{k+1}) = \dot{\mathbf{q}}(t_{k}) + \ddot{\mathbf{q}}(t_{k+1}) \mathrm{d}t, 
+\dot{\mathbf{q}}(t_{k+1}) = \dot{\mathbf{q}}(t_{k}) + \ddot{\mathbf{q}}(t_{k+1}) \mathrm{dt}, 
 $$
 
-where $$\mathrm{d}t$$ is the time step size. Thus, the $$N$$-sized continuous equation of motions in Eq.~(\ref{eq:dynamicEquation}) can be discretized and numerically solved step by step
+where $$\mathrm{dt}$$ is the time step size. Thus, the $$N$$-sized continuous equation of motions in Eq.~(\ref{eq:dynamicEquation}) can be discretized and numerically solved step by step
 
 $$
 \mathcal{E} \equiv \mathbb{M} \ddot{\mathbf{q}}(t_{k+1}) + \mathbb{C} \dot{\mathbf{q}}(t_{k+1}) - \mathbf{F}^{\text{int}}(t_{k+1}) - \mathbf{F}^{\text{ext}}(t_{k+1}) = \mathbf{0}.
@@ -41,13 +41,13 @@ $$
 The Jacobian can be expressed as
 
 $$
-\mathbb{J} = \frac {\mathbb{M}} {dt^2} +  \frac {\mathbb{C}} {dt} + \mathbb{K} - \frac{\partial \mathbf{F}^{\text{ext}}} {\partial \mathbf{q}}.
+\mathbb{J} = \frac {\mathbb{M}} {\mathrm{dt}^2} +  \frac {\mathbb{C}} {\mathrm{dt}} + \mathbb{K} - \frac{\partial \mathbf{F}^{\text{ext}}} {\partial \mathbf{q}}.
 $$
 
 To solve the nonlinear discrete equations of motion, the iterative Newton-Raphson method is employed. At the time step $$t_{k+1}$$, a new solution is first guessed on the basis of the previous state, i.e.,
 
 $$
-\mathbf{q}_{n}(t_{k+1}) = \mathbf{q}(t_{k}) + \mathrm{d}t \; \dot{\mathbf{q}}(t_{k}).
+\mathbf{q}_{n}(t_{k+1}) = \mathbf{q}(t_{k}) + \mathrm{dt} \; \dot{\mathbf{q}}(t_{k}).
 $$
 
 Then, it is optimized utilizing the gradient descent principle, such that the new solution at the $$(n+1)$$-th step is
@@ -56,7 +56,7 @@ $$
 \mathbf{q}_{n+1}(t_{k+1}) = \mathbf{q}_{n}(t_{k+1}) - \mathbb{J}_{n} \backslash \mathcal{E}_{n}.
 $$
 
-We will update the time step and move forward until the numerical error is smaller than tolerance, 
+We will update the time step and move forward until the numerical error is smaller than the tolerance, 
 
 $$
 || \mathcal{E}_{n}|| < \mathrm{tol}.
