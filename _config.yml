@@ -23,15 +23,6 @@ just_the_docs:
         url: "/documentation/"
       - title: "Examples"
         url: "/examples/"
-        subnav:
-          - title: "2D Curve Simulations"
-            url: "/examples/2d_curve/"
-          - title: "2D Surface Simulations"
-            url: "/examples/2d_surface/"
-          - title: "3D Curve Simulations"
-            url: "/examples/3d_curve/"
-          - title: "3D Surface Simulations"
-            url: "/examples/3d_surface/"
       - title: "References"
         url: "/references/"
 
