@@ -14,22 +14,22 @@ Elastic gridshell refers to a network of elastic rods linked by joints and finds
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N = 365$$. The gridshell is constructed by the intersection of 10 orthogonally interconnected rods, creating an overall circular structure. The length of the two longest rods is set at $$L = 2.0$$ m.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N = 365$$. The gridshell is constructed by the intersection of 10 orthogonally interconnected rods, creating an overall circular structure. The length of the two longest rods is set at $$L = 2.0\mathrm{~m}$$.
    - (ii) Stretching elements: the connections between the nodes, with a total of $$N_s = 376$$.
    - (iii) Bending elements: the connections between the edges, with a total of $$N_b = 366$$.
    - (iv) Target position: the final position for the 20 footprints.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E = 100\mathrm{~MPa}$$.
-   - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
-   - (iii) Cross-sectional radius, $$r_0 = 0.01$$ m, thus $$EI_1 = EI_2 = E \pi r_0^4 / 4$$ and $$GJ = G \pi r_0^4 / 2$$.
+   - (ii) Material density, $$\rho = 1000\mathrm{~kg/m^3}$$.
+   - (iii) Cross-sectional radius, $$r_0 = 0.01\mathrm{~m}$$, thus $$EI_1 = EI_2 = E \pi r_0^4 / 4$$ and $$GJ = G \pi r_0^4 / 2$$.
    - (iv) Damping viscosity, $$\mu = 1.0$$.
    - (v) Gravity, $$\mathbf{g} = [0.0, 0.0, 10.0]^T$$ $$\mathrm{m/s^2}$$.
    - (vi) The overall simulation is dynamic, i.e., $$\mathrm{ifStatic} = 0$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T = 10.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} = 0.01$$ s.
+   - (i) Total simulation time, $$T = 10.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} = 0.01\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
@@ -41,9 +41,9 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - (i) Perturbation step: a perturbation to the initial horizontal configuration is created by applying a gravitational force (with $$\mathbf{g} = [0.0, 0.0, 10.0]^T$$ $$\mathrm{m/s^2}$$) when $$t \le 1.0$$ s.
-   - (ii) Compression step: the footprints are moved to induce the form-finding process during $$1.0 \; \mathrm{s} < t < 5.0 \; \mathrm{s}$$.
-   - (iii) Remove Perturbation: gravity is removed to eliminate residual perturbations when $$t \ge 5.0$$ s.
+   - (i) Perturbation step: a perturbation to the initial horizontal configuration is created by applying a gravitational force (with $$\mathbf{g} = [0.0, 0.0, 10.0]^T\mathrm{~m/s^2}$$) when $$t \le 1.0\mathrm{~s}$$.
+   - (ii) Compression step: the footprints are moved to induce the form-finding process during $$1.0\mathrm{~s} < t < 5.0 \mathrm{~s}$$.
+   - (iii) Remove Perturbation: gravity is removed to eliminate residual perturbations when $$t \ge 5.0\mathrm{~s}$$.
 
 
 ### Dynamic Rendering

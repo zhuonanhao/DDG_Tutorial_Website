@@ -14,22 +14,22 @@ In this subsection, we demonstrate the fluid-structure interaction between a sof
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes $$\mathbf{q}(t=0)$$, with a total of $$N = 40$$. The robot body is a magnetized beam with a length of $$L = 0.1$$ m.
+   - (i) Nodal positions: the position of the nodes $$\mathbf{q}(t=0)$$, with a total of $$N = 40$$. The robot body is a magnetized beam with a length of $$L = 0.1\mathrm{~m}$$.
    - (ii) Stretching elements: the connections between the nodes, with a total of $$N_s = 39$$.
    - (iii) Bending elements: the connections between the edges, with a total of $$N_b = 38$$.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E = 0.1\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
-   - (iii) Cross-sectional radius, $$r_0 = 0.001$$ m.
+   - (iii) Cross-sectional radius, $$r_0 = 0.001\mathrm{~m}$$.
    - (iv) Gravitational field, $$\mathbf{g} = [0.0, 0.0]^T$$ $$\mathrm{m/s^2}$$.
    - (v) Fluid parameters, including fluid density, $$\rho_{0}=1000 $$, normal drag coefficient $$C_{\perp} = 1.0$$ and shear drag coefficient $$C_{\parallel} = 0.01$$.
    - (vi) The beam magnetization is $$B_r^x = 100 \cos(2 \pi s)$$ $$\mathrm{T/m^3}$$, $$B_r^y = 100 \sin(2 \pi s)$$ $$\mathrm{T/m^3}$$, where $$s \in [0,1]$$ is the arc length parameter of the beam.
    - (vii) The overall simulation is dynamic, i.e., $$\mathrm{ifStatic} = 0$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T = 5.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} = 0.01$$ s.
+   - (i) Total simulation time, $$T = 5.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} = 0.01\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - A magnetic field with $$B_x = A \cos(\omega t)$$ and $$B_y = A \sin(\omega t)$$ (with $$A = 1.0$$ T and $$\omega = 20.0$$ rad/s) is applied to the entire beam.
+   - A magnetic field with $$B_x = A \cos(\omega t)$$ and $$B_y = A \sin(\omega t)$$ (with $$A = 1.0\mathrm{~T}$$ and $$\omega = 20.0\mathrm{~rad/s}$$) is applied to the entire beam.
 
 
 ### Dynamic Rendering

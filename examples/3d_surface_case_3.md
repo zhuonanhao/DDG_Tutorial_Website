@@ -22,14 +22,14 @@ To initialize the simulation, the following inputs are used:
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=1.0\mathrm{~MPa}$$.
    - (ii) Material density, $$\rho=1000\mathrm{~kg/m^3}$$.
-   - (iii) Plate thickness, $$h = 0.05$$ m.
+   - (iii) Plate thickness, $$h = 0.05\mathrm{~m}$$.
    - (iv) Gravitational field, $$ \mathbf{g}=[0.0, 0.0, 0.0]^T \mathrm{~m/s^2}$$.
    - (v) Damping viscosity, $$\mu = 0.01$$.
    - (vi) The overall simulation is static, i.e., $$ \mathrm{ifStatic} = 1$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T=20.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} =0.01$$ s.
+   - (i) Total simulation time, $$T=20.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} =0.01\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
@@ -41,7 +41,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros for all nodes.
 
 6. **Loading steps:**
-   - The $$Z$$ position of the $$417$$-th node is manually moved along the negative $$Z$$-axis to perform the vertical loading. The loading rate is $$v_{z} = 0.1$$ m/s.
+   - The $$Z$$ position of the $$417$$-th node is manually moved along the negative $$Z$$-axis to perform the vertical loading. The loading rate is $$v_{z} = 0.1\mathrm{~m/s}$$.
 
 
 ### Dynamic Rendering

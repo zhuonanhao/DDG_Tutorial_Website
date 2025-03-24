@@ -14,20 +14,20 @@ Flexible nets are largely used for the capture of objects with irregular shapes,
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N = 631$$. The net is initialized as a hexagon with a side length of $$L = 1.0$$ m.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N = 631$$. The net is initialized as a hexagon with a side length of $$L = 1.0\mathrm{~m}$$.
    - (ii) Stretching elements: the connections between the nodes, with a total of $$N_{s} = 720$$.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E = 1.0\mathrm{~MPa}$$.
-   - (ii) Material density, $$\rho = 1000$$ $$\mathrm{kg/m^3}$$.
-   - (iii) Cross-sectional radius, $$r_{0} = 0.01$$ m.
+   - (ii) Material density, $$\rho = 1000\mathrm{~kg/m^3}$$.
+   - (iii) Cross-sectional radius, $$r_{0} = 0.01\mathrm{~m}$$.
    - (iv) Damping viscosity, $$\mu = 0.1$$.
-   - (v) Gravity, $$g = [0.0, 0.0, -50]^T$$ $$\mathrm{m/s^2}$$.
+   - (v) Gravity, $$g = [0.0, 0.0, -50]^T\mathrm{~m/s^2}$$.
    - (vi) The overall simulation is dynamic, i.e., $$\mathrm{ifStatic} = 0$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T = 2.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} = 0.01$$ s.
+   - (i) Total simulation time, $$T = 2.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} = 0.01\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 

@@ -20,14 +20,14 @@ To initialize the simulation, the following inputs are used:
 2. **Physical parameters:**
    - (i) Shear modulus, $$G = 0.333\mathrm{~MPa}$$, thus $$C_1 = 0.4G$$, and $$C_1 = 0.1G$$.
    - (ii) Material density, $$\rho = 100.0$$ $$\mathrm{kg/m^3}$$.
-   - (iii) Cross-sectional radius, $$r_0 = 0.01$$ m.
+   - (iii) Cross-sectional radius, $$r_0 = 0.01\mathrm{~m}$$.
    - (iv) Damping viscosity, $$\mu = 1.0$$.
-   - (v) Gravity, $$\mathbf{g} = [0.0, 0.0]^T$$ $$\mathrm{m/s^2}$$.
+   - (v) Gravity, $$\mathbf{g} = [0.0, 0.0]^T\mathrm{~m/s^2}$$.
    - (vi) The overall simulation is dynamic, i.e., $$\mathrm{ifStatic} = 0$$.
 
 3. **Numerical parameters:**
-   - (i) Total simulation time, $$T = 2.0$$ s.
-   - (ii) Time step size, $$\mathrm{dt} = 0.01$$ s.
+   - (i) Total simulation time, $$T = 2.0\mathrm{~s}$$.
+   - (ii) Time step size, $$\mathrm{dt} = 0.01\mathrm{~s}$$.
    - (iii) Numerical tolerance, $$\mathrm{tol} = 1 \times 10^{-4}$$.
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
