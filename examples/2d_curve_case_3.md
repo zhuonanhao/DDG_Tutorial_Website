@@ -39,7 +39,7 @@ To initialize the simulation, the following inputs are used:
    - (ii) Initial velocity is set to zeros.
 
 6. **Loading steps:**
-   - (i) Compression step: when $$t \le 3.0\mathrm{~s}$$, a displacement is applied to both the first two nodes and the last two nodes along the $$X$$-axis with speed $$v_{0} = 0.1\mathrm{~m/s}$$ until the compressive distance reaches the target, $$\Delta x \ge 0.3$$ m. Note that here we use $$ \mathbf{g}=[0.0,10.0]^T\mathrm{~m/s^2}$$ to induce the bifurcation direction.
+   - (i) Compression step: when $$t \le 3.0\mathrm{~s}$$, a displacement is applied to both the first two nodes and the last two nodes along the $$X$$-axis with speed $$v_{0} = 0.1\mathrm{~m/s}$$ until the compressive distance reaches the target, $$\Delta x \ge 0.3\mathrm{~m}$$. Note that here we use $$ \mathbf{g}=[0.0,10.0]^T\mathrm{~m/s^2}$$ to induce the bifurcation direction.
    - (ii) Delete Perturbation: when $$3.0 \; \mathrm{s} \le t \le 5.0 \; \mathrm{s}$$, the gravity force is removed to delete the influence of the perturbation, $$ \mathbf{g}=[0.0,0.0]^T\mathrm{~m/s^2}$$.
    - (iii) Rotate left end: the left clamped edge is rotated to induce the snap-through of the bistable beam, the rotational speed is $$\omega = 1.0\mathrm{~rad/s}$$.
 

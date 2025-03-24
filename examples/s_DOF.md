@@ -14,7 +14,7 @@ We begin with the simplest case, a single-degree-of-freedom (S-DOF) mass-spring-
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - The spring length is $$l_0=1.0\mathrm{~m}$$. Since there is only a single node, we only need to input its own initial position at $$x(t=0)=1.0$$ m, which is set to the spring's equilibrium position $$x=l_0$$ in this case. 
+   - The spring length is $$l_0=1.0\mathrm{~m}$$. Since there is only a single node, we only need to input its own initial position at $$x(t=0)=1.0\mathrm{~m}$$, which is set to the spring's equilibrium position $$x=l_0$$ in this case. 
 
 2. **Physical parameters:**
    - (i) Mass $$m = 1.0\mathrm{~kg}$$.
