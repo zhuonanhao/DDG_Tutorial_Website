@@ -7,7 +7,7 @@ layout: default
 
 ## List of examples
 
-  - **Mass Spring System**
+  - **Mass spring system**
     - [Case 1: Single DOF mass-spring-damper system](examples/s_DOF.html)
     - [Case 2: Multi DOF mass-spring-damper system](examples/m_DOF.html)
   - **Beam**
