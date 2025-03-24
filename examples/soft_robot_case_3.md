@@ -25,7 +25,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Damping viscosity, $$\mu = 0.1$$.
    - (v) Gravity, $$\mathbf{g} = [0.0, -10]^{T}$$ $$\mathrm{m/s^2}$$.
    - (vi) The leg magnetization is $$B_r^x = 1000 \cos(4 \pi s)$$, $$B_r^y = 1000 \sin(4 \pi s)$$, where $$s \in [0,1]$$ is the arc length parameter of the robotic body.
-   - (vii) Contact parameters, including $$\hat{d} = 1e-3\mathrm{~m}$$, $$K_c = 1.0\mathrm{~kPa}$$, $$\mu = 0.3$$, and $$\epsilon_v = 1e-6\mathrm{~m/s}$$.
+   - (vii) Contact parameters, including $$\hat{d} = 1 \times 10^{-3}\mathrm{~m}$$, $$K_c = 1.0\mathrm{~kPa}$$, $$\mu = 0.3$$, and $$\epsilon_v = 1 \times 10^{-6}\mathrm{~m/s}$$.
 
 3. **Numerical parameters:**
    - (i) Total simulation time, $$T = 2.0\mathrm{~s}$$.
