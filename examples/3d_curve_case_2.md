@@ -14,9 +14,9 @@ The shear deformation behavior of a pre-buckled ribbon exhibits bifurcation char
 To initialize the simulation, the following inputs are used:  
 
 1. **Geometry and connection:**  
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total of $$N=50$$ nodes. The rod is initialized as a flat ribbon with a length $$L=1.0\mathrm{~m}$$.  
-   - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=49$$ stretching elements.  
-   - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b}=48$$ bending elements.  
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=50$$. The rod is initialized as a flat ribbon with a length $$L=1.0\mathrm{~m}$$.  
+   - (ii) Stretching elements: connection of every two consecutive nodes, for a total of $$N_{s}=49$$.  
+   - (iii) Bending elements: connection of every two consecutive edges, for a total of $$N_{b}=48$$.  
 
 2. **Physical parameters:**  
    - (i) Young's modulus, $$E=100.0\mathrm{~MPa}$$.  

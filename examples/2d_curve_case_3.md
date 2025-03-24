@@ -14,9 +14,9 @@ In this case study, we examine the snap-through behavior of a pre-buckled beam u
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N=40$$ nodes, with the beam length $$L=1.0\mathrm{~m}$$.
-   - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=39$$ stretching elements.
-   - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b}=38$$ bending elements.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=40$$, with the beam length $$L=1.0\mathrm{~m}$$.
+   - (ii) Stretching elements: connection of every two consecutive nodes, with a total number of $$N_{s}=39$$.
+   - (iii) Bending elements: connection of every two consecutive edges, with a total number of $$N_{b}=38$$.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=10\mathrm{~MPa}$$.

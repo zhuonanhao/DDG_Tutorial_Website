@@ -14,10 +14,10 @@ In this case study, we examine the deflection of a flexible plate under the infl
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N=50$$ nodes, with the plate length $$L=1.0\mathrm{~m}$$ and width $$W=0.4$$.
-   - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=119$$ stretching elements.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=50$$, with the plate length $$L=1.0\mathrm{~m}$$ and width $$W=0.4$$.
+   - (ii) Stretching elements: connection of every two consecutive nodes, with a total of $$N_{s}=119$$.
    - (iii) Triangular mesh, total number $$N_{t}=70$$.
-   - (iv) Bending elements: connection of every two triangular meshes, for a total number of $$N_{b}=91$$ bending elements.
+   - (iv) Bending elements: connection of every two triangular meshes, with a total of $$N_{b}=91$$.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=100\mathrm{~MPa}$$.

@@ -15,9 +15,9 @@ Snap-through is a fascinating nonlinear phenomenon observed in various structure
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N=40$$ nodes, with the axisymmetric shell cap initialized as a hemisphere with a radius $$R=1.0$$ m, and size angle $$0.8 \le \phi_{R} \le \pi/2$$.
-   - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_s=39$$ stretching elements.
-   - (iii) Bending elements: connection of every two consecutive edges, for a total number of $$N_b=38$$ bending elements.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=40$$, with the axisymmetric shell cap initialized as a hemisphere with a radius $$R=1.0\mathrm{m}$$, and size angle $$0.8 \le \phi_{R} \le \pi/2$$.
+   - (ii) Stretching elements: connection of every two consecutive nodes, with a total of $$N_s=39$$.
+   - (iii) Bending elements: connection of every two consecutive edges, with a total of $$N_b=38$$.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E = 1.0\mathrm{~GPa}$$.

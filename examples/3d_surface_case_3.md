@@ -14,10 +14,10 @@ Shell indentation is a complicated problem and involves many non-linear buckling
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total number of $$N=760$$. The half-cylindrical shell has a radius of $$R=1.0\mathrm{~m}$$ and length $$L=3.0\mathrm{~m}$$.
-   - (ii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=2169$$ stretching elements.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=760$$. The half-cylindrical shell has a radius of $$R=1.0\mathrm{~m}$$ and length $$L=3.0\mathrm{~m}$$.
+   - (ii) Stretching elements: connection of every two consecutive nodes, with a total of $$N_{s}=2169$$.
    - (iii) Triangular mesh, total number $$N_{t}=1410$$.
-   - (iv) Bending elements: connection of every two triangular meshes, for a total number of $$N_{b}=2061$$ bending elements.
+   - (iv) Bending elements: connection of every two triangular meshes, with a total of $$N_{b}=2061$$.
 
 2. **Physical parameters:**
    - (i) Young's modulus, $$E=1.0\mathrm{~MPa}$$.

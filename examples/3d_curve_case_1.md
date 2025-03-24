@@ -14,10 +14,10 @@ The deformation of a helix rod is a complex mechanical process that has drawn at
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**  
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, for a total number of $$N=50$$ nodes.  
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=50$$.  
    - (ii) Helical parameters:  helical radius, $$R_h = 0.125\mathrm{~m}$$, and helical pitch, $$P_h = 0.234\mathrm{~m}$$.  
-   - (iii) Stretching elements: connection of every two consecutive nodes, for a total number of $$N_{s}=49$$ stretching elements.  
-   - (iv) Bending elements: connection of every two consecutive edges, for a total number of $$N_{b}=48$$ bending elements.  
+   - (iii) Stretching elements: connection of every two consecutive nodes, with a total of $$N_{s}=49$$.  
+   - (iv) Bending elements: connection of every two consecutive edges, with a total of $$N_{b}=48$$.  
 
 2. **Physical parameters:**  
    - (i) Young's modulus, $$E=10.0\mathrm{~MPa}$$.  
