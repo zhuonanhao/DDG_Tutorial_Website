@@ -6,9 +6,9 @@ layout: default
 
 # Getting started
 ## Installation
-The implementation of this tutorial requires [MATLAB](https://www.mathworks.com/products/matlab.html), which needs to be installed before usage. For information on installing Matlab, see [here](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html).
+The implementation of this tutorial requires [MATLAB](https://www.mathworks.com/products/matlab.html), which needs to be installed before usage. For information on installing Matlab, see [here](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html). You can download the source code for DDG Tutorial from [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial).
 
-You can download the source code for DDG Tutorial from [GitHub](https://github.com/weicheng-huang-mechanics/DDG_Tutorial).
+Note that this MATLAB-based tutorial is for demonstration purposes and its computational speed may be limited. For real engineering applications, we have also released an open-source C/C++ version, which can be accessed [here](https://github.com/weicheng-huang-mechanics/DDG_Tutorial_Fast).
 
 ## Workflow
 
