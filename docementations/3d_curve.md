@@ -106,7 +106,7 @@ $$
 For the linear elastic constitutive model, the discrete bending energy is a quadratic function of the curvature as
 
 $$
-E^{b} = \frac{1}{2}  EI_{1} {(\kappa_{1} - \bar{\kappa}_{1})^2 }   \bar{l} + \frac{1}{2}  EI_{2} {(\kappa_{2} - \bar{\kappa}_{2})^2 }   \bar{l}.
+E^{b} = \frac{1}{2}  EI_{1} {(\kappa_{1} - \bar{\kappa}_{1})^2 }   \bar{l} + \frac{1}{2}  EI_{2} {(\kappa_{2} - \bar{\kappa}_{2})^2 }   \bar{l},
 $$
 
 where $$EI_{1}$$ and $$EI_{2}$$ are the local bending stiffness along the two bending axes of the section, respectively. The local bending force vector, $$\mathbf{F}^{b}_{\mathrm{local}} \in \mathcal{R}^{11 \times 1}$$, as well as the local bending Hessian matrix, $$\mathbb{K}^{b}_{\mathrm{local}} \in \mathcal{R}^{11 \times 11}$$, can be derived through a variational approach as
@@ -134,7 +134,7 @@ $$
 The twisting curvature is the sum of the twist of the reference frame, $$\tau_{r}$$,  and the twist of the material frame, $$\tau_{m}$$,
 
 $$
-\tau = \tau_{\mathrm{r}} + \tau_{\mathrm{m}}.
+\tau = \tau_{\mathrm{r}} + \tau_{\mathrm{m}},
 $$
 
 where
@@ -146,7 +146,7 @@ $$
 and the formulation of the reference twist, $$\tau_{r}$$, can be found in our paper. Finally, for a linear elastic constitutive, the discrete twisting energy is given by
 
 $$
-E_{t} = \frac{1}{2}  GJ {(\tau - \bar{\tau})^2 }   \bar{l} .
+E_{t} = \frac{1}{2}  GJ {(\tau - \bar{\tau})^2 }   \bar{l},
 $$
 
 where $$GJ$$ is the local twisting stiffness. The local twisting force vector, $$\mathbf{F}^{t}_{\mathrm{local}} \in \mathcal{R}^{11 \times 1}$$, as well as the local bending Hessian matrix, $$\mathbb{K}^{t}_{\mathrm{local}} \in \mathcal{R}^{11 \times 11}$$, can be derived through a variational approach as
