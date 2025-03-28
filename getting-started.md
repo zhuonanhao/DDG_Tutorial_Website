@@ -22,7 +22,7 @@ The first step in setting up a structural dynamic simulation is to select input 
 2. **Physical parameters**, e.g., Young's modulus, Poisson ratio, material density, rod radius, plate thickness, gravitational acceleration, and damping viscosity.
 3. **Numerical parameters**, such as total simulation time, time step size, numerical tolerance, and maximum iterations.
 4. **Boundary conditions**, which are constrained index array and free index array.
-5. **Initial conditions**, which are the positions and velocity of DOF at \( t = 0 \).
+5. **Initial conditions**, which are the positions and velocity of DOF at $$t = 0$$.
 6. **Loading step**, which loading steps are applied sequentially into the system and need to be defined during the time marching loop.
 
 ### Pre-processing
