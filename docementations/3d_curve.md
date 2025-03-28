@@ -140,10 +140,10 @@ $$
 where
 
 $$
-\tau_{\mathrm{m}} = \frac {\theta_{2} - \theta_{1}} {l}
+\tau_{\mathrm{m}} = \frac {\theta_{2} - \theta_{1}} {l},
 $$
 
-Finally, for a linear elastic constitutive, the discrete twisting energy is given by
+and the formulation of the reference twist, $$\tau_{r}$$, can be found in our paper. Finally, for a linear elastic constitutive, the discrete twisting energy is given by
 
 $$
 E_{t} = \frac{1}{2}  GJ {(\tau - \bar{\tau})^2 }   \bar{l} .
