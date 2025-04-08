@@ -34,7 +34,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - No nodes are constrained in this case, thus the constrained array is $$\mathcal{FIX} = \emptyset$$.
+   - The $$Y$$ direction of the last node is fixed, thus, the constrained array is $$\mathcal{FIX} = [80]$$.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
