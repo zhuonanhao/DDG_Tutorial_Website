@@ -31,7 +31,7 @@ Next, the simulation needs to transfer the input data into several structs:
 
 1. **The system struct**, e.g., rod struct or plate struct, which contains all necessary information for a structure.
 2. **The element struct**, which contains information for all local elements.
-3. **Mapping**, which defined the relationship between the global DOF vector and the constrained and free DOF vector.
+3. **Mapping**, which defines the relationship between the global DOF vector and the constrained and free DOF vector.
 
 ### Simulation loop
 
@@ -39,4 +39,4 @@ Moving forward, we can perform the time marching scheme for the dynamic simulati
 
 ### Output simulation results
 
-Finally, the numerical data and the dynamic rendering would be generated during the simulation and will be ready for result analysis. 
+Finally, the numerical data and the dynamic rendering will be generated during the simulation and will be ready for result analysis. 
