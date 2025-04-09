@@ -19,7 +19,7 @@ Discrete differential geometry (DDG) has emerged as a promising numerical framew
 - **Intrinsic Geometric Preservation**: DDG maintains curvature and topological constraints, making it particularly well-suited for thin and highly deformable structures.
 - **Robustness to Large Deformations**: Unlike FEM, DDG avoids locking effects and accurately captures bending, twisting, and instability-driven deformations.
 - **Efficient Computation**: DDG simplifies numerical integration, leading to faster and more stable simulations compared to traditional methods.
-- **Seamless External Interaction Modeling**: Interaction with external fields, such as magneto-elastic coupling, fluid-structure interactions, and contact with solids can be incorporated without compromising geometric consistency.
+- **Seamless Multi-Physics Integration**: Interaction with external fields, such as magneto-elastic coupling, fluid-structure interactions, and contact with solids can be incorporated without compromising geometric consistency.
 
 <!-- <span style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
 Application
