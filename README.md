@@ -3,7 +3,7 @@
 </div>
 
 - [Project Page](https://github.com/weicheng-huang-mechanics/DDG_Tutorial)
-- [Website Page](https://zhuonanhao.github.io/DDG_Tutorial_Website/)
+- [Website Page](http://www.ddgflexsim.com/)
 
 ## Licensing and Attribution
 
