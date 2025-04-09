@@ -12,7 +12,7 @@ Why DDG?
 
 Discrete differential geometry (DDG) has emerged as a promising numerical framework for simulating flexible structures, particularly in scenarios involving large deformations, geometric complexity, and nonlinear interactions. Initially developed in the computational graphics and computer geometry communities, DDG has gained increasing recognition in structural mechanics for its ability to preserve geometric properties while efficiently modeling thin elastic structures, such as **rods, ribbons, plates, and shells**. Unlike conventional numerical methods, which focus on discretizing differential equations, DDG instead discretizes the underlying geometry itself, enabling more **efficient and stable simulations** of complex deformations.
 
-![Algorithm](assets/figures/DDG_method.png) **Fig. 1**: Geometry discretizations in DDG simulations. (a-b) A continuous curve is approximated using discrete nodes and edges. (c-d). A continuous surface is approximated using discrete triangular elements.
+![Algorithm](assets/figures/DDG_method.png) **Geometry discretizations in DDG simulations**: (a-b) A continuous curve is approximated using discrete nodes and edges. (c-d). A continuous surface is approximated using discrete triangular elements.
 
 ## Key Advantages of the DDG Method
 
@@ -32,7 +32,7 @@ Application
 - **Mechanical Metamaterials and Programmable Structures**: Mechanical metamaterials use geometric design to achieve tunable properties like negative Poisson’s ratios and bistability. DDG efficiently simulates these structures, aiding applications in adaptive actuators, biomedical implants, and energy-absorbing materials.
 - **Flexible Electronics and Bio-Integrated Devices**: Flexible electronics and bio-integrated devices must withstand continuous deformation while maintaining functionality. DDG efficiently simulates thin-film deformations and strain effects, aiding the design of durable wearable and medical devices.
 
-![Algorithm](assets/figures/DDG_Application.png) **Fig. 2**: Applications of DDG-based simulations. (a) Computer graphics. (b) Biophysics. (c) Soft robots. (d) Underwater robots. (e) Flexible electronics. (f) Civil engineering. (g) Aerospace engineering. (h) Biomedical engineering. 
+![Algorithm](assets/figures/DDG_Application.png) **Applications of DDG-based simulations**: (a) Computer graphics. (b) Biophysics. (c) Soft robots. (d) Underwater robots. (e) Flexible electronics. (f) Civil engineering. (g) Aerospace engineering. (h) Biomedical engineering. 
 
 ## Objective of the Tutorial
 Despite its advantages, the adoption of DDG in computational mechanics remains limited due to the lack of accessible resources and tutorials. This tutorial aims to bridge that gap by providing a **comprehensive and practical guide** to the use of DDG for nonlinear numerical simulation of flexible structures. This tutorial serves as a valuable resource for researchers and engineers working in **computational mechanics, applied mathematics, structural design,** and **soft robotics**.
