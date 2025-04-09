@@ -34,7 +34,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}} = 10$$.
 
 4. **Boundary conditions:**
-   - The first two nodes, $$\{\mathbf{x}_{1}, \mathbf{x}_{2}\}$$, from the pole are fixed, while the last node, $$\mathbf{x}_{40}$$, can slide along the $$R$$ axis, thus the constrained array is $$\mathcal{FIX} = [1,2,3,4,80]^{T}$$.
+   - The first two nodes, $$\{\mathbf{x}_{1}, \mathbf{x}_{2}\}$$, from the pole are fixed, while the last node, $$\{\mathbf{x}_{40}\}$$, can slide along the $$R$$ axis, thus the constrained array is $$\mathcal{FIX} = [1,2,3,4,80]^{T}$$.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
