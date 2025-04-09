@@ -76,7 +76,7 @@ $$
 Here, we define $$\mathbf{x}_{2}$$ as the joint node, and $$\mathbf{x}_{1}$$ and $$\mathbf{x}_{3}$$ are the two adjacent nodes. Thus, the local DOF vector is defined as 
 
 $$
-\mathbf{q}_{b} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1};\theta_{2} ]^{T} \in \mathcal{R}^{11 \times 1}.
+\mathbf{q}_{b} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1};\theta_{2} ] \in \mathcal{R}^{11 \times 1}.
 $$
 
 The two edge vectors are
@@ -128,7 +128,7 @@ $$
 The local DOF vector is defined as
 
 $$
-\mathbf{q}^{t} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1}; \theta_{2} ]^{T} \in \mathcal{R}^{11 \times 1}.
+\mathbf{q}^{t} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2}; \mathbf{x}_{3}; \theta_{1}; \theta_{2} ] \in \mathcal{R}^{11 \times 1}.
 $$
 
 The twisting curvature is the sum of the twist of the reference frame, $$\tau_{r}$$,  and the twist of the material frame, $$\tau_{m}$$,
