@@ -15,7 +15,7 @@ Unlike the simple deflection case, this example introduces the phenomenon of wri
 To initialize the simulation, the following inputs are used:
 
 1. **Geometry and connection:**
-   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=644$$. The plate length is $$L=1.0\mathrm{~m}$$ and width $$W=0.5$$.
+   - (i) Nodal positions: the position of the nodes, $$\mathbf{q}(t=0)$$, with a total of $$N=644$$. The plate length is $$L=1.0\mathrm{~m}$$ and width $$W=0.5\mathrm{~m}$$.
    - (ii) Stretching elements: connection of every two consecutive nodes, with a total of $$N_{s}=1821$$.
    - (iii) Triangular mesh, total number $$N_{t}=1178$$.
    - (iv) Bending elements: connection of every two triangular meshes, for a total of $$N_{b}=1713$$.
