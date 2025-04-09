@@ -28,7 +28,7 @@ $$
 The local DOF vector is defined as 
 
 $$
-\mathbf{q}^{s} \equiv [\mathbf{x}_{1}, \mathbf{x}_{2} ] \in \mathcal{R}^{4 \times 1}.
+\mathbf{q}^{s} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2} ] \in \mathcal{R}^{4 \times 1}.
 $$
 
 The edge length is the $$\mathcal{L}_{2}$$ norm of the edge vector, defined as
