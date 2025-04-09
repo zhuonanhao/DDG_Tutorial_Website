@@ -32,7 +32,7 @@ To initialize the simulation, the following inputs are used:
    - (iv) Maximum iterations, $$N_{\mathrm{iter}}=10$$.
 
 4. **Boundary conditions:**
-   - The first two nodes and the last two nodes are fixed to achieve clamped-clamped boundary conditions, thus the constrained array, $$\mathcal{FIX} = [1,2,3,4,77,78,79,80]^{T}$$.
+   - The first two nodes, $$\{\mathbf{x}_{1}, \mathbf{x}_{2} \}$$, and the last two nodes, $$\{\mathbf{x}_{39}, \mathbf{x}_{40} \}$$, are fixed to achieve clamped-clamped boundary conditions, thus $$\mathcal{FIX} = [1,2,3,4,77,78,79,80]^{T}$$.
 
 5. **Initial conditions:**
    - (i) Initial position is input from the nodal positions.
