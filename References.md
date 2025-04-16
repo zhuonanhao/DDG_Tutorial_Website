@@ -9,14 +9,9 @@ We ask that any publications which make use of this tutorial cite the following 
 ## BibTeX Entries
 
 {% highlight bibtex %}
-@article{huang2020dynamic,
-  title={Dynamic simulation of articulated soft robots},
-  author={Huang, Weicheng and Huang, Xiaonan and Majidi, Carmel and Jawed, M Khalid},
-  journal={Nature communications},
-  volume={11},
-  number={1},
-  pages={2233},
-  year={2020},
-  publisher={Nature Publishing Group UK London}
+@article{huang2025DDG,
+    author = {Huang, Weicheng and Hao, Zhuonan and Li, Jiahao and Tong, Dezhong and Guo, Kexin and Zhang, Yingchao and Gao, Huajian and Hsia, K. Jimmy and Liu, Mingchao},
+    title = {A tutorial on simulating nonlinear behaviors of flexible structures with the discrete differential geometry (DDG) method},
+    journal={arXiv preprint arXiv:2504.11417},
 }
 {% endhighlight %}
