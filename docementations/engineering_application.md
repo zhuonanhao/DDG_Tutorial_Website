@@ -7,129 +7,73 @@ layout: default
 
 # Large-scale engineering applications
 
+### Growth of helical tendrils
 
-### Magnetic actuation
+First, we use an example of growing a 1D tendril to show the application of the DDG method in biological engineering, which can be viewed as a simplified case of 3D growing biological tissue in low dimension.
 
-We first illustrate the dynamic response of a magnetized beam subjected to external magnetic actuation. Using the DDG simulation framework, we analyze how the beam deforms and oscillates in response to time-varying magnetic fields. As magnetically actuated structures are widely explored in soft robotics, biomedical devices, and adaptive materials, this case highlights the potential of our approach in designing and optimizing magneto-mechanical systems for precise and controllable actuation.
+We shows an example of a helical tendril found in nature, which we aim to reproduce using the DDG method. In the context of biological engineering, simulating the growth and coiling behavior of such tendrils can inspire the design of programmable morphing structures and intelligent systems.
 
-Similar to the stretching element, the discrete magnetic force (or torque) is applied based on each magnetized rod segment, defined as
+To simulate the growth process, we adopt the theory of growing elastic rods in which the geometry of the rod evolves over time through changes in its reference length **l̄** and intrinsic curvature **κ̄₁**, **κ̄₂**, and intrinsic torsion **τ̄**. In particular, the increase in intrinsic curvature is interpreted as an equivalent form of strain mismatch in a bilayer structure, which drives the out-of-plane deformation and coiling behavior of the rod.
 
-$$
-\mathcal{S}: \{\mathbf{x}_{1}, \mathbf{x}_{2} \}.
-$$
+We model the time evolution of growth with the following functions:
 
-The local DOF vector is defined as 
+- **l̄ = l̄(t)**
+- **κ̄₁ = κ̄₁(t)**
+- **κ̄₂ = κ̄₂(t)**
+- **τ̄ = τ̄(t)**
 
-$$
-\mathbf{q}^{s} \equiv [\mathbf{x}_{1}; \mathbf{x}_{2} ] \in \mathcal{R}^{4 \times 1}.
-$$
+where **l̄(t)** denotes the reference length of the growing tendril, while **κ̄₁(t)** and **κ̄₂(t)** represent the intrinsic curvatures along the **m¹** and **m²** directions, and **τ̄(t)** represents the intrinsic torsion along the **m³** direction; all are functions of time **t**.
 
-The local edge length is the $$\mathcal{L}_2$$ norm of the edge vector, defined as
+The reference length, intrinsic curvatures, and intrinsic torsion are computed from the tendril’s growth trajectory, where the nodal positions are given by:
 
-$$
-l = || \mathbf{x}_{2} - \mathbf{x}_{1} ||.
-$$
+```
+x(t) = 0.1 * t * cos(3t / 4) - π  
+y(t) = 0.1 * t * sin(3t / 4)  
+z(t) = t - 10π
+```
 
-We use $$\mathbf{t}$$ and $$\mathbf{n}$$ to denote the local material frame for each rod segment, defined as
+Physically, this model describes a rod that gradually elongates over time due to increasing **l̄**, while the intrinsic curvature **κ̄₁**, **κ̄₂** and intrinsic torsion **τ̄** simultaneously grow and saturate, leading to a sequence of deformations from straight to bent and eventually to coiled configurations.
 
-$$
-    \mathbf{t} = (\mathbf{x}_{2} - \mathbf{x}_{1}) / || \mathbf{x}_{2} - \mathbf{x}_{1} ||, \; \mathrm{and} \; \mathbf{n} \cdot \mathbf{t} = 0.
-$$
+The simulation results validate the effectiveness of this growth model. By tuning the parameters controlling the growth rate and curvature evolution, a variety of helical tendril shapes can be achieved. This demonstrates the potential of the DDG framework in designing self-morphing structures inspired by natural growth mechanisms.
 
-The discrete format of the magnetic functional for this rod segment is 
+### Soft magnetic cilia robot
 
-$$
-E^{\mathrm{mag}} = - \bar{l} \cdot ( {\mathcal{M}} \cdot \mathbf{B} ),
-$$
+Next, we present a second example to further demonstrate the application of the DDG method in soft robotic engineering. Numerical simulations were conducted to study the locomotion of cilia-inspired programmable magnetic carpet robots using the DDG framework. The simulation model consists of four main components:
 
-where $$\mathbf{B} \in \mathcal{R}^{2\times1}$$ is the external magnetic field and $${\mathcal{M}} \in \mathcal{R}^{2\times1}$$ is the remanent magnetization density per length, i.e.,
+1. a magnetic rod model representing the cilia (legs),  
+2. a plate model representing the body,  
+3. coupling between the cilia and the body through discrete connection elements, and  
+4. frictional contact with the ground modeled via an incremental potential energy method.
 
-$$
- {\mathcal{M}} = A \left[ \left( \mathbf{t}\otimes \bar{\mathbf{t}} + \mathbf{n} \otimes \bar{\mathbf{n}} \right) \cdot \bar{\mathbf{B}}_{r} \right ].
-$$
+In the simulations, the robot’s body was modeled as a thin elastic plate, while the cilia were modeled as slender magneto-elastic rods permanently magnetized along a programmed direction. A time-dependent external magnetic field was applied to actuate the cilia, driving the locomotion of the carpet. 
 
-Here, $$A$$ is the local cross-sectional area, and $$\bar{\mathbf{B}}_{r}$$ is the remanent magnetization density per unit volume of the segment in the reference configuration. Hereafter, we use a bar on top to indicate the evaluation of the undeformed configuration, e.g., $$\bar{l}$$ is the edge length before deformation. The magnetic force vector,  $$\mathbf{F}^{\mathrm{mag}}_{\mathrm{local}}$$, can be derived by finding the gradient of the magnetic potential as
+Two representative locomotion modes — **crawling** and **rolling** — were investigated based on previous experimental studies. In crawling, the cilia bend asymmetrically to generate forward motion, while in rolling, the entire body deforms to form a rolling front.
 
-$$
-\mathbf{F}^{\mathrm{mag}}_{\mathrm{local}} = -\frac{\partial E^{\mathrm{mag}}}  {\partial \mathbf{q}^{s}}.
-$$
+Both crawling and rolling locomotion modes were successfully simulated. A qualitative comparison between simulation results and experimental observations was performed to validate the model, demonstrating good agreement. By tuning parameters such as magnetic field frequency and frictional properties, different locomotion performances were achieved. 
 
-The detailed formulation can be found in the MATLAB code. Finally, the global magnetic force vector,  $$\mathbf{F}^{\mathrm{mag}}$$, can be assembled by iterating over all stretching elements.  
+This example illustrates the capability of the DDG framework to model complex soft robotic systems with strong geometric nonlinearity and multi-physics coupling, highlighting its potential for advancing the design and control strategies of next-generation robotic applications.
 
+### Space net capture system
 
-### Fluid-structure interaction
+Finally, we present a third example to demonstrate the application of the DDG method in aerospace engineering. The numerical model consists of three main components:
 
-Next, we demonstrate the fluid-structure interaction between a soft swimming robot and the surrounding fluid under external magnetic actuation. Using the DDG simulation framework, we analyze how the robotic swimmer responds to time-varying magnetic fields, generating an undulatory motion that propels it through the fluid. The interplay between magnetic forces, elastic deformation, and hydrodynamic resistance shapes the swimming dynamics, highlighting the model’s ability to capture complex coupled interactions. As magnetically actuated soft robots hold great promise for biomedical and underwater applications, this case underscores the potential of our approach in designing and optimizing efficient, adaptive locomotion strategies.
+1. dynamic simulation of the elastic net,  
+2. contact interaction between the net and the rigid ball, and  
+3. sliding coupling between rigid rings and the soft cables that form the net boundary.
 
-Similar to the stretching element, the discrete drag force is applied based on each rod segment, defined as
+The objective here is to emulate the capture and closing mechanism of a net system designed for space debris removal. A rigid spherical object is initially positioned above the elastic net, while the net boundary is formed by tether rods connected through multiple rigid rings. Both the ball-to-net contact and the ring-to-rod sliding interactions are explicitly modeled within the DDG framework.
 
-$$
-\mathcal{S}: \{\mathbf{x}_{1}, \mathbf{x}_{2} \}.
-$$
+The overall capture process can be divided into three distinct phases:
 
-We use $$\mathbf{t}$$ and $$\mathbf{n}$$ to denote the local tangential direction and the local normal direction, defined as
+1. During **0 s ≤ t < 5 s**, the rigid ball and the elastic net fall under gravity and come into contact.  
+2. For **5 s ≤ t < 25 s**, six corner nodes of the net are manually pulled toward the center at a constant speed of **1.0 m/s**, reducing the distance between adjacent corners to less than **5.0 m**.  
+3. After **t = 25 s**, the tether rods are stretched outward at **1.0 m/s**, causing the net to close partially due to the constraints imposed by the connecting rings.
 
-$$
-    \mathbf{t} = (\mathbf{x}_{2} - \mathbf{x}_{1}) / || \mathbf{x}_{2} - \mathbf{x}_{1} ||, \; \mathrm{and} \; \mathbf{n} \cdot \mathbf{t} = 0
-$$ 
-
-The segment velocity components along the tangential and normal directions are given by
-
-$$
-\mathbf{v}_{\parallel} = \left ( \mathbf{v} \cdot \mathbf{t} \right) \cdot \mathbf{t}, \; \mathbf{v}_{\perp} = \left ( \mathbf{v} \cdot \mathbf{n} \right) \cdot \mathbf{n},
-$$
-
-where 
-
-$$\mathbf{v} = \frac{1}{2} {(\mathbf{v}_{1} + \mathbf{v}_{2})} $$ 
-
-is the segment velocity. For most underwater locomotion, the Reynolds number is Intermediate, i.e., $$ 1.0 < Re < 1000.0$$, the local fluid drag force is typically quadratic with the velocity,
-
-$$
-(\mathbf{F}_{\mathrm{local}}^{\text{drag}})_{\parallel} = - \frac{1} {2} \rho_{0} C_{\parallel} || \mathbf{v}_{\parallel} ||  \mathbf{v}_{\parallel} , 
-$$
-
-$$
-(\mathbf{F}_{\mathrm{local}}^{\text{drag}})_{\perp} = - \frac{1} {2} \rho_{0} C_{\perp} || \mathbf{v}_{\perp} ||  \mathbf{v}_{\perp},
-$$
-
-where $$\rho_{0}$$ is the density of the water, $$C_{\parallel}$$ and $$C_{\perp}$$ are the drag coefficients. Finally, the global fluid force vector, $$\mathbf{F}^{\text{drag}}$$, is the sum of the local force by iterating over all stretching segments.
-
-### Frictional contact
-
-Finally, we present the frictional contact interaction of a soft crawling robot with multiple legs as it moves across a surface under external magnetic actuation. Using the DDG simulation framework, we analyze how the legs interact with the ground, generating propulsion through controlled frictional forces. The interplay between magnetic excitation, elastic deformation, and contact dynamics determines the robot’s locomotion efficiency and stability. By capturing the complex coupling between actuation and ground interaction, this model provides valuable insights into the design of magnetically controlled soft robots for applications in biomedical engineering, inspection, and search-and-rescue operations.
-
-We use the incremental potential method to model frictional contact between flexible structures and a rigid surface.  Here, the local nodal position is defined as $$\mathbf{x} \equiv [x, y]^T$$, and its velocity as $$\dot{\mathbf{x}} \equiv [\dot{x}, \dot{y}]^T$$. The ground is assumed to have a surface normal $$\mathbf{n}$$. The contact force is applied through each node as
-
-$$
-(\mathbf{F}^{\mathrm{con}}_{\mathrm{local}})_{n} =
-\begin{cases}
-K_{c} \left[ - 2 (d - \hat{d}) \log(  {d} / {\hat{d}}) -  {(d - \hat{d})^2} /{d} \right] \mathbf{n} \; &\mathrm{when} \; 0 < d < \hat{d}, \\
-\mathbf{0} \; & \mathrm{when} \; d \geq \hat{d},
-\end{cases}
-$$
-
-where $$d$$ is the approaching distance between the node and the ground. When the ground is flat with zero height, $$d = y$$. The parameter $$\hat{d}$$ is the barrier parameter, and $$K_{c}$$ denotes the contact stiffness. The tangential frictional force is formulated based on the maximum dissipation principle as
-
-$$
-(\mathbf{F}^{\mathrm{con}}_{\mathrm{local}})_{t} =
-\begin{cases}
-- \mu || (\mathbf{F}^{\mathrm{con}}_{\mathrm{local}})_{n}  || \frac {\mathbf{v}_{t}} {||\mathbf{v}_{t}||} \left(- \frac {||\mathbf{v}_{t}||^2} {\epsilon_{v}^2} +  \frac {||\mathbf{v}_{t}||} {\epsilon_{v}} \right) \; &\mathrm{when} \; 0 < ||\mathbf{v}_{t}|| < \epsilon_{v}, \\
-- \mu || (\mathbf{F}^{\mathrm{con}}_{\mathrm{local}})_{n}  || \frac {\mathbf{v}_{t}}  {||\mathbf{v}_{t}||} \; & \mathrm{when} \;  ||\mathbf{v}_{t}|| \geq \epsilon_{v},
-\end{cases}
-$$
-
-where 
-
-$$
-\mathbf{v}_{t} = \mathbf{v} - \mathbf{v} \cdot \mathbf{n}
-$$
-
-is the relative velocity along the surface tangential direction, and $$\epsilon_{v}$$ is the velocity parameter. The continuous contact defection must iterate over all nodes for a discrete beam system to build the global contact force vector, $$\mathbf{F}^{\text{con}}$$.
+This example showcases the ability of the DDG framework to simulate complex space deployable systems involving large deformations, contact, and sliding interactions, demonstrating its potential for future applications in aerospace engineering.
 
 
 ## Examples
 
-- [Case 1: Beam under magnetic actuation](../examples/soft_robot_case_1.html)
-- [Case 2: Soft swimming robot](../examples/soft_robot_case_2.html)
-- [Case 3: Soft crawling robot](../examples/soft_robot_case_3.html)
+- [Case 1: Growth of helical tendrils](../examples/engineering_application_case_1.html)
+- [Case 2: Soft magnetic cilia robot](../examples/engineering_application_case_2.html)
+- [Case 3: Space net capture system](../examples/engineering_application_case_3.html)

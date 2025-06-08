@@ -1,11 +1,11 @@
 ---
-title: "Case 2"
-nav_order: 2
+title: "Case 1"
+nav_order: 1
 parent: Engineering Application
 layout: default
 ---
 
-## [Soft magnetic cilia robot](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_1)
+## [Growth of helical tendrils](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_1)
 
 <!-- In this subsection, we illustrate the dynamic response of a magnetized beam subjected to external magnetic actuation. Using the DDG simulation framework, we analyze how the beam deforms and oscillates in response to time-varying magnetic fields. As magnetically actuated structures are widely explored in soft robotics, biomedical devices, and adaptive materials, this case highlights the potential of our approach in designing and optimizing magneto-mechanical systems for precise and controllable actuation.
 
@@ -45,4 +45,4 @@ To initialize the simulation, the following inputs are used:
 
 
 ### Dynamic Rendering
-<br/><img src='../assets/videos/robot_1.gif' width="600">
+<br/><img src='../assets/videos/engineering_1.gif' width="600">

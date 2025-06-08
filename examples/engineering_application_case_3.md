@@ -45,4 +45,4 @@ To initialize the simulation, the following inputs are used:
 
 
 ### Dynamic Rendering
-<br/><img src='../assets/videos/robot_1.gif' width="600">
+<br/><img src='../assets/videos/engineering_1.gif' width="600">
