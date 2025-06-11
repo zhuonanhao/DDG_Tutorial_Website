@@ -36,3 +36,7 @@ layout: default
     - [Case 1: Magnetic actuation](examples/soft_robot_case_1.html)
     - [Case 2: Soft swimming robot](examples/soft_robot_case_2.html)
     - [Case 3: Soft crawling robot](examples/soft_robot_case_3.html)
+- **Engineering Application**
+    - [Case 1: Growth of helical tendrils](examples/engineering_application_case_1.html)
+    - [Case 2: Soft magnetic cilia robot](examples/engineering_application_case_2.html)
+    - [Case 3: Space net capture system](examples/engineering_application_case_3.html)
