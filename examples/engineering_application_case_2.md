@@ -5,7 +5,7 @@ parent: Engineering Application
 layout: default
 ---
 
-## [Soft magnetic cilia robot](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_1)
+## Soft magnetic cilia robot
 
 
 
