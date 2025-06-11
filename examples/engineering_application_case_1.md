@@ -5,7 +5,7 @@ parent: Engineering Application
 layout: default
 ---
 
-## [Growth of helical tendrils](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_1)
+## Growth of helical tendrils
 
 
 ### Dynamic Rendering
