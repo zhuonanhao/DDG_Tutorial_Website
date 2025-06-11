@@ -5,7 +5,7 @@ parent: Examples
 layout: default
 ---
 
-# Soft robotics
+# Large-scale engineering applications
 
 ## [Case 1: Growth of helical tendrils](engineering_application_case_1.html)
 <br/><img src='../assets/videos/application_1.gif' width="600">
