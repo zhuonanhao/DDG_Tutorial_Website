@@ -5,7 +5,7 @@ parent: Engineering Application
 layout: default
 ---
 
-## [Space net capture system](https://github.com/weicheng-huang-mechanics/DDG_Tutorial/tree/main/soft_robot/case_1)
+## [Space net capture system]
 
 ### Dynamic Rendering
 <br/><img src='../assets/videos/application_3.gif' width="600">
